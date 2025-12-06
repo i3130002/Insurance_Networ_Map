@@ -6,11 +6,12 @@
      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
           crossorigin=""/>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <style>
         #map {
-            height: 600px; /* Set a fixed height for the map */
-            width: 100%;
+            height: 100vh; /* Full height */
+            width: 100vw;  /* Full width */
         }
     </style>
 
@@ -18,36 +19,61 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
         }
-        #output {
-            margin-top: 15px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            white-space: pre-wrap; /* Keeps formatting from the file */
-            background-color: #f4f4f4;
-        }
+        
     </style>
 </head>
 <body>
-
-    <h1>Choose Insurance</h1>
-
-    <label for="fileSelect">Insurance:</label>
-    <select id="fileSelect" onchange="loadInsuranceGeocode()">
-        <option value="">-- Select an Insurance --</option>
-        <option value="file1.txt">File 1</option>
-        <option value="file2.txt">File 2</option>
-        <option value="ecare-blue-1.json">JSON Data (Example)</option>
-    </select>
-
-    <h2>File Content:</h2>
-    <div id="output">
-        Select a file to load its content here.
+    <div class="container" id="setup"> 
+        <h1>Choose Insurance</h1>
+        
+        <label for="fileSelect">Insurance:</label>
+        <select id="fileSelect" onchange="loadInsuranceGeocode()">
+            <option value="">-- Select an Insurance --</option>
+            <option value="ecare-blue.json">JSON Data (Example)</option>
+        </select>
+        
+        <div id="output" >
+        </div>
     </div>
 
+
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
     <script>
-        /**
+        function drawMapMarkers(jsonData) {
+            // 1. Initialize the map and set its view
+            // Center the map over the approximate center of Dubai
+            var dubaiCoords = [25.2048, 55.2708]; 
+            var zoomLevel = 11;
+            var map = L.map('map').setView(dubaiCoords, zoomLevel);
+
+            // 2. Add the OpenStreetMap tile layer
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+
+            jsonData.forEach(e => {
+                ai_query = `I am looking for my provider to seek medical treatment. I am looking for this business on the google map:\n
+                Name: ${e["PROVIDER NAME"]}\n
+                Address: ${e.ADDRESS}\n
+                Phone: ${e.TELEPHONE}\n
+                Emirate: ${e.emirate}\n
+                Type: ${e["PROVIDER TYPE"]}\n
+                Area: ${e.AREA}\n
+                `
+                L.marker([e.lat, e.lon]).addTo(map)
+                .bindPopup(`<h1 class="h5">${e["PROVIDER NAME"]}</h1><span>${e.ADDRESS}</span><p>Confidence:${e.confidence}</p>
+                <a href="https://www.google.com/search?q=${encodeURIComponent(ai_query)}" target="_blank">Google AI</a>
+                
+                `);
+            });
+        }
+
+                /**
          * Loads the content of the selected file using the Fetch API.
          */
         function loadInsuranceGeocode() {
@@ -79,16 +105,19 @@
                     // Example to handle JSON differently
                     if (filename.endsWith('.json')) {
                         return response.json().then(data => {
-                            // Convert JSON object to a nicely formatted string
-                            return JSON.stringify(data, null, 2); 
+                            return data; 
                         });
                     } else {
                         return response.text(); // for .txt or other text files
                     }
                 })
                 .then(content => {
-                    // 3. Display the file content in the output div
-                    outputDiv.textContent = content;
+                    drawMapMarkers(content); // Call function to draw map markers
+                    const setup = document.getElementById('setup');
+                    if (setup) {
+                        setup.remove();
+                    }
+
                 })
                 .catch(error => {
                     // 4. Handle any errors during the fetch or processing
@@ -96,40 +125,6 @@
                     outputDiv.textContent = `Error: ${error.message}`;
                 });
         }
-    </script>
-
-    <div id="map"></div>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
-    <script>
-        // 1. Initialize the map and set its view
-        // Center the map over the approximate center of Dubai
-        var dubaiCoords = [25.2048, 55.2708]; 
-        var zoomLevel = 11;
-
-        var map = L.map('map').setView(dubaiCoords, zoomLevel);
-
-        // 2. Add the OpenStreetMap tile layer
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(map);
-
-        // 3. Define the two marker locations in Dubai
-        var marker1_coords = [25.1972, 55.2744]; // Burj Khalifa (approx)
-        var marker2_coords = [25.2532, 55.3657]; // Dubai International Airport (DXB - approx)
-
-        // 4. Add the first marker (Burj Khalifa)
-        var marker1 = L.marker(marker1_coords).addTo(map)
-            .bindPopup("<b>Burj Khalifa</b><br>World's tallest building.");
-
-        // 5. Add the second marker (Dubai International Airport)
-        var marker2 = L.marker(marker2_coords).addTo(map)
-            .bindPopup("<b>Dubai International Airport (DXB)</b><br>One of the world's busiest airports.");
-
-        // Optional: Open the first popup by default
-        marker1.openPopup(); 
     </script>
 </body>
 </html>
