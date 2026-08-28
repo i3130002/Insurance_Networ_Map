@@ -11,6 +11,7 @@
 - 2026-08-28: Network assignments used raw-registry indexes while plan files used generated-registry indexes. The validator caught 9,333 mismatches; assignments now use the generated registry.
 - 2026-08-28: The Nominatim backlog run stalled on network timeouts before its first checkpoint and was interrupted. The geocoder remains resumable; use a reachable geocoding service or smaller batches.
 - 2026-08-28: A follow-up commit failed because the main workspace exposes `.git` as read-only. The timeout note remains uncommitted.
+- 2026-08-28: Objectives-document delegation hit the subagent thread limit. Apply the small documentation update locally if needed.
 - 2026-08-28: The escalated geocoding batch was rejected because it would send provider names and addresses to Nominatim. A single read-only connectivity test succeeded.
 - 2026-08-28: The approved geocoding run completed, but staging its outputs failed because the main workspace `.git` remains read-only. Attempt a focused commit through the writable agent workspace.
 - 2026-08-28: The focused commit attempt failed because Git could not create `.git/index.lock`; retry with escalated permission.

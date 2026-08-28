@@ -85,9 +85,10 @@
             <tr><th>Map</th><td>Static Leaflet map exists.</td></tr>
             <tr><th>Providers</th><td>2,390 providers are currently included in the mapped registry.</td></tr>
             <tr><th>Plans</th><td>15 plans from 8 insurers are configured.</td></tr>
-            <tr><th>Geocoding</th><td>1,258 records remain in the tracked backlog. The latest run reports 994 successes and 264 failures.</td></tr>
-            <tr><th>Network accuracy</th><td>Plan membership is still partly approximate and is not yet authoritative.</td></tr>
-            <tr><th>Verification</th><td>No automated tests or formal validation workflow are currently present.</td></tr>
+            <tr><th>Geocoding</th><td>263 records remain without reliable coordinates. The latest run accepted no additional coordinates.</td></tr>
+            <tr><th>Network accuracy</th><td>Plan membership is partly approximate. Official lists remain unresolved for the configured ADICO and DARIC identities.</td></tr>
+            <tr><th>Implemented UI</th><td>Plan selection, provider search, emirate and type filters, reset controls, mobile controls, empty-result feedback, and confidence labels are implemented.</td></tr>
+            <tr><th>Build and verification</th><td>The build uses repository-relative paths. The validator checks plan files, provider records, coordinates, assignment references, and duplicate providers. It currently passes.</td></tr>
         </table>
 
         <h2>Questions for future scope decisions</h2>
