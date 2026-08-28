@@ -2,4 +2,7 @@
 *.csv
 *.txt
 .~lock.*
+# Source data CSVs are tracked deliberately (see MAINTENANCE.md)
+!sources/csv/*.csv
+!sources/networks/*.csv
 
