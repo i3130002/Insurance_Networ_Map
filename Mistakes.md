@@ -1,5 +1,10 @@
 # Mistakes
 
+- The first Zavis extractor run hit sandbox DNS failure; rerun the public fetch with network escalation.
+- Zavis returned HTTP 503 during the first parallel pass; the extractor now retries and records failed URLs instead of aborting the batch.
+
+- Zavis Firecrawl mapping could not start because the wrapper requires Podman, while this environment only exposed Docker Compose. The shared Firecrawl service itself started successfully.
+
 - Validation failed after changing phone matching because generated plan files had not been rebuilt, and `GN+` initially collided with `GN` in the slugifier. Both issues are being corrected before the next validation run.
 - Git staging failed with `confused by unstable object source data`; the generated files remain in the worktree and will be staged again after checking repository state.
 

@@ -11,6 +11,7 @@ Interactive map of UAE healthcare providers, filterable by insurance plan.
 - Marker clustering for performance; color-coded provider types
 - Popups with Google Maps link + AI search query per provider
 - Popups include a phone-first Zavis directory search link for provider cross-checking
+- Zavis facility records are extracted into `sources/csv/zavis-facilities.csv`
 
 ## Data
 
@@ -21,6 +22,7 @@ Interactive map of UAE healthcare providers, filterable by insurance plan.
 | `data/network-unmatched.json` | Official-network records not matched to the registry, for review |
 | `data/plans.json` | Plan metadata (name, insurer, coverage, emirates, provider count) |
 | `data/<plan-id>.json` | Per-plan provider subsets |
+| `sources/csv/zavis-facilities.csv` | Canonical Zavis facility details and source URLs |
 
 ### Provider schema
 
@@ -41,6 +43,8 @@ Unmatched source rows remain in `data/network-unmatched.json` for review.
 ```bash
 python3 build_data.py
 python3 assign_networks.py
+# Refresh the public Zavis facility source
+python3 extract_zavis.py --output sources/csv/zavis-facilities.csv --workers 2
 ```
 
 Regenerates `data/` from `sources/merged-registry.json` and applies official
