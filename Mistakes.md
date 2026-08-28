@@ -1,5 +1,13 @@
 # Mistakes
 
+- The completed Zavis crawl had seven pages return temporary HTTP 503 responses; the output contains 11,499 deduplicated records and those URLs should be retried on the next refresh.
+
+- A diagnostic command used a misspelled tool name (`execartement`) and did not run; no project files were changed.
+
+- The full Zavis crawl stopped when a category root returned HTTP 503; category and pagination fetches now use the same non-aborting retry path as detail pages.
+
+- The expanded Zavis parser test initially used one extra escaping layer and failed to find its synthetic provider card; the fixture is being corrected.
+
 - The first Zavis extractor run hit sandbox DNS failure; rerun the public fetch with network escalation.
 - Zavis returned HTTP 503 during the first parallel pass; the extractor now retries and records failed URLs instead of aborting the batch.
 

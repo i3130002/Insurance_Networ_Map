@@ -7,7 +7,7 @@ Everything regenerates from `sources/` via `build_data.py`.
 sources/csv/*.csv          raw + processed source data (do not hand-edit)
 sources/networks/          per-insurer official network CSVs
 sources/csv/takafol-*.csv  imported Takafol workbook members and catalog
-sources/csv/zavis-facilities.csv  extracted Zavis facility details
+sources/csv/zavis-providers.csv  extracted Zavis provider-card details
 sources/merged-registry.json   deduped merge of registry + repo data
         │
         ▼
@@ -120,7 +120,7 @@ Edit `PLANS` in `build_data.py` for legacy metadata-only plans:
 
 Re-run. `data/plans.json`, the company → plan selectors, and the plan file all update automatically. Takafol network plans are generated from `sources/csv/takafol-network-catalog.csv`.
 
-The Zavis extractor uses the public sitemap and canonical `/professionals/facility/<slug>` pages. It stores source URLs, facility names, emirates/cities, descriptions, and listed employee counts. It deliberately excludes specialty-page duplicates.
+The Zavis extractor uses the public sitemap and paginated `/directory/<city>/<category>` pages. It stores provider IDs, names, cities, categories, addresses, phone numbers, ratings, accepted insurance, languages, and source URLs. It deduplicates by Zavis provider ID. The current crawl contains 11,499 records; temporary 503 responses can leave a small number of pages for a later retry.
 
 ## 6. Adding new providers
 
