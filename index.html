@@ -151,6 +151,13 @@
                 `${e['PROVIDER NAME']} ${e.AREA} ${em} UAE`);
             const zavisQuery = encodeURIComponent(
                 `site:zavis.ai/directory "${e['PROVIDER NAME']}" "${e.TELEPHONE}"`);
+            const zavisCity = {
+                AJM: 'ajman', AUH: 'abu-dhabi', DXB: 'dubai', FUJ: 'fujairah',
+                RAK: 'ras-al-khaimah', SHJ: 'sharjah', UMQ: 'umm-al-quwain',
+                ALAIN: 'al-ain'
+            }[e.P] || '';
+            const zavisUrl = `https://www.zavis.ai/search?q=${encodeURIComponent(
+                `${e['PROVIDER NAME']} ${e.TELEPHONE}`)}&city=${zavisCity}`;
             const LAYER_BADGE = {
                 official: '<span style="color:#198754">✔ in official network list</span>',
                 chain:    `<span style="color:#0d6efd">${esc(chain || 'chain')} group provider</span>`,
@@ -170,7 +177,7 @@
                     target="_blank" rel="noopener">📍 Google Maps</a>
                 &nbsp;<a href="https://www.google.com/search?q=${encodeURIComponent(query)}"
                     target="_blank" rel="noopener">🤖 Google AI</a>
-                &nbsp;<a href="https://www.google.com/search?q=${zavisQuery}"
+                &nbsp;<a href="${zavisUrl}"
                     target="_blank" rel="noopener">🔎 Zavis</a>
             </div>`;
         }
