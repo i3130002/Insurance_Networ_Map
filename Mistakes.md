@@ -49,3 +49,10 @@
 - 2026-08-28: Concurrent Firecrawl subprocesses produced no batch output, and an isolated subprocess returned an error while the direct CLI invocation worked. Keep Firecrawl calls in the controlling shell and verify each saved artifact.
 - 2026-08-29: Chromium Flatpak tests with `--download-directory` and an X11 GUI opened the Excel workbook but produced no local XLSX. Treat the native Excel download action as unresolved until a manually confirmed save is available.
 - 2026-08-29: Pi's Playwright browser tool could not initialize because `/opt/google/chrome/chrome` is absent. Do not install a browser for this task; use the existing Chromium CDP session instead.
+- 2026-08-29: Retesting Pi's Playwright browser produced the same missing-Chrome initialization error before page navigation.
+- 2026-08-29: The first direct Playwright-with-Brave test failed from shell quoting before launch. Use a temporary script for browser tests with nested selectors.
+- 2026-08-29: The corrected Playwright-with-Brave script used a named ESM import against a CommonJS package and failed before launch. Use the package default export.
+- 2026-08-29: Playwright captured the Excel download in Brave, but `download.saveAs()` pointed to a vanished temporary path. Copy the download stream directly while the browser session is open.
+- 2026-08-29: Reading the Playwright download stream immediately returned a zero-byte file. Wait for `download.failure()` and `download.path()` before copying the completed artifact.
+- 2026-08-29: Direct `download=1` triggered Brave's download event, but Playwright's temporary artifact path was absent when copied. Test the completed download stream as the transfer path.
+- 2026-08-29: The direct SharePoint download event returned zero bytes through Playwright's stream. Check Brave's own download directory separately before classifying the response as empty.
