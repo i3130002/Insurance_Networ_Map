@@ -23,3 +23,4 @@
 - 2026-08-28: The full Nominatim retry completed with zero additional accepted coordinates; remaining backlog needs better source data.
 - 2026-08-28: The first NAS workbook parser used the wrong header row and extracted zero coordinates. Detect the header row after title rows before parsing spreadsheet columns.
 - 2026-08-28: The geocoder backlog count was read before the deduplication fix, reporting 174 instead of the final 189. Rebuild generated data before publishing counts.
+- 2026-08-28: Takafol's exact SharePoint link and its resolved `NEXTCARE - GN+.xlsx` path both returned HTTP 403 with `download=1`; link-suffix changes cannot bypass the tenant access policy.
