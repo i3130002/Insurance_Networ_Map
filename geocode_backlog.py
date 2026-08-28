@@ -9,6 +9,8 @@ Geocode the needs-geocoding backlog via Nominatim (OSM).
   a summary to geocode_run_report.json
 """
 import json
+import csv
+from difflib import SequenceMatcher
 import os
 import re
 import time
@@ -19,6 +21,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 REG = os.path.join(ROOT, 'sources', 'merged-registry.json')
 BACKLOG = os.path.join(ROOT, 'data', 'needs-geocoding.json')
 REPORT = os.path.join(ROOT, 'geocode_run_report.json')
+ADNIC_NETWORK = os.path.join(ROOT, 'sources', 'networks', 'ADNIC.csv')
 
 UA = 'InsuranceNetworkMap/1.0 (UAE provider directory; contact: repo owner)'
 LAT_MIN, LAT_MAX = 22.0, 26.6
@@ -45,6 +48,62 @@ def norm_name(s):
     return re.sub(r'\s+', ' ', s).strip()
 
 
+def branch_number(name):
+    """Return a branch number when the provider name explicitly contains one."""
+    match = re.search(r'\b(?:BRANCH|BR)[ .-]*(\d+)\b', (name or '').upper())
+    return match.group(1) if match else None
+
+
+def load_adnic_network():
+    """Load the official ADNIC directory for local coordinate matching."""
+    if not os.path.exists(ADNIC_NETWORK):
+        return []
+    with open(ADNIC_NETWORK, encoding='utf-8-sig', newline='') as f:
+        return list(csv.DictReader(f))
+
+
+def official_match(entry, network):
+    """Return a high-confidence ADNIC coordinate match, or ``None``.
+
+    Matching is restricted to the same emirate and rejects conflicting explicit
+    branch numbers. This prevents a nearby branch from receiving another
+    branch's coordinates.
+    """
+    emirate = entry.get('P', '').upper()
+    candidates = []
+    name = norm_name(entry.get('PROVIDER NAME'))
+    entry_branch = branch_number(entry.get('PROVIDER NAME'))
+    for row in network:
+        if row.get('EMIRATE', '').upper() != emirate:
+            continue
+        row_branch = branch_number(row.get('PROVIDER NAME'))
+        if entry_branch and not row_branch:
+            continue
+        if entry_branch and row_branch and entry_branch != row_branch:
+            continue
+        score = SequenceMatcher(
+            None, name, norm_name(row.get('PROVIDER NAME'))).ratio()
+        left = set(name.split())
+        right = set(norm_name(row.get('PROVIDER NAME')).split())
+        overlap = len(left & right) / max(1, len(left | right))
+        candidates.append((score, overlap, row))
+    candidates.sort(key=lambda item: (item[0], item[1]), reverse=True)
+    if not candidates:
+        return None
+    best = candidates[0]
+    second_score = candidates[1][0] if len(candidates) > 1 else 0
+    if best[0] < 0.92 or best[1] < 0.5 or best[0] - second_score < 0.04:
+        return None
+    try:
+        float(best[2]['lat'])
+        float(best[2]['lon'])
+    except (KeyError, ValueError):
+        return None
+    return (best[2]['lat'], best[2]['lon'],
+            f"ADNIC official network: {best[2]['PROVIDER NAME']}",
+            'official_adnic_fuzzy')
+
+
 def nominatim(query, limit=1):
     url = ('https://nominatim.openstreetmap.org/search?'
            + urllib.parse.urlencode({
@@ -55,8 +114,14 @@ def nominatim(query, limit=1):
         return json.load(r)
 
 
-def geocode_one(entry):
+def geocode_one(entry, official_network, allow_external=True):
     """Return (lat, lon, display, confidence) or None."""
+    local = official_match(entry, official_network)
+    if local:
+        return local
+    if not allow_external:
+        return None
+
     em = entry.get('P', '')
     name = entry.get('PROVIDER NAME', '')
     area = entry.get('AREA', '')
@@ -102,10 +167,12 @@ def geocode_one(entry):
 
 
 def main():
+    local_only = os.getenv('LOCAL_ONLY') == '1'
     with open(BACKLOG, encoding='utf-8') as f:
         backlog = json.load(f)
     with open(REG, encoding='utf-8') as f:
         registry = json.load(f)
+    official_network = load_adnic_network()
 
     # Index registry by (norm name, P) to patch entries
     idx = {}
@@ -127,8 +194,9 @@ def main():
             stats['skipped_existing'] += 1
             continue
 
-        result = geocode_one(entry)
-        time.sleep(1.1)  # Nominatim politeness
+        result = geocode_one(entry, official_network, not local_only)
+        if not result and not local_only:
+            time.sleep(1.1)  # Nominatim politeness
 
         if result:
             la, lo, display, conf = result
