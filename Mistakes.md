@@ -34,6 +34,10 @@
 - 2026-08-29: The browser session expired before its remote download could be transferred. Reopen the workbook and inspect the download directory in the same session.
 - 2026-08-29: The reopened browser reported a Downloads URL but its Playwright filesystem had no `/home/user/Downloads` directory. Treat the Firecrawl download as remote-only unless the tool exposes an artifact transfer.
 - 2026-08-29: Capturing the Office iframe download event timed out even after locating the correct frame. The browser agent can click Download a Copy, but Firecrawl does not reliably expose the resulting binary to the workspace.
+- 2026-08-29: The captured Playwright download path was not readable from a later browser interaction, so transferring it through separate calls failed. Capture and read the artifact within one browser execution.
+- 2026-08-29: The in-session transfer script reused the persistent REPL binding `fs`, causing a redeclaration error. Use unique binding names for browser transfer variables.
+- 2026-08-29: The iframe download-event transfer timed out after the menu item was clicked; Excel’s browser download is not consistently observable by Playwright in this session.
+- 2026-08-29: The captured Excel download endpoint returned a 1,466-byte HTML internal-error page with HTTP 200, not an XLSX. Verify MIME/signature before accepting browser downloads.
 - 2026-08-29: Reusing the `frame` binding in the persistent browser REPL caused a redeclaration syntax error. Use unique binding names for each interaction call.
 - 2026-08-28: The first Zavis batch exited without producing its result file. Add a hard timeout and verify the output file before treating a public-directory run as complete.
 - 2026-08-28: Direct urllib access to Zavis returned HTTP 403; use the approved browser/scraping path for JS-rendered public pages instead of assuming raw HTTP access.
