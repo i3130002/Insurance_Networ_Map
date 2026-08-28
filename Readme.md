@@ -50,4 +50,5 @@ Regenerates `data/` from `sources/merged-registry.json`. See **[MAINTENANCE.md](
 
 - Provider registry: UAE MOH facility lists, geocoded via [Geoapify](https://www.geoapify.com/) / [Mapbox](https://www.mapbox.com/pricing), enriched via ox-alpha (OpenRouter)
 - Official network sources: [Orient](https://www.insuranceuae.com/medical-insurance/individual/individual/) and [Union Insurance](https://www.unioninsurance.ae/en-us/medical-network/) workbooks are stored under `sources/networks/`.
+- Sukoon’s public EDGE provider locator is stored as `sources/networks/Sukoon Insurance.csv` with coordinates for 3,381 providers.
 - Map: [Leaflet](https://leafletjs.com/) + [markercluster](https://github.com/Leaflet/Leaflet.markercluster), tiles © OpenStreetMap contributors

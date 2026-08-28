@@ -1730,6 +1730,19 @@
  },
  {
   "P": "AUH",
+  "PROVIDER TYPE": "HOSPITAL",
+  "PROVIDER NAME": "BAREEN INTERNATIONAL HOSPITAL",
+  "AREA": "MOHAMMAD BIN ZAYED CITY",
+  "ADDRESS": "MOHAMMAD BIN ZAYED CITY, ZONE 15 (NEXT TO SHAIKAH FATIMA BINT MUBARAK MOSQUE) ,P.O. BOX 108727, ABU DHABI, U.A.E",
+  "TELEPHONE": "02-5545555",
+  "lat": "24.3388",
+  "lon": "54.5543",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: BAREEN INTERNATIONAL HOSPITAL",
+  "Index": 649
+ },
+ {
+  "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "BAB AL MADINA PHARMACY",
   "AREA": "MUSAFFAH",

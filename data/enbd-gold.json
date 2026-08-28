@@ -4876,6 +4876,19 @@
  },
  {
   "P": "AUH",
+  "PROVIDER TYPE": "HOSPITAL",
+  "PROVIDER NAME": "BAREEN INTERNATIONAL HOSPITAL",
+  "AREA": "MOHAMMAD BIN ZAYED CITY",
+  "ADDRESS": "MOHAMMAD BIN ZAYED CITY, ZONE 15 (NEXT TO SHAIKAH FATIMA BINT MUBARAK MOSQUE) ,P.O. BOX 108727, ABU DHABI, U.A.E",
+  "TELEPHONE": "02-5545555",
+  "lat": "24.3388",
+  "lon": "54.5543",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: BAREEN INTERNATIONAL HOSPITAL",
+  "Index": 649
+ },
+ {
+  "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "BAB AL MADINA PHARMACY",
   "AREA": "MUSAFFAH",
@@ -7616,6 +7629,19 @@
   "confidence": "0.7",
   "formatted": "The Grey, 1 Al Wasl Road, Al Safa, Dubai, DU, United Arab Emirates",
   "Index": 962
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "ASTER PHARMACY (DUBAL BRANCH)",
+  "AREA": "DUBAL CLINIC",
+  "ADDRESS": "DUBAI ALUMINIUM COMPANY, DUBAL, NEAR TO DUBAL CLINIC",
+  "TELEPHONE": "04-8022684",
+  "lat": "25.0328",
+  "lon": "55.0962",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ASTER PHARMACY-DUBAL",
+  "Index": 963
  },
  {
   "P": "DXB",
@@ -12521,6 +12547,19 @@
  {
   "P": "DXB",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "ABEER AL NOOR POLY CLINIC LLC-DEIRA (BR)",
+  "AREA": "DEIRA -BEHIND AL FUTTAIM MASJID",
+  "ADDRESS": "BEHIND AL FUTTAIM MASJID ,NEAR DELHI RESTAURANT ,18TH STREET ,FRIJ MURAR,DEIRA",
+  "TELEPHONE": "04-2428849",
+  "lat": "25.2764",
+  "lon": "55.31",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ABEER AL NOOR POLY CLINIC LLC-DEIRA",
+  "Index": 1703
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "ADVANCED CARE MEDICAL CENTER-AL QUOZ-(ADVANCED GROUP)",
   "AREA": "AL QUOZ 3",
   "ADDRESS": "FAKHRUDDIN BUILDING, BEHIND NATIONAL CEMENT FACTORY, INDUSTRIAL AREA-3, AL QUOZ, DUBAI - UAE",
@@ -13349,6 +13388,19 @@
   "confidence": "area_match",
   "formatted": "Burdubai, 9b شارع, بر دبي, الرفاعة, دبي, الإمارات العربية المتحدة",
   "Index": 1777
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "OASIS PHARMACY LLC",
+  "AREA": "SHEIK ZYED ROAD",
+  "ADDRESS": "BLOCK - A SHOP NO. 13 & 14, DUBAI WORLD TRADE CENTER HOTEL APARTMENTS, OPPOSITE DUBAI WORLD TRADE CENTER METRO STATION, SHEIK ZYED ROAD DUBAI.",
+  "TELEPHONE": "04-3313391",
+  "lat": "25.2267",
+  "lon": "55.2855",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: OASIS PHARMACY LLC",
+  "Index": 1778
  },
  {
   "P": "DXB",
@@ -16443,6 +16495,19 @@
   "confidence": "area_match",
   "formatted": "شارع بيروت, القصيص الصناعية 4, القصيص الصناعية, دبي, الإمارات العربية المتحدة",
   "Index": 2028
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "CITY RELIEF PHARMACY LLC",
+  "AREA": "NAID ROAD",
+  "ADDRESS": "NAIF ROAD, DEIRA,DUBAI,UAE",
+  "TELEPHONE": "04-2242951",
+  "lat": "25.2755",
+  "lon": "55.3102",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: CITY RELIEF PHARMACY",
+  "Index": 2029
  },
  {
   "P": "DXB",

@@ -32,7 +32,7 @@ data/*.json                what the website actually loads
 **Coordinate quality, honestly:**
 - `merged-providers.csv` rows that came from the old `ecare-blue.json` have real building-level Geoapify coords (with `confidence`).
 - Rows that came from the MOH batch mostly have empty or area-level coords.
-- `data/needs-geocoding.json` (currently 200 entries) is exactly the backlog of rows without usable pins.
+- `data/needs-geocoding.json` (currently 174 entries) is exactly the backlog of rows without usable pins.
 
 ## 2. Rebuilding the site data
 
@@ -83,7 +83,7 @@ network-assignment indexes. The command must pass before deployment.
 3. Accept a result only if it lands in the UAE bounding box (lat 22–26.6, lon 51–56.6) **and** the returned address contains the expected emirate — ~42% of the old geocodes were wrong-emirate, so verify.
 4. Merge results back into `sources/merged-registry.json` (fill `lat`/`lon`, set `confidence`), then re-run `build_data.py`.
 
-Rate-limit politely: 1 req/sec Nominatim, ~200 entries ≈ 4 min.
+Rate-limit politely: 1 req/sec Nominatim, ~174 entries ≈ 4 min.
 
 ## 4. Adding a REAL insurance network
 
@@ -97,6 +97,8 @@ Per-plan files are currently **emirate-coverage approximations** (every provider
 Known official source: [Takaful Emarat's network page](https://takafulemarat.com/your-network/) lists 43 public Microsoft SharePoint workbooks for NAS, Nextcare, MedNet, NorthCare, APN, and AM networks. Direct workbook export returned HTTP 403 during the 2026-08-28 refresh; do not mark Takafol membership official until the files can be downloaded and mapped to products.
 
 Additional official sources: [Orient's network page](https://www.insuranceuae.com/medical-insurance/individual/individual/) provides downloadable Nextcare and MedNet workbooks; [Union Insurance's network page](https://www.unioninsurance.ae/en-us/medical-network/) provides eCare Blue and NAS workbooks. These are stored as `sources/networks/Orient Insurance.csv` and `sources/networks/Union Insurance.csv`; they are not assigned to a configured plan until matching plan metadata exists.
+
+The [Sukoon provider locator](https://www.sukoon.com/health-insurance/clinic-hospital-list?networkType=EDGE&emirate=Dubai) exposes a public read-only lookup endpoint with coordinates. The current source stores 3,381 EDGE providers across eight emirates in `sources/networks/Sukoon Insurance.csv`.
 
 Fuzzy-matching tip: insurer lists write names differently ("NMC Medical Centre LLC" vs "NMC MEDICAL CENTER L.L.C"). `norm_name()` handles the common cases; consider `rapidfuzz` (token_set_ratio > 90) for the rest, and keep an explicit override map for recurring mismatches.
 

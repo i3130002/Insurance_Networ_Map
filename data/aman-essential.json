@@ -2277,6 +2277,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "HAPPY WAY MEDICAL CENTER",
+  "AREA": "ZAM ZAM REST",
+  "ADDRESS": "3RD FLOOR,THE RESIDENCE 7 BUILDING,OPP.ZAM ZAM REST ROLLA STREET,SHARJAH,UAE",
+  "TELEPHONE": "06-5307069",
+  "lat": "25.3563",
+  "lon": "55.386",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HAPPY WAY MEDICAL CENTER",
+  "Index": 553
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "FAMILY STAR MEDICAL CENTRE",
   "AREA": "ABU SHAGHARA",
   "ADDRESS": "BESIDE SEVEN STARS SOLANKI BUILDING - ABU SHAGHARA - SHARJAH",
@@ -2598,6 +2611,19 @@
   "confidence": "0.666666666666667",
   "formatted": "Sharjah, SH, United Arab Emirates",
   "Index": 642
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "HOSPITAL",
+  "PROVIDER NAME": "CENTRAL HOSPITAL LLC",
+  "AREA": "SK.ZAYED ST.",
+  "ADDRESS": "NEAR,CLOCK TOWAR SK.ZAYED ST.",
+  "TELEPHONE": "06-5639900",
+  "lat": "25.3613",
+  "lon": "55.3982",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: CENTRAL HOSPITAL",
+  "Index": 643
  },
  {
   "P": "SHJ",
@@ -3976,6 +4002,19 @@
   "confidence": "0.217391304347826",
   "formatted": "Al Imran Technical Services, Shop Number 2 7a Street, Al Qusais, Dubai, DU, United Arab Emirates",
   "Index": 1124
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "NAJMAT MUWAILEH PHARMACY LLC",
+  "AREA": "AL WATANIYA",
+  "ADDRESS": "SHOP NO. 1, BLDG. NO 2986, AL WATANYAH REAL ESTATE, MEHTA BUILDING, OPPOSITE NESTO HYPERMARKET, NEAR BUFFALO RESTAURANT, COMMERCIAL INDUSTRIAL AREA, MUWAILEH SHARJAH - U.A.E.",
+  "TELEPHONE": "06-5220260",
+  "lat": "25.307",
+  "lon": "55.4586",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: NAJMAT MUWAILEH PHARMACY LLC",
+  "Index": 1126
  },
  {
   "P": "SHJ",
@@ -6567,6 +6606,19 @@
  {
   "P": "AJM",
   "PROVIDER TYPE": "DENTAL",
+  "PROVIDER NAME": "SKIN AND TEETH MEDICAL CENTER -L.L.C",
+  "AREA": "ALITHIHAD ST",
+  "ADDRESS": "VILLA 36 & 37 - FLAMINGO VILLAS - AL ZORAH - AL ITTHIHAD ST.",
+  "TELEPHONE": "06-7444560",
+  "lat": "25.4203",
+  "lon": "55.4896",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: SKIN AND TEETH MEDICAL CENTER LLC",
+  "Index": 1355
+ },
+ {
+  "P": "AJM",
+  "PROVIDER TYPE": "DENTAL",
   "PROVIDER NAME": "AL DURRA DENTAL CLINIC L.L.C",
   "AREA": "LEWARA 2",
   "ADDRESS": "FLAT NO.105,LEWARA BUILDING,LEWARA 2,AJMAN,UAE",
@@ -6706,6 +6758,19 @@
   "confidence": "area_match",
   "formatted": "شارع الشيخ عمار بن حميد, الحميدية 1, الجرف, عجمان, إمارة عجمان, الإمارات العربية المتحدة",
   "Index": 1367
+ },
+ {
+  "P": "AJM",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "KHALID LALA PHARMACY LLC",
+  "AREA": "AL JURF 2",
+  "ADDRESS": "AL JURF 2 AJMAN,UAE",
+  "TELEPHONE": "06-7049528",
+  "lat": "25.4472",
+  "lon": "55.5518",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: KHALID  LALA  PHARMACY  LLC",
+  "Index": 1368
  },
  {
   "P": "AJM",
@@ -7083,6 +7148,19 @@
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: HEALTH FIRST PHARMACY 21-FUJAIRAH BRANCH, FUJAIRAH",
   "Index": 2177
+ },
+ {
+  "P": "FUJ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY 59 FUJAIRAH BRANCH",
+  "AREA": "MOHD BIN ZAYED CITY",
+  "ADDRESS": "AL HAIL NEAR MOHD BIN ZAYED CITY -FUJAIRAH",
+  "TELEPHONE": "09-2385714",
+  "lat": "25.077",
+  "lon": "56.3045",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HEALTH FIRST PHARMACY 59 FUJAIRAH BR",
+  "Index": 2179
  },
  {
   "P": "FUJ",
@@ -8374,15 +8452,15 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "PHARMACY",
-  "PROVIDER NAME": "HEALTH FIRST PHARMACY - BRANCH 8",
-  "AREA": "AL MIRQAB",
-  "ADDRESS": "MATAJER MALL – AL MIRQAB, SHARJAH -AL SHARQ STREET OPP ADNOC STATION",
-  "TELEPHONE": "06-5462537",
-  "lat": "25.388028",
-  "lon": "55.421833",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY - BRANCH 9",
+  "AREA": "AL SUYOH",
+  "ADDRESS": "SHARJAH COOPERATIVE SOCIETY SUYOH4  AL SUYOH SUBURB",
+  "TELEPHONE": "06-5353951",
+  "lat": "25.2225",
+  "lon": "55.6146",
   "confidence": "official_network_fuzzy",
-  "formatted": "Union Insurance official network: HEALTH FIRST PHARMACY BRANCH 8",
-  "Index": 2337
+  "formatted": "Sukoon Insurance official network: HEALTH FIRST PHARMACY BR 9",
+  "Index": 2338
  },
  {
   "P": "SHJ",
@@ -8448,6 +8526,19 @@
   "confidence": "area_match",
   "formatted": "Lulu Hypermarket, شارع 36, النهدة, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
   "Index": 2345
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY L.L.C.SP - BRANCH 12",
+  "AREA": "AL KHUROOS",
+  "ADDRESS": "SHOP NO: 04, SHARJAH COOP, AL KHUROOS, SHARJAH, U.A.E",
+  "TELEPHONE": "06-5240865",
+  "lat": "25.3788",
+  "lon": "55.9993",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HEALTH FIRST PHARMACY BR 12",
+  "Index": 2346
  },
  {
   "P": "SHJ",
@@ -8764,6 +8855,19 @@
  {
   "P": "UMQ",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "WELLNESS MEDICAL CENTER LLC",
+  "AREA": "BADAMI 2",
+  "ADDRESS": "BADAMI-2,NEW INDUSTRIAL AREA - AL RAFFA,UAE",
+  "TELEPHONE": "06-6786664",
+  "lat": "25.5502",
+  "lon": "55.6986",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: WELLNESS MEDICAL CENTER",
+  "Index": 2375
+ },
+ {
+  "P": "UMQ",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "AL SHIFA MEDICAL CENTER L.L.C",
   "AREA": "UMM AL QUWAIN",
   "ADDRESS": "AL SANADIL BUILDING ,UAQ ,UAE",
@@ -8825,6 +8929,19 @@
   "confidence": "area_match",
   "formatted": "أم القيوين, الإمارات العربية المتحدة",
   "Index": 2381
+ },
+ {
+  "P": "UMQ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "WELLNESS PHARMACY LLC",
+  "AREA": "BADAMI 2",
+  "ADDRESS": "BADAMI-2,NEW INDUSTRIAL AREA - AL RAFFA,UAE",
+  "TELEPHONE": "06-6786664",
+  "lat": "25.5502",
+  "lon": "55.6986",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: WELLNESS PHARMACY",
+  "Index": 2382
  },
  {
   "P": "UMQ",

@@ -5700,10 +5700,10 @@
   "AREA": "AL QASMI STREET",
   "ADDRESS": "ADIL AL NUAIMI BUILDING, M FLOOR, M-02, SHEIKH SAQR BIN MUHAMMAD AL QASMI STREET, AL QUSAIDAT, NEAR TO LAMP ROUND ABOUT, RASL AL KHAIMAH, U.A.E",
   "TELEPHONE": "07-2441235",
-  "lat": "",
-  "lon": "",
-  "confidence": "",
-  "formatted": "",
+  "lat": "25.7634",
+  "lon": "55.97",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ALYA MEDICAL CENTER",
   "Index": 439
  },
  {
@@ -7182,10 +7182,10 @@
   "AREA": "ZAM ZAM REST",
   "ADDRESS": "3RD FLOOR,THE RESIDENCE 7 BUILDING,OPP.ZAM ZAM REST ROLLA STREET,SHARJAH,UAE",
   "TELEPHONE": "06-5307069",
-  "lat": "",
-  "lon": "",
-  "confidence": "",
-  "formatted": "",
+  "lat": "25.3563",
+  "lon": "55.386",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HAPPY WAY MEDICAL CENTER",
   "Index": 553
  },
  {
@@ -8352,10 +8352,10 @@
   "AREA": "SK.ZAYED ST.",
   "ADDRESS": "NEAR,CLOCK TOWAR SK.ZAYED ST.",
   "TELEPHONE": "06-5639900",
-  "lat": "",
-  "lon": "",
-  "confidence": "",
-  "formatted": "",
+  "lat": "25.3613",
+  "lon": "55.3982",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: CENTRAL HOSPITAL",
   "Index": 643
  },
  {
@@ -8430,10 +8430,10 @@
   "AREA": "MOHAMMAD BIN ZAYED CITY",
   "ADDRESS": "MOHAMMAD BIN ZAYED CITY, ZONE 15 (NEXT TO SHAIKAH FATIMA BINT MUBARAK MOSQUE) ,P.O. BOX 108727, ABU DHABI, U.A.E",
   "TELEPHONE": "02-5545555",
-  "lat": "",
-  "lon": "",
-  "confidence": "",
-  "formatted": "",
+  "lat": "24.3388",
+  "lon": "54.5543",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: BAREEN INTERNATIONAL HOSPITAL",
   "Index": 649
  },
  {
@@ -12512,10 +12512,10 @@
   "AREA": "DUBAL CLINIC",
   "ADDRESS": "DUBAI ALUMINIUM COMPANY, DUBAL, NEAR TO DUBAL CLINIC",
   "TELEPHONE": "04-8022684",
-  "lat": "",
-  "lon": "",
-  "confidence": "",
-  "formatted": "",
+  "lat": "25.0328",
+  "lon": "55.0962",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ASTER PHARMACY-DUBAL",
   "Index": 963
  },
  {
@@ -14332,10 +14332,10 @@
   "AREA": "AL QASMI STREET",
   "ADDRESS": "DIL AL NUAIMI BUILDING, GROUND FLOOR,SHOP-03, SHEIKH SAQR BIN MUHAMMAD AL QASMI STREET, AL QUSAIDAT",
   "TELEPHONE": "07-2441235",
-  "lat": "",
-  "lon": "",
-  "confidence": "",
-  "formatted": "",
+  "lat": "25.8032",
+  "lon": "55.94",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ALYA PHARMACY",
   "Index": 1103
  },
  {
@@ -14631,10 +14631,10 @@
   "AREA": "AL WATANIYA",
   "ADDRESS": "SHOP NO. 1, BLDG. NO 2986, AL WATANYAH REAL ESTATE, MEHTA BUILDING, OPPOSITE NESTO HYPERMARKET, NEAR BUFFALO RESTAURANT, COMMERCIAL INDUSTRIAL AREA, MUWAILEH SHARJAH - U.A.E.",
   "TELEPHONE": "06-5220260",
-  "lat": "",
-  "lon": "",
-  "confidence": "",
-  "formatted": "",
+  "lat": "25.307",
+  "lon": "55.4586",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: NAJMAT MUWAILEH PHARMACY LLC",
   "Index": 1126
  },
  {
@@ -17608,10 +17608,10 @@
   "AREA": "ALITHIHAD ST",
   "ADDRESS": "VILLA 36 & 37 - FLAMINGO VILLAS - AL ZORAH - AL ITTHIHAD ST.",
   "TELEPHONE": "06-7444560",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.4203",
+  "lon": "55.4896",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: SKIN AND TEETH MEDICAL CENTER LLC",
   "Index": 1355
  },
  {
@@ -17777,10 +17777,10 @@
   "AREA": "AL JURF 2",
   "ADDRESS": "AL JURF 2 AJMAN,UAE",
   "TELEPHONE": "06-7049528",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.4472",
+  "lon": "55.5518",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: KHALID  LALA  PHARMACY  LLC",
   "Index": 1368
  },
  {
@@ -18050,10 +18050,10 @@
   "AREA": "ALMARKANIYYAH",
   "ADDRESS": "ROAD 18, AL HABOOY, AL MARKANIYYAH , AL AIN CITY, ABU DHABI, UAE",
   "TELEPHONE": "03-7341950",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "24.2695",
+  "lon": "55.7558",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: AL FARABI MEDICAL CENTER LLC",
   "Index": 1389
  },
  {
@@ -22132,10 +22132,10 @@
   "AREA": "DEIRA -BEHIND AL FUTTAIM MASJID",
   "ADDRESS": "BEHIND AL FUTTAIM MASJID ,NEAR DELHI RESTAURANT ,18TH STREET ,FRIJ MURAR,DEIRA",
   "TELEPHONE": "04-2428849",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.2764",
+  "lon": "55.31",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ABEER AL NOOR POLY CLINIC LLC-DEIRA",
   "Index": 1703
  },
  {
@@ -23107,10 +23107,10 @@
   "AREA": "SHEIK ZYED ROAD",
   "ADDRESS": "BLOCK - A SHOP NO. 13 & 14, DUBAI WORLD TRADE CENTER HOTEL APARTMENTS, OPPOSITE DUBAI WORLD TRADE CENTER METRO STATION, SHEIK ZYED ROAD DUBAI.",
   "TELEPHONE": "04-3313391",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.2267",
+  "lon": "55.2855",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: OASIS PHARMACY LLC",
   "Index": 1778
  },
  {
@@ -26370,10 +26370,10 @@
   "AREA": "NAID ROAD",
   "ADDRESS": "NAIF ROAD, DEIRA,DUBAI,UAE",
   "TELEPHONE": "04-2242951",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.2755",
+  "lon": "55.3102",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: CITY RELIEF PHARMACY",
   "Index": 2029
  },
  {
@@ -28320,10 +28320,10 @@
   "AREA": "MOHD BIN ZAYED CITY",
   "ADDRESS": "AL HAIL NEAR MOHD BIN ZAYED CITY -FUJAIRAH",
   "TELEPHONE": "09-2385714",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.077",
+  "lon": "56.3045",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HEALTH FIRST PHARMACY 59 FUJAIRAH BR",
   "Index": 2179
  },
  {
@@ -28554,10 +28554,10 @@
   "AREA": "AL HISN STREET",
   "ADDRESS": "FIRST FLOOR, AVENUE BUILDING. JULPHAR TOWERS, AL HISN ROAD, RAK",
   "TELEPHONE": "07-2037777",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.7916",
+  "lon": "55.9601",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: EMIRATES HOSPITALS AND CLINICS-RAK",
   "Index": 2197
  },
  {
@@ -28814,10 +28814,10 @@
   "AREA": "AL JUWAIS",
   "ADDRESS": "NEAR NESTO HYPERMARKET, AL JUWAIS - RAS AL KHAIMAH, UAE",
   "TELEPHONE": "07-2272402",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.2029",
+  "lon": "51.4349",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: U M D C PHARMACY",
   "Index": 2217
  },
  {
@@ -28827,10 +28827,10 @@
   "AREA": "AL QAWASIM STREET",
   "ADDRESS": "CORNICHE AL QAWASIM STREET, DAFAN AL KHOR, RAS AL KHAIMAH, UAE",
   "TELEPHONE": "07-2212051",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.7721",
+  "lon": "55.9367",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: NEW ROYAL PHARMACY",
   "Index": 2218
  },
  {
@@ -30374,10 +30374,10 @@
   "AREA": "AL MIRQAB",
   "ADDRESS": "MATAJER MALL – AL MIRQAB, SHARJAH -AL SHARQ STREET OPP ADNOC STATION",
   "TELEPHONE": "06-5462537",
-  "lat": "25.388028",
-  "lon": "55.421833",
-  "confidence": "official_network_fuzzy",
-  "formatted": "Union Insurance official network: HEALTH FIRST PHARMACY BRANCH 8",
+  "lat": null,
+  "lon": null,
+  "confidence": "",
+  "formatted": "",
   "Index": 2337
  },
  {
@@ -30387,10 +30387,10 @@
   "AREA": "AL SUYOH",
   "ADDRESS": "SHARJAH COOPERATIVE SOCIETY SUYOH4  AL SUYOH SUBURB",
   "TELEPHONE": "06-5353951",
-  "lat": null,
-  "lon": null,
-  "confidence": "",
-  "formatted": "",
+  "lat": "25.2225",
+  "lon": "55.6146",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HEALTH FIRST PHARMACY BR 9",
   "Index": 2338
  },
  {
@@ -30491,10 +30491,10 @@
   "AREA": "AL KHUROOS",
   "ADDRESS": "SHOP NO: 04, SHARJAH COOP, AL KHUROOS, SHARJAH, U.A.E",
   "TELEPHONE": "06-5240865",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.3788",
+  "lon": "55.9993",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HEALTH FIRST PHARMACY BR 12",
   "Index": 2346
  },
  {
@@ -30868,10 +30868,10 @@
   "AREA": "BADAMI 2",
   "ADDRESS": "BADAMI-2,NEW INDUSTRIAL AREA - AL RAFFA,UAE",
   "TELEPHONE": "06-6786664",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.5502",
+  "lon": "55.6986",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: WELLNESS MEDICAL CENTER",
   "Index": 2375
  },
  {
@@ -30959,10 +30959,10 @@
   "AREA": "BADAMI 2",
   "ADDRESS": "BADAMI-2,NEW INDUSTRIAL AREA - AL RAFFA,UAE",
   "TELEPHONE": "06-6786664",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.5502",
+  "lon": "55.6986",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: WELLNESS PHARMACY",
   "Index": 2382
  },
  {

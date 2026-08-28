@@ -8,7 +8,7 @@
       "AUH"
     ],
     "file": "data/adico-classic.json",
-    "providers": 369,
+    "providers": 370,
     "layers": {
       "official": 169,
       "chain": 19,
@@ -25,7 +25,7 @@
       "AUH"
     ],
     "file": "data/adico-premium.json",
-    "providers": 369,
+    "providers": 370,
     "layers": {
       "official": 169,
       "chain": 19,
@@ -44,10 +44,10 @@
       "SHJ"
     ],
     "file": "data/axa-basic.json",
-    "providers": 1796,
+    "providers": 1805,
     "layers": {
-      "geo_only": 1505,
-      "chain": 291,
+      "geo_only": 1513,
+      "chain": 292,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -63,10 +63,10 @@
       "SHJ"
     ],
     "file": "data/axa-premier.json",
-    "providers": 1796,
+    "providers": 1805,
     "layers": {
-      "geo_only": 1505,
-      "chain": 291,
+      "geo_only": 1513,
+      "chain": 292,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -83,9 +83,9 @@
       "UMQ"
     ],
     "file": "data/aman-essential.json",
-    "providers": 685,
+    "providers": 694,
     "layers": {
-      "geo_only": 666,
+      "geo_only": 675,
       "chain": 19,
       "official": 0
     },
@@ -103,9 +103,9 @@
       "UMQ"
     ],
     "file": "data/aman-comprehensive.json",
-    "providers": 685,
+    "providers": 694,
     "layers": {
-      "geo_only": 666,
+      "geo_only": 675,
       "chain": 19,
       "official": 0
     },
@@ -122,10 +122,10 @@
       "AJM"
     ],
     "file": "data/daric-standard.json",
-    "providers": 1607,
+    "providers": 1617,
     "layers": {
-      "geo_only": 1318,
-      "chain": 289,
+      "geo_only": 1327,
+      "chain": 290,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -141,10 +141,10 @@
       "AJM"
     ],
     "file": "data/daric-premium.json",
-    "providers": 1607,
+    "providers": 1617,
     "layers": {
-      "geo_only": 1318,
-      "chain": 289,
+      "geo_only": 1327,
+      "chain": 290,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -159,10 +159,10 @@
       "AUH"
     ],
     "file": "data/enbd-gold.json",
-    "providers": 1374,
+    "providers": 1379,
     "layers": {
-      "geo_only": 1129,
-      "chain": 245,
+      "geo_only": 1133,
+      "chain": 246,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -177,10 +177,10 @@
       "AUH"
     ],
     "file": "data/enbd-silver.json",
-    "providers": 1374,
+    "providers": 1379,
     "layers": {
-      "geo_only": 1129,
-      "chain": 245,
+      "geo_only": 1133,
+      "chain": 246,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -196,10 +196,10 @@
       "AJM"
     ],
     "file": "data/gulf-essential.json",
-    "providers": 1607,
+    "providers": 1617,
     "layers": {
-      "geo_only": 1325,
-      "chain": 282,
+      "geo_only": 1334,
+      "chain": 283,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -215,10 +215,10 @@
       "AJM"
     ],
     "file": "data/gulf-comprehensive.json",
-    "providers": 1607,
+    "providers": 1617,
     "layers": {
-      "geo_only": 1325,
-      "chain": 282,
+      "geo_only": 1334,
+      "chain": 283,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -234,9 +234,9 @@
       "SHJ"
     ],
     "file": "data/noor-family.json",
-    "providers": 1796,
+    "providers": 1805,
     "layers": {
-      "geo_only": 1770,
+      "geo_only": 1779,
       "chain": 26,
       "official": 0
     },
@@ -253,9 +253,9 @@
       "SHJ"
     ],
     "file": "data/noor-individual.json",
-    "providers": 1796,
+    "providers": 1805,
     "layers": {
-      "geo_only": 1770,
+      "geo_only": 1779,
       "chain": 26,
       "official": 0
     },
@@ -272,9 +272,9 @@
       "AJM"
     ],
     "file": "data/takafol-family.json",
-    "providers": 1607,
+    "providers": 1617,
     "layers": {
-      "geo_only": 1585,
+      "geo_only": 1595,
       "chain": 22,
       "official": 0
     },
