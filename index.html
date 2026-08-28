@@ -242,6 +242,10 @@
                 setStatus('No providers match these filters. Try clearing a filter.', true);
                 return;
             }
+            if (!visible) {
+                setStatus('No providers with valid coordinates match these filters.', true);
+                return;
+            }
             setStatus(`✅ ${visible.toLocaleString()} providers shown` +
                 (skipped ? ` · ${skipped} skipped (bad coords)` : ''));
         }
@@ -266,6 +270,14 @@
             const [file, planId] = selection.split('|');
             setStatus('Loading…');
             if (cluster) { map.removeLayer(cluster); cluster = null; }
+            selectedPlan = [];
+            selectedPlanNet = null;
+            document.getElementById('providerSearch').disabled = true;
+            ['emirateFilter', 'typeFilter'].forEach(id => {
+                const select = document.getElementById(id);
+                select.disabled = true;
+                select.value = '';
+            });
 
             try {
                 const res = await fetch(file);
@@ -283,8 +295,9 @@
             }
         }
 
-        ['providerSearch', 'emirateFilter', 'typeFilter'].forEach(id =>
-            document.getElementById(id).addEventListener('input', renderProviders));
+        document.getElementById('providerSearch').addEventListener('input', renderProviders);
+        ['emirateFilter', 'typeFilter'].forEach(id =>
+            document.getElementById(id).addEventListener('change', renderProviders));
 
         // ---------- boot ----------
         loadNetworkIndex().then(loadPlans);
