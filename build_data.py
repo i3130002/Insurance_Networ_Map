@@ -6,8 +6,7 @@ Build script for Insurance-Network-Map data.
 2. Emits data/moh-complete.json (full registry) with valid coords only,
    invalid-coord entries preserved in data/needs-geocoding.json.
 3. Emits per-insurance-plan JSON files by filtering against the plan's
-   emirate coverage (network affiliations are heuristic until official
-   network lists are supplied).
+   emirate coverage. Official network assignments are applied afterward.
 4. Emits data/plans.json with plan metadata for the UI.
 """
 import csv
@@ -58,6 +57,27 @@ def load_merged() -> list:
     with open(merged_path, encoding='utf-8') as f:
         entries = json.load(f)
     return entries
+
+
+def load_takafol_plans() -> list[tuple[str, str, str, str, list[str], str]]:
+    """Load one selectable plan definition for each imported Takafol network."""
+    catalog_path = os.path.join(ROOT, 'sources', 'csv', 'takafol-network-catalog.csv')
+    if not os.path.exists(catalog_path):
+        return []
+    plans = []
+    with open(catalog_path, encoding='utf-8-sig', newline='') as f:
+        for row in csv.DictReader(f):
+            network_id = (row.get('NETWORK_ID') or '').strip()
+            network_name = (row.get('NETWORK_NAME') or '').strip()
+            if not network_id or not network_name:
+                continue
+            plan_id = f'takafol-{network_id}'
+            plans.append((
+                plan_id, f'Takafol Emarat — {network_name}', 'Takafol Emarat',
+                'Both', ['AJM', 'AUH', 'DXB', 'FUJ', 'RAK', 'SHJ', 'UMQ'],
+                network_id,
+            ))
+    return plans
 
 
 def build_registry(entries: list):
@@ -161,7 +181,8 @@ def main():
     # Per-plan datasets: all providers within the plan's emirate footprint.
     # (True network membership needs official provider lists from each insurer.)
     plans_meta = []
-    for plan_id, display, insurer, coverage, ems in PLANS:
+    plans = [(*plan, '') for plan in PLANS] + load_takafol_plans()
+    for plan_id, display, insurer, coverage, ems, network_id in plans:
         subset = [r for r in registry if r['P'] in ems and coord_ok(r['lat'], r['lon'])]
         path = f'data/{plan_id}.json'
         with open(os.path.join(ROOT, path), 'w', encoding='utf-8') as f:
@@ -171,6 +192,8 @@ def main():
             'coverage': coverage, 'emirates': ems,
             'file': path, 'providers': len(subset),
         })
+        if network_id:
+            plans_meta[-1]['network_id'] = network_id
         print(f'  {display:35s} {len(subset):5d} providers')
 
     with open(os.path.join(DATA, 'plans.json'), 'w', encoding='utf-8') as f:

@@ -1,0 +1,42 @@
+NETWORK_ID,NETWORK_NAME,TPA,SOURCE_FILE,RECORDS
+aafiya-apn-edge,AAFIYA - APN EDGE,AAFIYA,AAFIYA - APN EDGE.xlsx,3075
+aafiya-apn-plus,AAFIYA - APN PLUS,AAFIYA,AAFIYA - APN PLUS.xlsx,3075
+aafiya-apn,AAFIYA - APN,AAFIYA,AAFIYA - APN.xlsx,3075
+aafiya-diamond,AAFIYA - DIAMOND,AAFIYA,AAFIYA - DIAMOND.xlsx,3075
+aafiya-elite,AAFIYA - ELITE,AAFIYA,AAFIYA - ELITE.xlsx,3075
+aafiya-essential,AAFIYA - ESSENTIAL,AAFIYA,AAFIYA - ESSENTIAL.xlsx,3075
+aafiya-gold,AAFIYA - GOLD,AAFIYA,AAFIYA - GOLD.xlsx,3075
+am-access-rn4,AM-Access (RN4),AM,AM-Access (RN4).xlsx,3033
+am-choice,AM-Choice,AM,AM-Choice.xlsx,3655
+am-elite,AM-Elite,AM,AM-Elite.xlsx,4481
+am-neo,AM-Neo,AM,AM-Neo.xlsx,1145
+am-premier,AM-Premier,AM,AM-Premier.xlsx,4431
+am-select-rn3,AM-Select (RN3),AM,AM-Select (RN3).xlsx,3079
+ecare-blue-north-care-ne,Ecare - Blue North Care NE,ECARE,Ecare - Blue North Care NE.xlsx,92
+ecare-blue,Ecare - Blue,ECARE,Ecare - Blue.xlsx,2225
+ecare-classic,Ecare - Classic,ECARE,Ecare - Classic.xlsx,2273
+ecare-green,Ecare - Green,ECARE,Ecare - Green.xlsx,2225
+mednet-emerald,MEDNET - EMERALD,MEDNET,MEDNET - EMERALD.xlsx,4201
+mednet-excluded-reimbursement-provider,MEDNET - EXCLUDED REIMBURSEMENT PROVIDER,MEDNET,MEDNET - EXCLUDED REIMBURSEMENT PROVIDER.xlsx,25
+mednet-gold,MEDNET - GOLD,MEDNET,MEDNET - GOLD.xlsx,4201
+mednet-green,MEDNET - GREEN,MEDNET,MEDNET - GREEN.xlsx,4201
+mednet-pearl,MEDNET - PEARL,MEDNET,MEDNET - PEARL.xlsx,4201
+mednet-silk-road,MEDNET - SILK ROAD,MEDNET,MEDNET - SILK ROAD.xlsx,4201
+mednet-silver-classic,MEDNET - SILVER CLASSIC,MEDNET,MEDNET - SILVER CLASSIC.xlsx,4201
+mednet-silver-premium,MEDNET - SILVER PREMIUM,MEDNET,MEDNET - SILVER PREMIUM.xlsx,4201
+nas-comprehensive-network,NAS - Comprehensive Network,NAS,NAS - Comprehensive Network.xlsx,5197
+nas-general-network,NAS - GENERAL NETWORK,NAS,NAS - GENERAL NETWORK.xlsx,5197
+nas-restricted-network,NAS - RESTRICTED NETWORK,NAS,NAS - RESTRICTED NETWORK.xlsx,5197
+nas-super-restricted-network,NAS - SUPER-RESTRICTED NETWORK,NAS,NAS - SUPER-RESTRICTED NETWORK.xlsx,5197
+nas-value-lite-network,NAS - Value Lite Network,NAS,NAS - Value Lite Network.xlsx,47
+nas-value-network,NAS - Value Network,NAS,NAS - Value Network.xlsx,903
+nas-worker-network,NAS - WORKER NETWORK,NAS,NAS - WORKER NETWORK.xlsx,5197
+nas-workers-lite-network,NAS - Workers Lite Network,NAS,NAS - Workers Lite Network.xlsx,47
+nextcare-gn-excluding-mediclinic-al-zahra-sulaiman-al-habib-group,"NEXTCARE - GN EXCLUDING MEDICLINIC ,AL ZAHRA,SULAIMAN AL HABIB GROUP",NEXTCARE,"NEXTCARE - GN EXCLUDING MEDICLINIC ,AL ZAHRA,SULAIMAN AL HABIB GROUP.xlsx",4782
+nextcare-gn-plus,NEXTCARE - GN+,NEXTCARE,NEXTCARE - GN+.xlsx,4895
+nextcare-gn,NEXTCARE - GN,NEXTCARE,NEXTCARE - GN.xlsx,4845
+nextcare-pcp,NEXTCARE - PCP,NEXTCARE,NEXTCARE - PCP.xlsx,2562
+nextcare-rn,NEXTCARE - RN,NEXTCARE,NEXTCARE - RN.xlsx,4091
+nextcare-rn2,NEXTCARE - RN2,NEXTCARE,NEXTCARE - RN2.xlsx,3846
+nextcare-rn3,NEXTCARE - RN3,NEXTCARE,NEXTCARE - RN3.xlsx,2948
+nextcare-rne,NEXTCARE - RNE,NEXTCARE,NEXTCARE - RNE.xlsx,4107

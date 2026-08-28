@@ -73,7 +73,7 @@ def normalize_emirate(value: str) -> str:
 
 def network_id_for(filename: str) -> str:
     """Create a stable slug used by plans and assignment records."""
-    stem = Path(filename).stem.lower()
+    stem = Path(filename).stem.lower().replace("+", " plus ")
     return re.sub(r"[^a-z0-9]+", "-", stem).strip("-")
 
 

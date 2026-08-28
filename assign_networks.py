@@ -77,25 +77,68 @@ def norm_name(s):
     return re.sub(r'\s+', ' ', s).strip()
 
 
+def norm_phone(value):
+    """Normalize one UAE phone number for cross-source matching."""
+    digits = re.sub(r'\D', '', value or '')
+    if digits.startswith('00971'):
+        digits = digits[5:]
+    elif digits.startswith('971'):
+        digits = digits[3:]
+    if digits.startswith('0'):
+        digits = digits[1:]
+    return digits if len(digits) >= 7 else ''
+
+
+def phone_values(value):
+    """Return normalized values when a source lists multiple phone numbers."""
+    values = {norm_phone(part) for part in re.split(r'[;,/|]+', value or '')}
+    return {value for number in values if (value := number)} | {
+        value[-7:] for value in values if value and len(value) > 7
+    }
+
+
 def load_official_networks():
-    """Load per-insurer official CSVs from sources/networks/ if present."""
-    official = {}  # insurer -> set of (norm_name, emirate)
+    """Load insurer CSVs and imported Takafol network members."""
+    official = {}  # source key -> {'members': set, 'phones': set}
     if not os.path.isdir(NETWORKS_DIR):
         return official
     for fn in os.listdir(NETWORKS_DIR):
         if not fn.endswith('.csv'):
             continue
-        insurer = os.path.splitext(fn)[0]  # file named exactly like insurer
+        source_key = os.path.splitext(fn)[0]
         members = set()
+        phones = set()
         with open(os.path.join(NETWORKS_DIR, fn), encoding='utf-8-sig') as f:
             for row in csv.DictReader(f):
                 name = norm_name(row.get('PROVIDER NAME', ''))
                 em = (row.get('EMIRATE') or '').strip().upper()
                 if name and em:
                     members.add((name, em))
+                for phone in phone_values(row.get('TELEPHONE', '')):
+                    if em:
+                        phones.add((phone, em))
         if members:
-            official[insurer] = members
-            print(f'  official list: {insurer}: {len(members)} facilities')
+            official[source_key] = {'members': members, 'phones': phones}
+            print(f'  official list: {source_key}: {len(members)} facilities')
+
+    takafol_path = os.path.join(
+        ROOT, 'sources', 'csv', 'takafol-network-members.csv')
+    if os.path.exists(takafol_path):
+        with open(takafol_path, encoding='utf-8-sig', newline='') as f:
+            for row in csv.DictReader(f):
+                source_key = (row.get('NETWORK_ID') or '').strip()
+                name = norm_name(row.get('PROVIDER NAME', ''))
+                em = (row.get('EMIRATE') or '').strip().upper()
+                if not source_key or not em:
+                    continue
+                source = official.setdefault(source_key, {'members': set(), 'phones': set()})
+                if name:
+                    source['members'].add((name, em))
+                for phone in phone_values(row.get('TELEPHONE', '')):
+                    source['phones'].add((phone, em))
+        for source_key, source in sorted(official.items()):
+            if source_key.startswith(('aaf', 'am-', 'ecare-', 'mednet-', 'nas-', 'nextcare-')):
+                print(f'  official list: {source_key}: {len(source["members"])} facilities')
     return official
 
 
@@ -130,11 +173,11 @@ def main():
         (norm_name(r['PROVIDER NAME']), r['P']) for r in registry
     }
     unmatched_official = {
-        insurer: [
+        source_key: [
             {'PROVIDER NAME': name, 'EMIRATE': emirate}
-            for name, emirate in sorted(members - registry_identities)
+            for name, emirate in sorted(source['members'] - registry_identities)
         ]
-        for insurer, members in official.items()
+        for source_key, source in official.items()
     }
 
     # Precompute chain membership
@@ -149,15 +192,21 @@ def main():
         plan_emirates = set(plan['emirates'])
         members = []
         chain_allow = set(INSURER_CHAINS.get(insurer, []))
-        official_set = official.get(insurer)
+        source_key = plan.get('network_id') or insurer
+        official_source = official.get(source_key)
+        official_set = official_source['members'] if official_source else None
+        official_phones = official_source['phones'] if official_source else set()
 
         for r in registry:
             if not coord_ok(r):
                 continue
             em = r['P']
             n = norm_name(r['PROVIDER NAME'])
+            phones = phone_values(r.get('TELEPHONE', ''))
             layer = None
-            if official_set is not None and em in plan_emirates and (n, em) in official_set:
+            name_match = official_set is not None and (n, em) in official_set
+            phone_match = bool(official_phones.intersection((phone, em) for phone in phones))
+            if official_set is not None and em in plan_emirates and (name_match or phone_match):
                 layer = 'official'
             elif official_set is None and r['_chain'] and r['_chain'] in chain_allow and em in plan_emirates:
                 layer = 'chain'
@@ -199,7 +248,8 @@ def main():
     # Annotate plans.json with layer counts
     for plan in plans:
         plan['layers'] = dict(layers[plan['id']])
-        plan['network_source'] = ('official' if plan['insurer'] in official
+        source_key = plan.get('network_id') or plan['insurer']
+        plan['network_source'] = ('official' if source_key in official
                                   else 'chain+geo')
     with open(os.path.join(ROOT, 'data', 'plans.json'), 'w',
               encoding='utf-8') as f:

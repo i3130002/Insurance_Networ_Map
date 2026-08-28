@@ -16,6 +16,7 @@ class TakafolImportTest(unittest.TestCase):
     def test_network_id_is_stable_and_slugged(self) -> None:
         """Create filesystem-safe IDs from downloaded workbook names."""
         self.assertEqual(network_id_for("NAS - Comprehensive Network.xlsx"), "nas-comprehensive-network")
+        self.assertEqual(network_id_for("NEXTCARE - GN+.xlsx"), "nextcare-gn-plus")
 
 
 if __name__ == "__main__":

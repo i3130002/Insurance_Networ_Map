@@ -8,9 +8,9 @@
       "AUH"
     ],
     "file": "data/adico-classic.json",
-    "providers": 169,
+    "providers": 253,
     "layers": {
-      "official": 169,
+      "official": 253,
       "chain": 0,
       "geo_only": 0
     },
@@ -25,9 +25,9 @@
       "AUH"
     ],
     "file": "data/adico-premium.json",
-    "providers": 169,
+    "providers": 253,
     "layers": {
-      "official": 169,
+      "official": 253,
       "chain": 0,
       "geo_only": 0
     },
@@ -279,5 +279,989 @@
       "official": 0
     },
     "network_source": "chain+geo"
+  },
+  {
+    "id": "takafol-aafiya-apn-edge",
+    "name": "Takafol Emarat — AAFIYA - APN EDGE",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-aafiya-apn-edge.json",
+    "providers": 1418,
+    "network_id": "aafiya-apn-edge",
+    "layers": {
+      "official": 1418,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-aafiya-apn-plus",
+    "name": "Takafol Emarat — AAFIYA - APN PLUS",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-aafiya-apn-plus.json",
+    "providers": 1418,
+    "network_id": "aafiya-apn-plus",
+    "layers": {
+      "official": 1418,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-aafiya-apn",
+    "name": "Takafol Emarat — AAFIYA - APN",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-aafiya-apn.json",
+    "providers": 1418,
+    "network_id": "aafiya-apn",
+    "layers": {
+      "official": 1418,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-aafiya-diamond",
+    "name": "Takafol Emarat — AAFIYA - DIAMOND",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-aafiya-diamond.json",
+    "providers": 1418,
+    "network_id": "aafiya-diamond",
+    "layers": {
+      "official": 1418,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-aafiya-elite",
+    "name": "Takafol Emarat — AAFIYA - ELITE",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-aafiya-elite.json",
+    "providers": 1418,
+    "network_id": "aafiya-elite",
+    "layers": {
+      "official": 1418,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-aafiya-essential",
+    "name": "Takafol Emarat — AAFIYA - ESSENTIAL",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-aafiya-essential.json",
+    "providers": 1418,
+    "network_id": "aafiya-essential",
+    "layers": {
+      "official": 1418,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-aafiya-gold",
+    "name": "Takafol Emarat — AAFIYA - GOLD",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-aafiya-gold.json",
+    "providers": 1418,
+    "network_id": "aafiya-gold",
+    "layers": {
+      "official": 1418,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-am-access-rn4",
+    "name": "Takafol Emarat — AM-Access (RN4)",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-am-access-rn4.json",
+    "providers": 1469,
+    "network_id": "am-access-rn4",
+    "layers": {
+      "official": 1469,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-am-choice",
+    "name": "Takafol Emarat — AM-Choice",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-am-choice.json",
+    "providers": 1484,
+    "network_id": "am-choice",
+    "layers": {
+      "official": 1484,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-am-elite",
+    "name": "Takafol Emarat — AM-Elite",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-am-elite.json",
+    "providers": 1514,
+    "network_id": "am-elite",
+    "layers": {
+      "official": 1514,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-am-neo",
+    "name": "Takafol Emarat — AM-Neo",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-am-neo.json",
+    "providers": 701,
+    "network_id": "am-neo",
+    "layers": {
+      "official": 701,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-am-premier",
+    "name": "Takafol Emarat — AM-Premier",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-am-premier.json",
+    "providers": 1514,
+    "network_id": "am-premier",
+    "layers": {
+      "official": 1514,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-am-select-rn3",
+    "name": "Takafol Emarat — AM-Select (RN3)",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-am-select-rn3.json",
+    "providers": 1470,
+    "network_id": "am-select-rn3",
+    "layers": {
+      "official": 1470,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-ecare-blue-north-care-ne",
+    "name": "Takafol Emarat — Ecare - Blue North Care NE",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-ecare-blue-north-care-ne.json",
+    "providers": 106,
+    "network_id": "ecare-blue-north-care-ne",
+    "layers": {
+      "official": 106,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-ecare-blue",
+    "name": "Takafol Emarat — Ecare - Blue",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-ecare-blue.json",
+    "providers": 2147,
+    "network_id": "ecare-blue",
+    "layers": {
+      "official": 2147,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-ecare-classic",
+    "name": "Takafol Emarat — Ecare - Classic",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-ecare-classic.json",
+    "providers": 2147,
+    "network_id": "ecare-classic",
+    "layers": {
+      "official": 2147,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-ecare-green",
+    "name": "Takafol Emarat — Ecare - Green",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-ecare-green.json",
+    "providers": 2147,
+    "network_id": "ecare-green",
+    "layers": {
+      "official": 2147,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-mednet-emerald",
+    "name": "Takafol Emarat — MEDNET - EMERALD",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-mednet-emerald.json",
+    "providers": 1381,
+    "network_id": "mednet-emerald",
+    "layers": {
+      "official": 1381,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-mednet-excluded-reimbursement-provider",
+    "name": "Takafol Emarat — MEDNET - EXCLUDED REIMBURSEMENT PROVIDER",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-mednet-excluded-reimbursement-provider.json",
+    "providers": 0,
+    "network_id": "mednet-excluded-reimbursement-provider",
+    "layers": {
+      "official": 0,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-mednet-gold",
+    "name": "Takafol Emarat — MEDNET - GOLD",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-mednet-gold.json",
+    "providers": 1381,
+    "network_id": "mednet-gold",
+    "layers": {
+      "official": 1381,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-mednet-green",
+    "name": "Takafol Emarat — MEDNET - GREEN",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-mednet-green.json",
+    "providers": 1381,
+    "network_id": "mednet-green",
+    "layers": {
+      "official": 1381,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-mednet-pearl",
+    "name": "Takafol Emarat — MEDNET - PEARL",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-mednet-pearl.json",
+    "providers": 1381,
+    "network_id": "mednet-pearl",
+    "layers": {
+      "official": 1381,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-mednet-silk-road",
+    "name": "Takafol Emarat — MEDNET - SILK ROAD",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-mednet-silk-road.json",
+    "providers": 1381,
+    "network_id": "mednet-silk-road",
+    "layers": {
+      "official": 1381,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-mednet-silver-classic",
+    "name": "Takafol Emarat — MEDNET - SILVER CLASSIC",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-mednet-silver-classic.json",
+    "providers": 1381,
+    "network_id": "mednet-silver-classic",
+    "layers": {
+      "official": 1381,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-mednet-silver-premium",
+    "name": "Takafol Emarat — MEDNET - SILVER PREMIUM",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-mednet-silver-premium.json",
+    "providers": 1381,
+    "network_id": "mednet-silver-premium",
+    "layers": {
+      "official": 1381,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nas-comprehensive-network",
+    "name": "Takafol Emarat — NAS - Comprehensive Network",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nas-comprehensive-network.json",
+    "providers": 1433,
+    "network_id": "nas-comprehensive-network",
+    "layers": {
+      "official": 1433,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nas-general-network",
+    "name": "Takafol Emarat — NAS - GENERAL NETWORK",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nas-general-network.json",
+    "providers": 1433,
+    "network_id": "nas-general-network",
+    "layers": {
+      "official": 1433,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nas-restricted-network",
+    "name": "Takafol Emarat — NAS - RESTRICTED NETWORK",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nas-restricted-network.json",
+    "providers": 1433,
+    "network_id": "nas-restricted-network",
+    "layers": {
+      "official": 1433,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nas-super-restricted-network",
+    "name": "Takafol Emarat — NAS - SUPER-RESTRICTED NETWORK",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nas-super-restricted-network.json",
+    "providers": 1433,
+    "network_id": "nas-super-restricted-network",
+    "layers": {
+      "official": 1433,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nas-value-lite-network",
+    "name": "Takafol Emarat — NAS - Value Lite Network",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nas-value-lite-network.json",
+    "providers": 1,
+    "network_id": "nas-value-lite-network",
+    "layers": {
+      "official": 1,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nas-value-network",
+    "name": "Takafol Emarat — NAS - Value Network",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nas-value-network.json",
+    "providers": 557,
+    "network_id": "nas-value-network",
+    "layers": {
+      "official": 557,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nas-worker-network",
+    "name": "Takafol Emarat — NAS - WORKER NETWORK",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nas-worker-network.json",
+    "providers": 1433,
+    "network_id": "nas-worker-network",
+    "layers": {
+      "official": 1433,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nas-workers-lite-network",
+    "name": "Takafol Emarat — NAS - Workers Lite Network",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nas-workers-lite-network.json",
+    "providers": 1,
+    "network_id": "nas-workers-lite-network",
+    "layers": {
+      "official": 1,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nextcare-gn-excluding-mediclinic-al-zahra-sulaiman-al-habib-group",
+    "name": "Takafol Emarat — NEXTCARE - GN EXCLUDING MEDICLINIC ,AL ZAHRA,SULAIMAN AL HABIB GROUP",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nextcare-gn-excluding-mediclinic-al-zahra-sulaiman-al-habib-group.json",
+    "providers": 1539,
+    "network_id": "nextcare-gn-excluding-mediclinic-al-zahra-sulaiman-al-habib-group",
+    "layers": {
+      "official": 1539,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nextcare-gn-plus",
+    "name": "Takafol Emarat — NEXTCARE - GN+",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nextcare-gn-plus.json",
+    "providers": 1539,
+    "network_id": "nextcare-gn-plus",
+    "layers": {
+      "official": 1539,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nextcare-gn",
+    "name": "Takafol Emarat — NEXTCARE - GN",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nextcare-gn.json",
+    "providers": 1539,
+    "network_id": "nextcare-gn",
+    "layers": {
+      "official": 1539,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nextcare-pcp",
+    "name": "Takafol Emarat — NEXTCARE - PCP",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nextcare-pcp.json",
+    "providers": 1319,
+    "network_id": "nextcare-pcp",
+    "layers": {
+      "official": 1319,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nextcare-rn",
+    "name": "Takafol Emarat — NEXTCARE - RN",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nextcare-rn.json",
+    "providers": 1510,
+    "network_id": "nextcare-rn",
+    "layers": {
+      "official": 1510,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nextcare-rn2",
+    "name": "Takafol Emarat — NEXTCARE - RN2",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nextcare-rn2.json",
+    "providers": 1499,
+    "network_id": "nextcare-rn2",
+    "layers": {
+      "official": 1499,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nextcare-rn3",
+    "name": "Takafol Emarat — NEXTCARE - RN3",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nextcare-rn3.json",
+    "providers": 1388,
+    "network_id": "nextcare-rn3",
+    "layers": {
+      "official": 1388,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
+  },
+  {
+    "id": "takafol-nextcare-rne",
+    "name": "Takafol Emarat — NEXTCARE - RNE",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "AUH",
+      "DXB",
+      "FUJ",
+      "RAK",
+      "SHJ",
+      "UMQ"
+    ],
+    "file": "data/takafol-nextcare-rne.json",
+    "providers": 1510,
+    "network_id": "nextcare-rne",
+    "layers": {
+      "official": 1510,
+      "chain": 0,
+      "geo_only": 0
+    },
+    "network_source": "official"
   }
 ]
