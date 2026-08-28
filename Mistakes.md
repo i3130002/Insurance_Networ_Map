@@ -1,5 +1,7 @@
 # Mistakes
 
+- 2026-08-28: The first skill-file lookup treated catalog aliases as literal subdirectories. Use the mapped skill roots directly.
+
 - 2026-08-28: Firecrawl could not resolve `api.firecrawl.dev` while fetching the ASD-STE100 site. Switched to the available official web reader.
 - 2026-08-28: The skill initializer command used `python`, which is unavailable in this environment. Use `python3`.
 
@@ -13,3 +15,4 @@
 - 2026-08-28: The approved geocoding run completed, but staging its outputs failed because the main workspace `.git` remains read-only. Attempt a focused commit through the writable agent workspace.
 - 2026-08-28: The focused commit attempt failed because Git could not create `.git/index.lock`; retry with escalated permission.
 - 2026-08-28: The objectives commit attempt failed because Git could not create `.git/index.lock` in the read-only repository metadata. Retry with escalated permission.
+- 2026-08-28: The requested `.gitignore` commit failed because Git could not create `.git/index.lock`; repository metadata is read-only.
