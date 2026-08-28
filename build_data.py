@@ -53,8 +53,8 @@ def coord_ok(lat, lon) -> bool:
 
 
 def load_merged() -> list:
-    """Load merged providers from merged_ecare-blue.json + merged CSV extras."""
-    merged_path = '/opt/data/merged_ecare-blue.json'
+    """Load the merged provider registry from this repository."""
+    merged_path = os.path.join(ROOT, 'sources', 'merged-registry.json')
     with open(merged_path, encoding='utf-8') as f:
         entries = json.load(f)
     return entries
