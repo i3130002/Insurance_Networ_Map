@@ -52,6 +52,7 @@
 - 2026-08-29: Retesting Pi's Playwright browser produced the same missing-Chrome initialization error before page navigation.
 - 2026-08-29: Attempting to stage the Takafol XLSX was rejected by the intentional `*.xlsx` ignore rule. Keep raw workbooks local and export tracked normalized CSV data.
 - 2026-08-29: The user’s live Brave session differs from isolated automation profiles: direct download succeeds interactively, while isolated sessions receive zero-byte artifacts. Attach to the live browser or use its chosen download folder for reliable bulk capture.
+- 2026-08-29: Opening all Takafol direct-download links together triggered blocking. Process one link at a time with a delay and verify each completed file before continuing.
 - 2026-08-29: The first direct Playwright-with-Brave test failed from shell quoting before launch. Use a temporary script for browser tests with nested selectors.
 - 2026-08-29: The corrected Playwright-with-Brave script used a named ESM import against a CommonJS package and failed before launch. Use the package default export.
 - 2026-08-29: Playwright captured the Excel download in Brave, but `download.saveAs()` pointed to a vanished temporary path. Copy the download stream directly while the browser session is open.
