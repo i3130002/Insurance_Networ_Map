@@ -22076,6 +22076,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "AL SHIFA AL KHALEEJI MEDICAL CENTRE(SHJ)",
+  "AREA": "CATERPILLAR ROAD",
+  "ADDRESS": "INDUSTRAIL AREA NO. 2, CATERPILLAR ROAD, OPPOSITE TO ADNOC PETROL STATION NEXT TO DYNATRADE SERVICE CENTER, SHARJAH",
+  "TELEPHONE": "06-5328558",
+  "lat": "25.3204248",
+  "lon": "55.3837538",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: Al Shifa Al Khaleeji Medical Centre - Sharjah",
+  "Index": 2245
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "AL FURQAN MEDICAL CENTRE",
   "AREA": "IND AAREA -11",
   "ADDRESS": "PO. BOX 48431, M- 2179, FLOOR 1, SALEM SAEED OMAI AL JABERI BLDG, INDUSTRIAL AREA 11SHARJAH",
@@ -23051,6 +23064,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY - BRANCH 9",
+  "AREA": "AL SUYOH",
+  "ADDRESS": "SHARJAH COOPERATIVE SOCIETY SUYOH4  AL SUYOH SUBURB",
+  "TELEPHONE": "06-5353951",
+  "lat": "25.2225",
+  "lon": "55.6146",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HEALTH FIRST PHARMACY BR 9",
+  "Index": 2338
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "HEALTH FIRST PHARMACY - SHARJAH",
   "AREA": "CORNICHE",
   "ADDRESS": "CORNICHE ROAD- NEXT TO SUBWAY - SHARJAH",
@@ -23112,6 +23138,19 @@
   "confidence": "area_match",
   "formatted": "Lulu Hypermarket, شارع 36, النهدة, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
   "Index": 2345
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY L.L.C.SP - BRANCH 12",
+  "AREA": "AL KHUROOS",
+  "ADDRESS": "SHOP NO: 04, SHARJAH COOP, AL KHUROOS, SHARJAH, U.A.E",
+  "TELEPHONE": "06-5240865",
+  "lat": "25.3788",
+  "lon": "55.9993",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HEALTH FIRST PHARMACY BR 12",
+  "Index": 2346
  },
  {
   "P": "SHJ",

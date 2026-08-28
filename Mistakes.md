@@ -26,3 +26,8 @@
 - 2026-08-28: Takafol's exact SharePoint link and its resolved `NEXTCARE - GN+.xlsx` path both returned HTTP 403 with `download=1`; link-suffix changes cannot bypass the tenant access policy.
 - 2026-08-28: Two direct-link patch attempts missed the existing JavaScript context. Inspect exact source lines before applying a narrow patch.
 - 2026-08-28: An older geocoder process overlapped a newer source refresh and overwrote registry state. Do not run concurrent writers against `sources/merged-registry.json`.
+- 2026-08-28: The first Zavis batch exited without producing its result file. Add a hard timeout and verify the output file before treating a public-directory run as complete.
+- 2026-08-28: Direct urllib access to Zavis returned HTTP 403; use the approved browser/scraping path for JS-rendered public pages instead of assuming raw HTTP access.
+- 2026-08-28: The general web opener rejected the Zavis query URL as unsafe. Use the Firecrawl CLI for this site instead.
+- 2026-08-28: A multi-URL Firecrawl CLI call saved both pages to the same generated filename and did not honor the requested output path. Use one URL per call or isolate output directories.
+- 2026-08-28: Concurrent Firecrawl subprocesses produced no batch output, and an isolated subprocess returned an error while the direct CLI invocation worked. Keep Firecrawl calls in the controlling shell and verify each saved artifact.
