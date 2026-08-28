@@ -15,7 +15,7 @@ import time
 import urllib.parse
 import urllib.request
 
-ROOT = '/opt/data/Desktop/projects/Insurance-Network-Map'
+ROOT = os.path.dirname(os.path.abspath(__file__))
 REG = os.path.join(ROOT, 'sources', 'merged-registry.json')
 BACKLOG = os.path.join(ROOT, 'data', 'needs-geocoding.json')
 REPORT = os.path.join(ROOT, 'geocode_run_report.json')
@@ -51,7 +51,7 @@ def nominatim(query, limit=1):
                'q': query, 'countrycodes': 'ae', 'format': 'json',
                'limit': limit, 'addressdetails': 0}))
     req = urllib.request.Request(url, headers={'User-Agent': UA})
-    with urllib.request.urlopen(req, timeout=20) as r:
+    with urllib.request.urlopen(req, timeout=8) as r:
         return json.load(r)
 
 
@@ -149,7 +149,7 @@ def main():
             failures.append({'PROVIDER NAME': entry.get('PROVIDER NAME'),
                              'P': entry.get('P'), 'ADDRESS': entry.get('ADDRESS')})
 
-        if done % 50 == 0:
+        if done % 10 == 0:
             print(f'[{done}/{len(remaining)}] ok={stats["geocoded"]} '
                   f'fail={stats["failed"]}')
             # checkpoint
