@@ -40,7 +40,11 @@ list — replace `data/<plan-id>.json` when those lists are available and re-run
 python3 build_data.py
 ```
 
-Regenerates `data/` from the merged source at `/opt/data/merged_ecare-blue.json`.
+Regenerates `data/` from `sources/merged-registry.json`. See **[MAINTENANCE.md](MAINTENANCE.md)** for the full data pipeline.
+
+## Docs
+
+- **[MAINTENANCE.md](MAINTENANCE.md)** — data lineage, how to rebuild, geocode the backlog, add real insurer networks, add plans/providers
 
 ## Sources
 
