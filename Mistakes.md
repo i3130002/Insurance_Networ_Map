@@ -1,5 +1,8 @@
 # Mistakes
 
+- Validation failed after changing phone matching because generated plan files had not been rebuilt, and `GN+` initially collided with `GN` in the slugifier. Both issues are being corrected before the next validation run.
+- Git staging failed with `confused by unstable object source data`; the generated files remain in the worktree and will be staged again after checking repository state.
+
 - 2026-08-28: The first skill-file lookup treated catalog aliases as literal subdirectories. Use the mapped skill roots directly.
 
 - 2026-08-28: Firecrawl could not resolve `api.firecrawl.dev` while fetching the ASD-STE100 site. Switched to the available official web reader.
@@ -64,3 +67,4 @@
 ## 2026-08-29
 
 - `python3 -m unittest test_takafol_import.py` failed before the importer existed; the new test correctly exposed the missing implementation.
+- A combined documentation patch did not apply because one expected paragraph had changed; no files were modified by that failed patch.

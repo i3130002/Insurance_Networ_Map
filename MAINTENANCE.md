@@ -5,7 +5,8 @@ Everything regenerates from `sources/` via `build_data.py`.
 
 ```
 sources/csv/*.csv          raw + processed source data (do not hand-edit)
-sources/networks/          per-insurer official network CSVs (add these!)
+sources/networks/          per-insurer official network CSVs
+sources/csv/takafol-*.csv  imported Takafol workbook members and catalog
 sources/merged-registry.json   deduped merge of registry + repo data
         │
         ▼
@@ -96,7 +97,7 @@ Per-plan files are currently **emirate-coverage approximations** (every provider
 3. In `build_data.py`, replace the emirate-filter in the per-plan loop with a join against that CSV (match on normalized name + emirate — reuse `norm_name()`).
 4. Re-run `build_data.py`. The plan file then contains only genuine network members, and `plans.json` can carry a `"network_source": "official"` flag.
 
-Known official source: [Takaful Emarat's network page](https://takafulemarat.com/your-network/) lists 43 public Microsoft SharePoint workbooks for NAS, Nextcare, MedNet, NorthCare, APN, and AM networks. Direct workbook export returned HTTP 403 during the 2026-08-28 refresh; do not mark Takafol membership official until the files can be downloaded and mapped to products.
+Known official source: [Takaful Emarat's network page](https://takafulemarat.com/your-network/) lists public Microsoft SharePoint workbooks for NAS, Nextcare, MedNet, NorthCare, APN, and AM networks. The current 41 downloaded workbooks are normalized by `import_takafol_networks.py`; each workbook is exposed as a Takafol Emarat plan variant.
 
 Additional official sources: [Orient's network page](https://www.insuranceuae.com/medical-insurance/individual/individual/) provides downloadable Nextcare and MedNet workbooks; [Union Insurance's network page](https://www.unioninsurance.ae/en-us/medical-network/) provides eCare Blue and NAS workbooks. These are stored as `sources/networks/Orient Insurance.csv` and `sources/networks/Union Insurance.csv`; they are not assigned to a configured plan until matching plan metadata exists.
 
@@ -110,13 +111,13 @@ Fuzzy-matching tip: insurer lists write names differently ("NMC Medical Centre L
 
 ## 5. Adding a new plan (metadata only)
 
-Edit `PLANS` in `build_data.py`:
+Edit `PLANS` in `build_data.py` for legacy metadata-only plans:
 
 ```python
 ('newplan-id', 'Display Name', 'Insurer', 'Inpatient|Outpatient|Both', ['DXB','SHJ']),
 ```
 
-Re-run. `data/plans.json`, the dropdown (grouped by insurer), and the plan file all update automatically. Also add a row to `sources/csv/uae-insurance-plans.csv` so the metadata stays in one place.
+Re-run. `data/plans.json`, the company → plan selectors, and the plan file all update automatically. Takafol network plans are generated from `sources/csv/takafol-network-catalog.csv`.
 
 ## 6. Adding new providers
 
@@ -143,8 +144,9 @@ Known limits (fine to ignore until they bite):
 ## 9. Current state / TODO
 
 - [x] 2,390-provider deduped registry, all 8 emirates
-- [x] 15 plans / 8 insurers wired into the dropdown
+- [x] Company → plan selectors wired into the map
+- [x] 41 Takafol network workbooks imported and assigned by name/phone
 - [ ] Geocode the 174-entry backlog (§3) — **highest impact next step**
-- [ ] Replace emirate-approximation plans with official network lists (§4)
+- [ ] Replace remaining legacy emirate-approximation plans with official network lists (§4)
 - [ ] Dedupe review: some kept "duplicates" may be genuine branches — spot-check a sample
 - [ ] Provider-network-xref (§1) is heuristic; rebuild it against official lists

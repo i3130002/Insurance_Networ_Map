@@ -7,7 +7,7 @@ Interactive map of UAE healthcare providers, filterable by insurance plan.
 ## Features
 
 - 2,390 unique providers (clinics, hospitals, pharmacies, dental, diagnostic, daycare) across all 8 emirates
-- 15 insurance plans from 8 insurers (ADNIC, AXA Gulf, Aman, DARIC, Emirates NBD, Gulf Insurance, Noor Takaful, Takafol Emarat)
+- 56 selectable plans from 8 insurers, including 41 Takafol Emarat network variants
 - Marker clustering for performance; color-coded provider types
 - Popups with Google Maps link + AI search query per provider
 - Popups include a phone-first Zavis directory search link for provider cross-checking
@@ -31,10 +31,10 @@ Emirate codes: AJM, AUH, DXB, FUJ, RAK, SHJ, UMQ, ALAIN
 
 ### Plan network caveat
 
-Most per-plan files currently filter the full registry by the plan's **emirate
-coverage**. The ADNIC plans also use matches from the official ADNIC directory.
-True plan-level membership for the other insurers requires each insurer's
-official provider list.
+Most legacy per-plan files filter the full registry by the plan's **emirate
+coverage**. Takafol Emarat's 41 imported network lists and the ADNIC directory
+use official name/phone matches where the provider registry has an identity.
+Unmatched source rows remain in `data/network-unmatched.json` for review.
 
 ## Rebuilding data
 
