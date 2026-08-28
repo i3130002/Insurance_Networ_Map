@@ -66,9 +66,13 @@
 
     <div class="panel" id="panel">
         <h1>🇦🇪 UAE Insurance Network Map</h1>
+        <label for="insurerSelect">Insurance company:</label>
+        <select id="insurerSelect" disabled>
+            <option value="">-- Select a company --</option>
+        </select>
         <label for="planSelect">Insurance plan:</label>
-        <select id="planSelect" onchange="loadPlan(this.value)">
-            <option value="">-- Select a plan --</option>
+        <select id="planSelect" disabled>
+            <option value="">-- Select a company first --</option>
         </select>
         <label for="providerSearch">Provider name:</label>
         <input id="providerSearch" type="search" placeholder="Search providers" disabled>
@@ -132,6 +136,7 @@
         let cluster = null;   // recreated per plan load
         let selectedPlan = [];
         let selectedPlanNet = null;
+        let plansByInsurer = {};
 
         // ---------- helpers ----------
         const statusEl = document.getElementById('status');
@@ -200,30 +205,53 @@
                 const res = await fetch('data/plans.json');
                 if (!res.ok) throw new Error(`plans.json: HTTP ${res.status}`);
                 const plans = await res.json();
-                const sel = document.getElementById('planSelect');
-                // Group by insurer
-                const byInsurer = {};
+                plansByInsurer = {};
                 plans.forEach(p => {
-                    (byInsurer[p.insurer] = byInsurer[p.insurer] || []).push(p);
+                    (plansByInsurer[p.insurer] = plansByInsurer[p.insurer] || []).push(p);
                 });
-                Object.keys(byInsurer).sort().forEach(ins => {
-                    const g = document.createElement('optgroup');
-                    g.label = ins;
-                    byInsurer[ins].forEach(p => {
-                        const o = document.createElement('option');
-                        o.value = `${p.file}|${p.id}`;
-                        const layers = p.layers
-                            ? ` — ✔${p.layers.official || 0} ⛓${p.layers.chain || 0} ≈${p.layers.geo_only || 0}`
-                            : '';
-                        o.textContent = `${p.name} (${p.providers}${layers})`;
-                        g.appendChild(o);
-                    });
-                    sel.appendChild(g);
+                const insurerSelect = document.getElementById('insurerSelect');
+                insurerSelect.innerHTML = '<option value="">-- Select a company --</option>';
+                Object.keys(plansByInsurer).sort().forEach(insurer => {
+                    insurerSelect.append(new Option(insurer, insurer));
                 });
-                setStatus(`${plans.length} plans available`);
+                insurerSelect.disabled = false;
+                setStatus('Select an insurance company');
             } catch (err) {
                 setStatus(`Failed to load plan list: ${err.message}`, true);
             }
+        }
+
+        function planOption(plan) {
+            const option = document.createElement('option');
+            option.value = `${plan.file}|${plan.id}`;
+            const layers = plan.layers
+                ? ` — ✔${plan.layers.official || 0} ⛓${plan.layers.chain || 0} ≈${plan.layers.geo_only || 0}`
+                : '';
+            option.textContent = `${plan.name} (${plan.providers}${layers})`;
+            return option;
+        }
+
+        function clearPlanView(message) {
+            if (cluster) { map.removeLayer(cluster); cluster = null; }
+            selectedPlan = [];
+            selectedPlanNet = null;
+            document.getElementById('providerSearch').disabled = true;
+            ['emirateFilter', 'typeFilter', 'resetFilters'].forEach(id => {
+                document.getElementById(id).disabled = true;
+            });
+            setStatus(message);
+        }
+
+        function populatePlanOptions(insurer) {
+            const planSelect = document.getElementById('planSelect');
+            planSelect.innerHTML = '<option value="">-- Select a plan --</option>';
+            clearPlanView(insurer ? 'Select an insurance plan' : 'Select an insurance company');
+            if (!insurer) {
+                planSelect.disabled = true;
+                return;
+            }
+            (plansByInsurer[insurer] || []).forEach(plan => planSelect.append(planOption(plan)));
+            planSelect.disabled = false;
         }
 
         let netIndex = null;   // plan_id -> {Index: {layer, chain}}
@@ -338,6 +366,10 @@
         }
 
         document.getElementById('providerSearch').addEventListener('input', renderProviders);
+        document.getElementById('insurerSelect').addEventListener('change', event =>
+            populatePlanOptions(event.target.value));
+        document.getElementById('planSelect').addEventListener('change', event =>
+            loadPlan(event.target.value));
         ['emirateFilter', 'typeFilter'].forEach(id =>
             document.getElementById(id).addEventListener('change', renderProviders));
         document.getElementById('resetFilters').addEventListener('click', resetFilters);

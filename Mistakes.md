@@ -52,6 +52,8 @@
 - 2026-08-29: Retesting Pi's Playwright browser produced the same missing-Chrome initialization error before page navigation.
 - 2026-08-29: Attempting to stage the Takafol XLSX was rejected by the intentional `*.xlsx` ignore rule. Keep raw workbooks local and export tracked normalized CSV data.
 - 2026-08-29: The user’s live Brave session differs from isolated automation profiles: direct download succeeds interactively, while isolated sessions receive zero-byte artifacts. Attach to the live browser or use its chosen download folder for reliable bulk capture.
+- 2026-08-29: The UI flow contract test correctly failed before the separate company selector was implemented; keep the test as the regression contract.
+- 2026-08-29: The first post-implementation UI contract run used a selector-variable assertion that did not match the DOM lookup style. Assert the actual event-binding expression.
 - 2026-08-29: Opening all Takafol direct-download links together triggered blocking. Process one link at a time with a delay and verify each completed file before continuing.
 - 2026-08-29: The first direct Playwright-with-Brave test failed from shell quoting before launch. Use a temporary script for browser tests with nested selectors.
 - 2026-08-29: The corrected Playwright-with-Brave script used a named ESM import against a CommonJS package and failed before launch. Use the package default export.
@@ -59,3 +61,6 @@
 - 2026-08-29: Reading the Playwright download stream immediately returned a zero-byte file. Wait for `download.failure()` and `download.path()` before copying the completed artifact.
 - 2026-08-29: Direct `download=1` triggered Brave's download event, but Playwright's temporary artifact path was absent when copied. Test the completed download stream as the transfer path.
 - 2026-08-29: The direct SharePoint download event returned zero bytes through Playwright's stream. Check Brave's own download directory separately before classifying the response as empty.
+## 2026-08-29
+
+- `python3 -m unittest test_takafol_import.py` failed before the importer existed; the new test correctly exposed the missing implementation.
