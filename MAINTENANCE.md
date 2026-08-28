@@ -62,6 +62,16 @@ print('all plan files clean')
 EOF
 ```
 
+Then run the data validator:
+
+```bash
+python3 validate_data.py
+```
+
+It checks `data/plans.json`, every referenced plan file, provider fields and types,
+emirate codes, coordinate values and UAE bounds, provider counts, and optional
+network-assignment indexes. The command must pass before deployment.
+
 ## 3. Geocoding the backlog
 
 `data/needs-geocoding.json` holds providers with no valid pin. To fix:
