@@ -80,6 +80,13 @@ def validate_provider(provider: Any, position: int, errors: list[str]) -> None:
             errors.append(f"{label} has out-of-bounds {coordinate}: {value}")
 
 
+def normalized_provider_name(name: Any) -> str | None:
+    """Normalize a provider name for duplicate identity checks."""
+    if not isinstance(name, str):
+        return None
+    return " ".join(name.casefold().split())
+
+
 def validate_plan(plan: Any, errors: list[str]) -> tuple[str | None, set[int]]:
     """Validate one plan metadata record and its referenced provider file."""
     if not isinstance(plan, dict):
@@ -103,10 +110,34 @@ def validate_plan(plan: Any, errors: list[str]) -> tuple[str | None, set[int]]:
     if plan.get("providers") != len(providers):
         errors.append(f"{label} provider count is {plan.get('providers')}, file has {len(providers)}")
     indexes: set[int] = set()
+    index_positions: dict[int, int] = {}
+    identities: dict[tuple[str, str], int] = {}
     for position, provider in enumerate(providers):
         validate_provider(provider, position, errors)
-        if isinstance(provider, dict) and isinstance(provider.get("Index"), int) and not isinstance(provider.get("Index"), bool):
-            indexes.add(provider["Index"])
+        if not isinstance(provider, dict):
+            continue
+        index = provider.get("Index")
+        if isinstance(index, int) and not isinstance(index, bool):
+            if index in index_positions:
+                errors.append(
+                    f"{label} has duplicate provider index {index} at positions "
+                    f"{index_positions[index]} and {position}"
+                )
+            else:
+                index_positions[index] = position
+            indexes.add(index)
+        name = normalized_provider_name(provider.get("PROVIDER NAME"))
+        emirate = provider.get("P")
+        if name is not None and isinstance(emirate, str):
+            identity = (name, emirate)
+            if identity in identities:
+                errors.append(
+                    f"{label} has duplicate provider identity at positions "
+                    f"{identities[identity]} and {position}: "
+                    f"{provider.get('PROVIDER NAME')!r} ({emirate})"
+                )
+            else:
+                identities[identity] = position
     return plan_id, indexes
 
 
