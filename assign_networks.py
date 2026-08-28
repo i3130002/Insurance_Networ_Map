@@ -126,6 +126,16 @@ def main():
 
     print('Loading official network lists...')
     official = load_official_networks()
+    registry_identities = {
+        (norm_name(r['PROVIDER NAME']), r['P']) for r in registry
+    }
+    unmatched_official = {
+        insurer: [
+            {'PROVIDER NAME': name, 'EMIRATE': emirate}
+            for name, emirate in sorted(members - registry_identities)
+        ]
+        for insurer, members in official.items()
+    }
 
     # Precompute chain membership
     for r in registry:
@@ -167,6 +177,10 @@ def main():
               encoding='utf-8') as f:
         json.dump({'plans': {pid: dict(v) for pid, v in layers.items()},
                    'assignments': assignments}, f, ensure_ascii=False)
+
+    with open(os.path.join(ROOT, 'data', 'network-unmatched.json'), 'w',
+              encoding='utf-8') as f:
+        json.dump(unmatched_official, f, ensure_ascii=False, indent=2)
 
     # Annotate plans.json with layer counts
     for plan in plans:

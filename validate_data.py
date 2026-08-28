@@ -10,6 +10,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent
 PLAN_INDEX = ROOT / "data" / "plans.json"
 ASSIGNMENTS = ROOT / "data" / "network-assignments.json"
+UNMATCHED_NETWORKS = ROOT / "data" / "network-unmatched.json"
 EMIRATES = {"AJM", "AUH", "DXB", "FUJ", "RAK", "SHJ", "UMQ", "ALAIN"}
 PROVIDER_TYPES = {
     "CLINIC",
@@ -164,6 +165,29 @@ def validate_assignments(indexes_by_plan: dict[str, set[int]], errors: list[str]
                 errors.append(f"assignment {plan_id}[{position}] references missing provider index {index!r}")
 
 
+def validate_unmatched_networks(errors: list[str]) -> None:
+    """Check the official-network review report has the documented shape."""
+    if not UNMATCHED_NETWORKS.exists():
+        return
+    try:
+        data = load_json(UNMATCHED_NETWORKS)
+    except ValueError as error:
+        errors.append(str(error))
+        return
+    if not isinstance(data, dict):
+        errors.append("network-unmatched.json must contain an insurer object")
+        return
+    for insurer, records in data.items():
+        if not isinstance(insurer, str) or not isinstance(records, list):
+            errors.append("network-unmatched.json has an invalid insurer entry")
+            continue
+        for position, record in enumerate(records):
+            if (not isinstance(record, dict)
+                    or not isinstance(record.get("PROVIDER NAME"), str)
+                    or not isinstance(record.get("EMIRATE"), str)):
+                errors.append(f"network-unmatched {insurer}[{position}] is invalid")
+
+
 def main() -> int:
     """Validate all configured data and return a process exit status."""
     errors: list[str] = []
@@ -181,6 +205,7 @@ def main() -> int:
         if plan_id is not None:
             indexes_by_plan[plan_id] = indexes
     validate_assignments(indexes_by_plan, errors)
+    validate_unmatched_networks(errors)
     if errors:
         print(f"Validation failed with {len(errors)} error(s):")
         print("\n".join(f"- {error}" for error in errors))

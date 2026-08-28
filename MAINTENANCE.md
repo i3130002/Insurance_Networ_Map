@@ -12,7 +12,7 @@ sources/merged-registry.json   deduped merge of registry + repo data
 build_data.py              validates coords, dedupes, splits per plan
         │
         ▼
-data/*.json                what the website actually loads
+data/*.json                what the website and review tools load
 ```
 
 ---
@@ -70,7 +70,8 @@ python3 validate_data.py
 
 It checks `data/plans.json`, every referenced plan file, provider fields and types,
 emirate codes, coordinate values and UAE bounds, provider counts, and optional
-network-assignment indexes. The command must pass before deployment.
+network-assignment indexes, and the official-network unmatched review report.
+The command must pass before deployment.
 
 ## 3. Geocoding the backlog
 
@@ -97,6 +98,10 @@ Per-plan files are currently **emirate-coverage approximations** (every provider
 Known official source: [Takaful Emarat's network page](https://takafulemarat.com/your-network/) lists 43 public Microsoft SharePoint workbooks for NAS, Nextcare, MedNet, NorthCare, APN, and AM networks. Direct workbook export returned HTTP 403 during the 2026-08-28 refresh; do not mark Takafol membership official until the files can be downloaded and mapped to products.
 
 Additional official sources: [Orient's network page](https://www.insuranceuae.com/medical-insurance/individual/individual/) provides downloadable Nextcare and MedNet workbooks; [Union Insurance's network page](https://www.unioninsurance.ae/en-us/medical-network/) provides eCare Blue and NAS workbooks. These are stored as `sources/networks/Orient Insurance.csv` and `sources/networks/Union Insurance.csv`; they are not assigned to a configured plan until matching plan metadata exists.
+
+`assign_networks.py` writes `data/network-unmatched.json` with official-list records
+that do not match the provider registry by normalized name and emirate. Review this
+file before adding aliases or manual matches.
 
 The [Sukoon provider locator](https://www.sukoon.com/health-insurance/clinic-hospital-list?networkType=EDGE&emirate=Dubai) exposes a public read-only lookup endpoint with coordinates. The current source stores 3,381 EDGE providers across eight emirates in `sources/networks/Sukoon Insurance.csv`.
 
