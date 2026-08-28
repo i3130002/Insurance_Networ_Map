@@ -40,9 +40,11 @@
 - 2026-08-29: The captured Excel download endpoint returned a 1,466-byte HTML internal-error page with HTTP 200, not an XLSX. Verify MIME/signature before accepting browser downloads.
 - 2026-08-29: The general web tool followed a Takafol SharePoint workbook link into a Microsoft login redirect and could not fetch the workbook. Use the rendered Excel browser route for public page inspection.
 - 2026-08-29: Local Brave headless navigation hung on the SharePoint workbook and produced no download. The user’s interactive Brave session may succeed because it has a full GUI/private profile unavailable to this agent.
+- 2026-08-29: The first local Brave automation script used an incorrect Puppeteer ESM path. Resolve the installed package entry point before launching the batch.
 - 2026-08-29: Reusing the `frame` binding in the persistent browser REPL caused a redeclaration syntax error. Use unique binding names for each interaction call.
 - 2026-08-28: The first Zavis batch exited without producing its result file. Add a hard timeout and verify the output file before treating a public-directory run as complete.
 - 2026-08-28: Direct urllib access to Zavis returned HTTP 403; use the approved browser/scraping path for JS-rendered public pages instead of assuming raw HTTP access.
 - 2026-08-28: The general web opener rejected the Zavis query URL as unsafe. Use the Firecrawl CLI for this site instead.
 - 2026-08-28: A multi-URL Firecrawl CLI call saved both pages to the same generated filename and did not honor the requested output path. Use one URL per call or isolate output directories.
 - 2026-08-28: Concurrent Firecrawl subprocesses produced no batch output, and an isolated subprocess returned an error while the direct CLI invocation worked. Keep Firecrawl calls in the controlling shell and verify each saved artifact.
+- 2026-08-29: Chromium Flatpak tests with `--download-directory` and an X11 GUI opened the Excel workbook but produced no local XLSX. Treat the native Excel download action as unresolved until a manually confirmed save is available.
