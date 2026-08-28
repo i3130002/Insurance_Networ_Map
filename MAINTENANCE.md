@@ -32,7 +32,7 @@ data/*.json                what the website actually loads
 **Coordinate quality, honestly:**
 - `merged-providers.csv` rows that came from the old `ecare-blue.json` have real building-level Geoapify coords (with `confidence`).
 - Rows that came from the MOH batch mostly have empty or area-level coords.
-- `data/needs-geocoding.json` (1,258 entries) is exactly the backlog of rows without usable pins.
+- `data/needs-geocoding.json` (currently 200 entries) is exactly the backlog of rows without usable pins.
 
 ## 2. Rebuilding the site data
 
@@ -83,7 +83,7 @@ network-assignment indexes. The command must pass before deployment.
 3. Accept a result only if it lands in the UAE bounding box (lat 22–26.6, lon 51–56.6) **and** the returned address contains the expected emirate — ~42% of the old geocodes were wrong-emirate, so verify.
 4. Merge results back into `sources/merged-registry.json` (fill `lat`/`lon`, set `confidence`), then re-run `build_data.py`.
 
-Rate-limit politely: 1 req/sec Nominatim, ~1,258 entries ≈ 25 min.
+Rate-limit politely: 1 req/sec Nominatim, ~200 entries ≈ 4 min.
 
 ## 4. Adding a REAL insurance network
 
