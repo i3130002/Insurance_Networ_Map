@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UAE Insurance Network Map: Project objectives</title>
+    <style>
+        :root { color-scheme: light; --ink: #1f2937; --muted: #64748b; --line: #dbe3ec; --link: #075985; }
+        * { box-sizing: border-box; }
+        body { margin: 0; background: #f8fafc; color: var(--ink); font: 16px/1.6 system-ui, sans-serif; }
+        main { max-width: 860px; margin: 0 auto; padding: 48px 24px 72px; }
+        h1 { margin-bottom: 8px; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; }
+        h2 { margin-top: 2.4rem; line-height: 1.2; }
+        p { max-width: 70ch; }
+        li { margin: 6px 0; max-width: 70ch; }
+        .intro, .note { padding: 16px 20px; border-left: 4px solid #0e7490; background: #ecfeff; }
+        .meta { color: var(--muted); margin-top: 0; }
+        .state { border-collapse: collapse; width: 100%; margin-top: 16px; background: white; }
+        .state th, .state td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+        .state th { width: 34%; background: #f1f5f9; }
+        a { color: var(--link); }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>UAE Insurance Network Map</h1>
+        <p class="meta">Project objectives and scope notes</p>
+
+        <p class="intro">
+            This project aims to provide a public, static map of UAE healthcare providers.
+            A user selects an insurance plan and sees the providers associated with that plan
+            on an interactive map.
+        </p>
+
+        <h2>Primary objective</h2>
+        <p>
+            Build a publicly accessible map that helps users find UAE healthcare providers
+            relevant to an insurance plan.
+        </p>
+
+        <h2>User-facing objectives</h2>
+        <ul>
+            <li>Show healthcare providers across all eight UAE emirates.</li>
+            <li>Filter providers by insurance plan.</li>
+            <li>Display each provider's type, name, emirate, area, address, and telephone number.</li>
+            <li>Provide a Google Maps lookup link for each provider.</li>
+            <li>Provide an optional Google AI search link for each provider.</li>
+            <li>Use clustered, color-coded map markers so large provider sets remain usable.</li>
+        </ul>
+
+        <h2>Data objectives</h2>
+        <ul>
+            <li>Combine UAE Ministry of Health data with existing provider data.</li>
+            <li>Deduplicate providers by normalized name and emirate.</li>
+            <li>Keep the best available address and coordinates for duplicate records.</li>
+            <li>Validate coordinates against UAE geographic bounds.</li>
+            <li>Track providers without usable coordinates separately.</li>
+            <li>Generate plan-specific JSON datasets for the website.</li>
+            <li>Keep source data and rebuild steps documented and reproducible.</li>
+        </ul>
+
+        <h2>Insurance-network objectives</h2>
+        <p>
+            The long-term goal is to show providers genuinely covered by each insurance plan.
+            Network evidence should be visible to users and ranked by reliability.
+        </p>
+        <ol>
+            <li>Official insurer network lists, when available.</li>
+            <li>Known healthcare-chain affiliations.</li>
+            <li>Emirate coverage as a clearly labeled fallback approximation.</li>
+        </ol>
+
+        <h2>Maintenance objectives</h2>
+        <ul>
+            <li>Rebuild website data from source data through scripts.</li>
+            <li>Add official insurer network lists under <code>sources/networks/</code>.</li>
+            <li>Finish geocoding the remaining provider backlog.</li>
+            <li>Replace emirate-based approximations with verified network membership.</li>
+            <li>Review possible false duplicate merges.</li>
+            <li>Keep provider and plan data extensible.</li>
+        </ul>
+
+        <h2>Current state</h2>
+        <table class="state">
+            <tr><th>Map</th><td>Static Leaflet map exists.</td></tr>
+            <tr><th>Providers</th><td>2,390 providers are currently included in the mapped registry.</td></tr>
+            <tr><th>Plans</th><td>15 plans from 8 insurers are configured.</td></tr>
+            <tr><th>Geocoding</th><td>1,258 records remain in the tracked backlog. The latest run reports 994 successes and 264 failures.</td></tr>
+            <tr><th>Network accuracy</th><td>Plan membership is still partly approximate and is not yet authoritative.</td></tr>
+            <tr><th>Verification</th><td>No automated tests or formal validation workflow are currently present.</td></tr>
+        </table>
+
+        <h2>Questions for future scope decisions</h2>
+        <ul>
+            <li>Is this primarily a provider directory or an insurance eligibility tool?</li>
+            <li>Must insurance membership be accurate enough for real treatment decisions?</li>
+            <li>Should users filter by provider type, emirate, distance, or specialty?</li>
+            <li>Should stale or uncertain provider records remain visible?</li>
+            <li>How often should provider and insurer data be refreshed?</li>
+            <li>Are the Google AI search links required or merely convenient?</li>
+        </ul>
+
+        <h2>Prioritized vertical implementation plan</h2>
+        <p>
+            Complete each slice end to end. Do not start the next slice until its success
+            check passes. The first slices make the map useful quickly. Later slices improve
+            accuracy and coverage.
+        </p>
+
+        <h3>1. Make the current map reproducible</h3>
+        <ol>
+            <li>Make the data build scripts use paths relative to the repository.</li>
+            <li>Run the build from a clean checkout.</li>
+            <li>Confirm that all generated files required by the website are produced.</li>
+            <li>Record the exact build command in the maintainer documentation.</li>
+        </ol>
+        <p><strong>Success check:</strong> A clean checkout can regenerate the website data and open the map without manual path changes.</p>
+
+        <h3>2. Deliver one trustworthy provider map</h3>
+        <ol>
+            <li>Use the validated provider registry as the single map input.</li>
+            <li>Show provider markers with type, name, location, address, and telephone.</li>
+            <li>Keep invalid-coordinate records out of the map and in the backlog.</li>
+            <li>Check representative providers from each emirate and provider type.</li>
+        </ol>
+        <p><strong>Success check:</strong> Users can open the site, see valid UAE markers, and inspect correct provider details.</p>
+
+        <h3>3. Add useful plan selection</h3>
+        <ol>
+            <li>Load plan metadata from <code>data/plans.json</code>.</li>
+            <li>Group plans by insurer in the selector.</li>
+            <li>Load the selected plan's provider dataset.</li>
+            <li>Replace the previous plan layer when the user selects another plan.</li>
+            <li>Show the number of providers loaded and display a readable error when loading fails.</li>
+        </ol>
+        <p><strong>Success check:</strong> A user can select every configured plan and see the expected provider count without stale markers from another plan.</p>
+
+        <h3>4. Add basic provider discovery</h3>
+        <ol>
+            <li>Add filters for emirate and provider type.</li>
+            <li>Add a provider-name search.</li>
+            <li>Keep filtering client-side while datasets remain small enough for the browser.</li>
+            <li>Update the visible count after every filter change.</li>
+        </ol>
+        <p><strong>Success check:</strong> A user can find a named clinic, restrict results to an emirate, and restrict results to a provider type.</p>
+
+        <h3>5. Finish coordinate coverage</h3>
+        <ol>
+            <li>Process the geocoding backlog in small, resumable batches.</li>
+            <li>Accept coordinates only when they fall inside the UAE bounds and match the expected emirate.</li>
+            <li>Keep failed and uncertain records in a review list.</li>
+            <li>Regenerate all derived datasets after each completed batch.</li>
+            <li>Compare counts before and after each run.</li>
+        </ol>
+        <p><strong>Success check:</strong> The backlog count decreases, no accepted coordinate falls outside the expected emirate, and the website exposes the newly mapped providers.</p>
+
+        <h3>6. Make network membership accurate</h3>
+        <ol>
+            <li>Collect an authoritative provider list for one insurance plan.</li>
+            <li>Define the source format and provider matching rules.</li>
+            <li>Join the official list to the normalized provider registry.</li>
+            <li>Record unmatched official providers for review.</li>
+            <li>Show official, chain-based, and geographic matches with distinct labels.</li>
+            <li>Repeat the process plan by plan.</li>
+        </ol>
+        <p><strong>Success check:</strong> At least one plan contains only confirmed network members, its source is recorded, and the UI does not present geographic approximations as confirmed coverage.</p>
+
+        <h3>7. Add operational data checks</h3>
+        <ol>
+            <li>Check required provider fields, valid emirate codes, provider types, and coordinates.</li>
+            <li>Check that every plan references an existing generated file.</li>
+            <li>Check that plan counts match their files.</li>
+            <li>Check that provider indexes used by network assignments exist.</li>
+            <li>Run the checks after every data rebuild.</li>
+        </ol>
+        <p><strong>Success check:</strong> A broken or inconsistent data build fails clearly before deployment.</p>
+
+        <h3>8. Improve the public user experience</h3>
+        <ol>
+            <li>Make the map and controls usable on mobile screens.</li>
+            <li>Explain the difference between confirmed and approximate network membership.</li>
+            <li>Show data date and source information.</li>
+            <li>Improve keyboard access, focus states, contrast, and popup readability.</li>
+            <li>Add a clear empty-state message when filters return no providers.</li>
+        </ol>
+        <p><strong>Success check:</strong> A first-time user can understand what the map shows, use it on a phone, and tell whether network information is confirmed.</p>
+
+        <h3>9. Establish refresh and release procedures</h3>
+        <ol>
+            <li>Document where new provider and insurer data comes from.</li>
+            <li>Define how often each source should be reviewed.</li>
+            <li>Keep source dates and data changes visible in the repository.</li>
+            <li>Run the data checks before publishing.</li>
+            <li>Publish only after representative plan and provider checks pass.</li>
+        </ol>
+        <p><strong>Success check:</strong> Another maintainer can update the data, verify the result, and publish the site without relying on undocumented steps.</p>
+
+        <p class="note">
+            Current wording should not claim that a provider is covered by a plan unless an
+            authoritative insurer network source confirms it. The current data more reliably
+            shows providers located within a plan's covered emirates.
+        </p>
+    </main>
+</body>
+</html>
