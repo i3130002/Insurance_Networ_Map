@@ -38,6 +38,8 @@
         .reset-filters:disabled { cursor: not-allowed; opacity: .6; }
         #status { font-size: .85rem; color: #666; min-height: 1.2em; margin-bottom: 6px; }
         #status.error { color: #b02a37; }
+        .source-note { font-size: .72rem; color: #666; line-height: 1.4; border-top: 1px solid #eee; padding-top: 8px; }
+        .source-note a { color: #075985; }
         .legend { font-size: .75rem; color: #666; border-top: 1px solid #eee; padding-top: 8px; margin-top: 8px; }
         .legend b { color: #333; }
         .type-icon {
@@ -76,6 +78,16 @@
         <select id="typeFilter" disabled><option value="">All provider types</option></select>
         <button id="resetFilters" class="reset-filters" type="button" disabled>Reset filters</button>
         <div id="status"></div>
+        <div class="source-note">
+            <b>Data sources:</b>
+            UAE provider registry and insurer network files are maintained in the
+            <a href="https://github.com/i3130002/Insurance-Network-Map" target="_blank" rel="noopener">project repository</a>.
+            Official network references include
+            <a href="https://www.insuranceuae.com/medical-insurance/individual/individual/" target="_blank" rel="noopener">Orient</a>,
+            <a href="https://www.unioninsurance.ae/en-us/medical-network/" target="_blank" rel="noopener">Union</a>, and
+            <a href="https://www.sukoon.com/health-insurance/clinic-hospital-list?networkType=EDGE&emirate=Dubai" target="_blank" rel="noopener">Sukoon</a>.
+            Confirm coverage with your insurer before treatment.
+        </div>
         <div class="legend" id="legend">
             <b>Provider types:</b><br>
             <span class="type-icon" style="background:#0d6efd">C</span>Clinic
