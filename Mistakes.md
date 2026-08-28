@@ -19,3 +19,5 @@
 - 2026-08-28: The objectives commit attempt failed because Git could not create `.git/index.lock` in the read-only repository metadata. Retry with escalated permission.
 - 2026-08-28: The requested `.gitignore` commit failed because Git could not create `.git/index.lock`; repository metadata is read-only.
 - 2026-08-28: Manual removal of generated geocoder fields left trailing commas in two JSON objects. Validate generated JSON after targeted cleanup.
+- 2026-08-28: Direct export of a public Takaful Emarat SharePoint workbook returned HTTP 403; retain the official source link and do not infer network membership.
+- 2026-08-28: The full Nominatim retry completed with zero additional accepted coordinates; remaining backlog needs better source data.

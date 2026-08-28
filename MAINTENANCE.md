@@ -94,6 +94,8 @@ Per-plan files are currently **emirate-coverage approximations** (every provider
 3. In `build_data.py`, replace the emirate-filter in the per-plan loop with a join against that CSV (match on normalized name + emirate — reuse `norm_name()`).
 4. Re-run `build_data.py`. The plan file then contains only genuine network members, and `plans.json` can carry a `"network_source": "official"` flag.
 
+Known official source: [Takaful Emarat's network page](https://takafulemarat.com/your-network/) lists 43 public Microsoft SharePoint workbooks for NAS, Nextcare, MedNet, NorthCare, APN, and AM networks. Direct workbook export returned HTTP 403 during the 2026-08-28 refresh; do not mark Takafol membership official until the files can be downloaded and mapped to products.
+
 Fuzzy-matching tip: insurer lists write names differently ("NMC Medical Centre LLC" vs "NMC MEDICAL CENTER L.L.C"). `norm_name()` handles the common cases; consider `rapidfuzz` (token_set_ratio > 90) for the rest, and keep an explicit override map for recurring mismatches.
 
 ## 5. Adding a new plan (metadata only)
