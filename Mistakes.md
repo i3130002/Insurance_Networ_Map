@@ -48,3 +48,4 @@
 - 2026-08-28: A multi-URL Firecrawl CLI call saved both pages to the same generated filename and did not honor the requested output path. Use one URL per call or isolate output directories.
 - 2026-08-28: Concurrent Firecrawl subprocesses produced no batch output, and an isolated subprocess returned an error while the direct CLI invocation worked. Keep Firecrawl calls in the controlling shell and verify each saved artifact.
 - 2026-08-29: Chromium Flatpak tests with `--download-directory` and an X11 GUI opened the Excel workbook but produced no local XLSX. Treat the native Excel download action as unresolved until a manually confirmed save is available.
+- 2026-08-29: Pi's Playwright browser tool could not initialize because `/opt/google/chrome/chrome` is absent. Do not install a browser for this task; use the existing Chromium CDP session instead.
