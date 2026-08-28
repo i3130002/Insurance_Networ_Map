@@ -40,9 +40,12 @@ official provider list.
 
 ```bash
 python3 build_data.py
+python3 assign_networks.py
 ```
 
-Regenerates `data/` from `sources/merged-registry.json`. See **[MAINTENANCE.md](MAINTENANCE.md)** for the full data pipeline.
+Regenerates `data/` from `sources/merged-registry.json` and applies official
+network membership where a configured plan has a matching source. See
+**[MAINTENANCE.md](MAINTENANCE.md)** for the full data pipeline.
 
 ## Docs
 

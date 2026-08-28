@@ -159,7 +159,7 @@ def main():
             layer = None
             if official_set is not None and em in plan_emirates and (n, em) in official_set:
                 layer = 'official'
-            elif r['_chain'] and r['_chain'] in chain_allow and em in plan_emirates:
+            elif official_set is None and r['_chain'] and r['_chain'] in chain_allow and em in plan_emirates:
                 layer = 'chain'
             elif official_set is None and em in plan_emirates:
                 layer = 'geo_only'
@@ -169,6 +169,20 @@ def main():
                 layers[plan['id']][layer] += 1
 
         assignments[plan['id']] = members
+        if official_set is not None:
+            official_indexes = {
+                member['index'] for member in members if member['layer'] == 'official'
+            }
+            plan_path = os.path.join(ROOT, plan['file'])
+            with open(plan_path, encoding='utf-8') as f:
+                plan_providers = json.load(f)
+            plan_providers = [
+                provider for provider in plan_providers
+                if provider['Index'] in official_indexes
+            ]
+            with open(plan_path, 'w', encoding='utf-8') as f:
+                json.dump(plan_providers, f, ensure_ascii=False, indent=1)
+            plan['providers'] = len(plan_providers)
         c = layers[plan['id']]
         print(f"{plan['name']:35s} official={c['official']:5d} "
               f"chain={c['chain']:5d} geo={c['geo_only']:5d}")

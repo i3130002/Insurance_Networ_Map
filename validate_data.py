@@ -188,6 +188,33 @@ def validate_unmatched_networks(errors: list[str]) -> None:
                 errors.append(f"network-unmatched {insurer}[{position}] is invalid")
 
 
+def validate_official_plan_membership(
+    plans: list[Any], indexes_by_plan: dict[str, set[int]], errors: list[str]
+) -> None:
+    """Ensure official plans contain only their official assignment indexes."""
+    if not ASSIGNMENTS.exists():
+        return
+    try:
+        data = load_json(ASSIGNMENTS)
+    except ValueError as error:
+        errors.append(str(error))
+        return
+    assignments = data.get("assignments", {}) if isinstance(data, dict) else {}
+    for plan in plans:
+        if not isinstance(plan, dict) or plan.get("network_source") != "official":
+            continue
+        plan_id = plan.get("id")
+        records = assignments.get(plan_id, [])
+        official_indexes = {
+            record.get("index") for record in records
+            if isinstance(record, dict) and record.get("layer") == "official"
+        }
+        if official_indexes != indexes_by_plan.get(plan_id, set()):
+            errors.append(
+                f"official plan {plan_id!r} file does not match official assignments"
+            )
+
+
 def main() -> int:
     """Validate all configured data and return a process exit status."""
     errors: list[str] = []
@@ -205,6 +232,7 @@ def main() -> int:
         if plan_id is not None:
             indexes_by_plan[plan_id] = indexes
     validate_assignments(indexes_by_plan, errors)
+    validate_official_plan_membership(plans, indexes_by_plan, errors)
     validate_unmatched_networks(errors)
     if errors:
         print(f"Validation failed with {len(errors)} error(s):")

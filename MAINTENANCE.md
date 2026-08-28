@@ -38,6 +38,7 @@ data/*.json                what the website and review tools load
 
 ```bash
 python3 build_data.py
+python3 assign_networks.py
 ```
 
 What it does:
@@ -47,7 +48,7 @@ What it does:
 4. Writes unusable-coordinate rows to `data/needs-geocoding.json` so they're tracked, not silently broken.
 5. Splits providers per insurance plan (see §4) → `data/<plan-id>.json` + `data/plans.json`.
 
-After rebuilding, sanity-check:
+After rebuilding and applying network assignments, sanity-check:
 
 ```bash
 python3 - <<'EOF'

@@ -8,10 +8,10 @@
       "AUH"
     ],
     "file": "data/adico-classic.json",
-    "providers": 370,
+    "providers": 169,
     "layers": {
       "official": 169,
-      "chain": 19,
+      "chain": 0,
       "geo_only": 0
     },
     "network_source": "official"
@@ -25,10 +25,10 @@
       "AUH"
     ],
     "file": "data/adico-premium.json",
-    "providers": 370,
+    "providers": 169,
     "layers": {
       "official": 169,
-      "chain": 19,
+      "chain": 0,
       "geo_only": 0
     },
     "network_source": "official"
