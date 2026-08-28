@@ -81,7 +81,11 @@
   "P": "RAK",
   "AREA": "AL QASMI STREET",
   "ADDRESS": "ADIL AL NUAIMI BUILDING, M FLOOR, M-02, SHEIKH SAQR BIN MUHAMMAD AL QASMI STREET, AL QUSAIDAT, NEAR TO LAMP ROUND ABOUT, RASL AL KHAIMAH, U.A.E",
-  "TELEPHONE": "07-2441235"
+  "TELEPHONE": "07-2441235",
+  "lat": "25.7634",
+  "lon": "55.97",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ALYA MEDICAL CENTER"
  },
  {
   "PROVIDER NAME": "AL FURQAN MEDICAL CENTRE LLC.(AL- SHAMS GROUP)",
@@ -95,7 +99,11 @@
   "P": "SHJ",
   "AREA": "ZAM ZAM REST",
   "ADDRESS": "3RD FLOOR,THE RESIDENCE 7 BUILDING,OPP.ZAM ZAM REST ROLLA STREET,SHARJAH,UAE",
-  "TELEPHONE": "06-5307069"
+  "TELEPHONE": "06-5307069",
+  "lat": "25.3563",
+  "lon": "55.386",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HAPPY WAY MEDICAL CENTER"
  },
  {
   "PROVIDER NAME": "MEDICAL DIAGNOSTIC AND IMAGING CENTER POLYCLINIC(MEDIC)",
@@ -123,14 +131,22 @@
   "P": "SHJ",
   "AREA": "SK.ZAYED ST.",
   "ADDRESS": "NEAR,CLOCK TOWAR SK.ZAYED ST.",
-  "TELEPHONE": "06-5639900"
+  "TELEPHONE": "06-5639900",
+  "lat": "25.3613",
+  "lon": "55.3982",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: CENTRAL HOSPITAL"
  },
  {
   "PROVIDER NAME": "BAREEN INTERNATIONAL HOSPITAL",
   "P": "AUH",
   "AREA": "MOHAMMAD BIN ZAYED CITY",
   "ADDRESS": "MOHAMMAD BIN ZAYED CITY, ZONE 15 (NEXT TO SHAIKAH FATIMA BINT MUBARAK MOSQUE) ,P.O. BOX 108727, ABU DHABI, U.A.E",
-  "TELEPHONE": "02-5545555"
+  "TELEPHONE": "02-5545555",
+  "lat": "24.3388",
+  "lon": "54.5543",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: BAREEN INTERNATIONAL HOSPITAL"
  },
  {
   "PROVIDER NAME": "EAZY CARE PHARMACY L.L.C",
@@ -165,14 +181,22 @@
   "P": "DXB",
   "AREA": "DUBAL CLINIC",
   "ADDRESS": "DUBAI ALUMINIUM COMPANY, DUBAL, NEAR TO DUBAL CLINIC",
-  "TELEPHONE": "04-8022684"
+  "TELEPHONE": "04-8022684",
+  "lat": "25.0328",
+  "lon": "55.0962",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ASTER PHARMACY-DUBAL"
  },
  {
   "PROVIDER NAME": "ASTER ROYAL CLINIC DOWNTOWN PHARAMCY BR OF DM HEALTHCARE LLC",
   "P": "DXB",
   "AREA": "DOWN TOWN, BURJ KHALIF",
   "ADDRESS": "BD-RESI 1-RETAIL-G-ER6, RESIDENCES RETAIL, BURJ RESIDENCE PHASE I & II, DOWN TOWN, BURJ KHALIFA, DUBAI",
-  "TELEPHONE": "04-3092900"
+  "TELEPHONE": "04-3092900",
+  "lat": "25.192739",
+  "lon": "55.273592",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: ASTER ROYAL CLINIC DOWNTOWN PHARMACY (BR OF DM HEALTHCARE LLC)"
  },
  {
   "PROVIDER NAME": "ASTER PHARMACY 176 ( BR OF ASTER PHARMACIES GROUP L.L.C)",
@@ -214,7 +238,11 @@
   "P": "RAK",
   "AREA": "AL QASMI STREET",
   "ADDRESS": "DIL AL NUAIMI BUILDING, GROUND FLOOR,SHOP-03, SHEIKH SAQR BIN MUHAMMAD AL QASMI STREET, AL QUSAIDAT",
-  "TELEPHONE": "07-2441235"
+  "TELEPHONE": "07-2441235",
+  "lat": "25.8032",
+  "lon": "55.94",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ALYA PHARMACY"
  },
  {
   "PROVIDER NAME": "HEALTH CARE PHARMACY LLC",
@@ -228,7 +256,11 @@
   "P": "SHJ",
   "AREA": "AL WATANIYA",
   "ADDRESS": "SHOP NO. 1, BLDG. NO 2986, AL WATANYAH REAL ESTATE, MEHTA BUILDING, OPPOSITE NESTO HYPERMARKET, NEAR BUFFALO RESTAURANT, COMMERCIAL INDUSTRIAL AREA, MUWAILEH SHARJAH - U.A.E.",
-  "TELEPHONE": "06-5220260"
+  "TELEPHONE": "06-5220260",
+  "lat": "25.307",
+  "lon": "55.4586",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: NAJMAT MUWAILEH PHARMACY LLC"
  },
  {
   "PROVIDER NAME": "HAMAD AL OULA PHARMACY LLC-SHAHBA AREA",
@@ -340,7 +372,11 @@
   "P": "AJM",
   "AREA": "ALITHIHAD ST",
   "ADDRESS": "VILLA 36 & 37 - FLAMINGO VILLAS - AL ZORAH - AL ITTHIHAD ST.",
-  "TELEPHONE": "06-7444560"
+  "TELEPHONE": "06-7444560",
+  "lat": "25.4203",
+  "lon": "55.4896",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: SKIN AND TEETH MEDICAL CENTER LLC"
  },
  {
   "PROVIDER NAME": "OASIS GR-SHAMS PHARMACY",
@@ -354,7 +390,11 @@
   "P": "AJM",
   "AREA": "AL JURF 2",
   "ADDRESS": "AL JURF 2 AJMAN,UAE",
-  "TELEPHONE": "06-7049528"
+  "TELEPHONE": "06-7049528",
+  "lat": "25.4472",
+  "lon": "55.5518",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: KHALID  LALA  PHARMACY  LLC"
  },
  {
   "PROVIDER NAME": "HEALTH PLUS PHARMACY (S.P.S - L.L.C)",
@@ -417,7 +457,11 @@
   "P": "ALAIN",
   "AREA": "ALMARKANIYYAH",
   "ADDRESS": "ROAD 18, AL HABOOY, AL MARKANIYYAH , AL AIN CITY, ABU DHABI, UAE",
-  "TELEPHONE": "03-7341950"
+  "TELEPHONE": "03-7341950",
+  "lat": "24.2695",
+  "lon": "55.7558",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: AL FARABI MEDICAL CENTER LLC"
  },
  {
   "PROVIDER NAME": "DHIYARA MEDICAL CENTER",
@@ -480,7 +524,11 @@
   "P": "AUH",
   "AREA": "BEHIND DANA HOTEL",
   "ADDRESS": "BLDG NO 137, AL NOWAIS BLDG. ELECTRA ST TOURIST CLUB AREA, BEHIND DANA HOTEL, ABU DHABI, UAE",
-  "TELEPHONE": "02-6456100"
+  "TELEPHONE": "02-6456100",
+  "lat": "24.496174",
+  "lon": "54.379486",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: Dar Al Shifa Medical Centre - Abu Dhabi"
  },
  {
   "PROVIDER NAME": "NMC ROYAL FAMILY MEDICAL CENTRE LTD(FORMERLY NMC ROYAL FAMILY MEDICAL CENTRE L.L.C.)",
@@ -550,7 +598,11 @@
   "P": "AUH",
   "AREA": "AL DANA EAST",
   "ADDRESS": "DARWISH BIN AHMED BUILDING,AL FALAH STREET, AL DANA EAST , BESIDE TAHA MEDICAL CENTER, ABU DHABI, UAE",
-  "TELEPHONE": "02-5858396"
+  "TELEPHONE": "02-5858396",
+  "lat": "24.4953333",
+  "lon": "54.3707778",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: Aster pharmacies Group LLC Branch  Abudhabi 13"
  },
  {
   "PROVIDER NAME": "AMAL PHARMACY - SOLE PROPRIETORSHIP L.L.C",

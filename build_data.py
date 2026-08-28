@@ -113,6 +113,10 @@ def build_registry(entries: list):
         rec = dict(rec)
         rec['Index'] = i
         out.append(rec)
+    valid = [rec for rec in out if coord_ok(rec['lat'], rec['lon'])]
+    invalid = [rec for rec in out if not coord_ok(rec['lat'], rec['lon'])]
+    stats['valid'] = len(valid)
+    stats['invalid'] = len(invalid)
     return out, stats
 
 
