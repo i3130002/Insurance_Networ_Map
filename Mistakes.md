@@ -21,3 +21,4 @@
 - 2026-08-28: Manual removal of generated geocoder fields left trailing commas in two JSON objects. Validate generated JSON after targeted cleanup.
 - 2026-08-28: Direct export of a public Takaful Emarat SharePoint workbook returned HTTP 403; retain the official source link and do not infer network membership.
 - 2026-08-28: The full Nominatim retry completed with zero additional accepted coordinates; remaining backlog needs better source data.
+- 2026-08-28: The first NAS workbook parser used the wrong header row and extracted zero coordinates. Detect the header row after title rows before parsing spreadsheet columns.

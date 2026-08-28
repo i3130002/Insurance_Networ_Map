@@ -96,6 +96,8 @@ Per-plan files are currently **emirate-coverage approximations** (every provider
 
 Known official source: [Takaful Emarat's network page](https://takafulemarat.com/your-network/) lists 43 public Microsoft SharePoint workbooks for NAS, Nextcare, MedNet, NorthCare, APN, and AM networks. Direct workbook export returned HTTP 403 during the 2026-08-28 refresh; do not mark Takafol membership official until the files can be downloaded and mapped to products.
 
+Additional official sources: [Orient's network page](https://www.insuranceuae.com/medical-insurance/individual/individual/) provides downloadable Nextcare and MedNet workbooks; [Union Insurance's network page](https://www.unioninsurance.ae/en-us/medical-network/) provides eCare Blue and NAS workbooks. These are stored as `sources/networks/Orient Insurance.csv` and `sources/networks/Union Insurance.csv`; they are not assigned to a configured plan until matching plan metadata exists.
+
 Fuzzy-matching tip: insurer lists write names differently ("NMC Medical Centre LLC" vs "NMC MEDICAL CENTER L.L.C"). `norm_name()` handles the common cases; consider `rapidfuzz` (token_set_ratio > 90) for the rest, and keep an explicit override map for recurring mismatches.
 
 ## 5. Adding a new plan (metadata only)

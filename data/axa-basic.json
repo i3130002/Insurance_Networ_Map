@@ -9388,6 +9388,19 @@
  {
   "P": "DXB",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "ASTER ROYAL CLINIC DOWNTOWN PHARAMCY BR OF DM HEALTHCARE LLC",
+  "AREA": "DOWN TOWN, BURJ KHALIF",
+  "ADDRESS": "BD-RESI 1-RETAIL-G-ER6, RESIDENCES RETAIL, BURJ RESIDENCE PHASE I & II, DOWN TOWN, BURJ KHALIFA, DUBAI",
+  "TELEPHONE": "04-3092900",
+  "lat": "25.192739",
+  "lon": "55.273592",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: ASTER ROYAL CLINIC DOWNTOWN PHARMACY (BR OF DM HEALTHCARE LLC)",
+  "Index": 983
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "CEDAR HOSPITAL PH",
   "AREA": "JEBEL ALI",
   "ADDRESS": "JEBAL ALI FREE ZONE,DUBAI,UAE",
@@ -13067,6 +13080,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "DAR AL SHIFA MEDICAL CENTRE ABUDHABI",
+  "AREA": "BEHIND DANA HOTEL",
+  "ADDRESS": "BLDG NO 137, AL NOWAIS BLDG. ELECTRA ST TOURIST CLUB AREA, BEHIND DANA HOTEL, ABU DHABI, UAE",
+  "TELEPHONE": "02-6456100",
+  "lat": "24.496174",
+  "lon": "54.379486",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: Dar Al Shifa Medical Centre - Abu Dhabi",
+  "Index": 1411
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "ASTER PRIMARY CARE LLC (ABU DHABI)",
   "AREA": "MUSAFFAH",
   "ADDRESS": "NEAR 1ST SIGNAL (MASJID), SECTOR-9,SANNAYAH,MUSAFFAH ,ABU DHABI",
@@ -14233,6 +14259,19 @@
   "confidence": "area_match",
   "formatted": "الدَّانَةْ, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1510
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "ASTER PHARMACIES GROUP LLC BRANCH  ABUDHABI 13",
+  "AREA": "AL DANA EAST",
+  "ADDRESS": "DARWISH BIN AHMED BUILDING,AL FALAH STREET, AL DANA EAST , BESIDE TAHA MEDICAL CENTER, ABU DHABI, UAE",
+  "TELEPHONE": "02-5858396",
+  "lat": "24.4953333",
+  "lon": "54.3707778",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: Aster pharmacies Group LLC Branch  Abudhabi 13",
+  "Index": 1511
  },
  {
   "P": "AUH",
@@ -15637,6 +15676,19 @@
   "confidence": "area_match",
   "formatted": "مصفح الصناعية, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1640
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "IBN SINA PHARMACY - SOLE PROPRIETORSHIP L.L.C. - BRANCH 12",
+  "AREA": "PARAGON BAY MAL",
+  "ADDRESS": "GROUND FLOOR PARAGON BAY MALL - AE-AZ",
+  "TELEPHONE": "02 658 5203",
+  "lat": "24.49119617",
+  "lon": "54.3942658",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: IBN SINA PHARMACY L.L.C. - BRANCH 12",
+  "Index": 1641
  },
  {
   "P": "AUH",
@@ -21920,6 +21972,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "AL SHIFA AL KHALEEJI MEDICAL CENTRE(SHJ)",
+  "AREA": "CATERPILLAR ROAD",
+  "ADDRESS": "INDUSTRAIL AREA NO. 2, CATERPILLAR ROAD, OPPOSITE TO ADNOC PETROL STATION NEXT TO DYNATRADE SERVICE CENTER, SHARJAH",
+  "TELEPHONE": "06-5328558",
+  "lat": "25.3204248",
+  "lon": "55.3837538",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: Al Shifa Al Khaleeji Medical Centre - Sharjah",
+  "Index": 2245
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "AL FURQAN MEDICAL CENTRE",
   "AREA": "IND AAREA -11",
   "ADDRESS": "PO. BOX 48431, M- 2179, FLOOR 1, SALEM SAEED OMAI AL JABERI BLDG, INDUSTRIAL AREA 11SHARJAH",
@@ -22891,6 +22956,19 @@
   "confidence": "area_match",
   "formatted": "الخان, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
   "Index": 2336
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY - BRANCH 8",
+  "AREA": "AL MIRQAB",
+  "ADDRESS": "MATAJER MALL – AL MIRQAB, SHARJAH -AL SHARQ STREET OPP ADNOC STATION",
+  "TELEPHONE": "06-5462537",
+  "lat": "25.388028",
+  "lon": "55.421833",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: HEALTH FIRST PHARMACY BRANCH 8",
+  "Index": 2337
  },
  {
   "P": "SHJ",

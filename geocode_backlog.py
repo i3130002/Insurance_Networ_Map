@@ -21,7 +21,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 REG = os.path.join(ROOT, 'sources', 'merged-registry.json')
 BACKLOG = os.path.join(ROOT, 'data', 'needs-geocoding.json')
 REPORT = os.path.join(ROOT, 'geocode_run_report.json')
-ADNIC_NETWORK = os.path.join(ROOT, 'sources', 'networks', 'ADNIC.csv')
+NETWORKS_DIR = os.path.join(ROOT, 'sources', 'networks')
 
 UA = 'InsuranceNetworkMap/1.0 (UAE provider directory; contact: repo owner)'
 LAT_MIN, LAT_MAX = 22.0, 26.6
@@ -54,12 +54,25 @@ def branch_number(name):
     return match.group(1) if match else None
 
 
-def load_adnic_network():
-    """Load the official ADNIC directory for local coordinate matching."""
-    if not os.path.exists(ADNIC_NETWORK):
-        return []
-    with open(ADNIC_NETWORK, encoding='utf-8-sig', newline='') as f:
-        return list(csv.DictReader(f))
+def load_official_locations():
+    """Load official network CSV rows that include usable coordinates."""
+    locations = []
+    if not os.path.isdir(NETWORKS_DIR):
+        return locations
+    for filename in os.listdir(NETWORKS_DIR):
+        if not filename.endswith('.csv'):
+            continue
+        path = os.path.join(NETWORKS_DIR, filename)
+        with open(path, encoding='utf-8-sig', newline='') as f:
+            for row in csv.DictReader(f):
+                try:
+                    float(row.get('lat', ''))
+                    float(row.get('lon', ''))
+                except (TypeError, ValueError):
+                    continue
+                row['_source'] = os.path.splitext(filename)[0]
+                locations.append(row)
+    return locations
 
 
 def official_match(entry, network):
@@ -100,8 +113,9 @@ def official_match(entry, network):
     except (KeyError, ValueError):
         return None
     return (best[2]['lat'], best[2]['lon'],
-            f"ADNIC official network: {best[2]['PROVIDER NAME']}",
-            'official_adnic_fuzzy')
+            f"{best[2]['_source']} official network: "
+            f"{best[2]['PROVIDER NAME']}",
+            'official_network_fuzzy')
 
 
 def nominatim(query, limit=1):
@@ -172,7 +186,7 @@ def main():
         backlog = json.load(f)
     with open(REG, encoding='utf-8') as f:
         registry = json.load(f)
-    official_network = load_adnic_network()
+    official_network = load_official_locations()
 
     # Index registry by (norm name, P) to patch entries
     idx = {}

@@ -7386,6 +7386,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "AL SHIFA AL KHALEEJI MEDICAL CENTRE(SHJ)",
+  "AREA": "CATERPILLAR ROAD",
+  "ADDRESS": "INDUSTRAIL AREA NO. 2, CATERPILLAR ROAD, OPPOSITE TO ADNOC PETROL STATION NEXT TO DYNATRADE SERVICE CENTER, SHARJAH",
+  "TELEPHONE": "06-5328558",
+  "lat": "25.3204248",
+  "lon": "55.3837538",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: Al Shifa Al Khaleeji Medical Centre - Sharjah",
+  "Index": 2245
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "AL FURQAN MEDICAL CENTRE",
   "AREA": "IND AAREA -11",
   "ADDRESS": "PO. BOX 48431, M- 2179, FLOOR 1, SALEM SAEED OMAI AL JABERI BLDG, INDUSTRIAL AREA 11SHARJAH",
@@ -8357,6 +8370,19 @@
   "confidence": "area_match",
   "formatted": "الخان, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
   "Index": 2336
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY - BRANCH 8",
+  "AREA": "AL MIRQAB",
+  "ADDRESS": "MATAJER MALL – AL MIRQAB, SHARJAH -AL SHARQ STREET OPP ADNOC STATION",
+  "TELEPHONE": "06-5462537",
+  "lat": "25.388028",
+  "lon": "55.421833",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: HEALTH FIRST PHARMACY BRANCH 8",
+  "Index": 2337
  },
  {
   "P": "SHJ",
