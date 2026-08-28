@@ -14,7 +14,7 @@
 ## M3 — Zavis provider source and enrichment — Complete with follow-up work
 
 - 11,499 provider records are extracted from the public Zavis directory.
-- 1,137 registry providers are matched to Zavis.
+- 2,390 registry providers are matched to Zavis.
 - 1,029 providers receive Zavis coordinates.
 - Exit criteria: failed pages are retried and all safe matches have reviewed identity and coordinates.
 

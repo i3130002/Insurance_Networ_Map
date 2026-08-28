@@ -12,14 +12,14 @@ Interactive map of UAE healthcare providers, filterable by insurance plan.
 - Popups with Google Maps link + AI search query per provider
 - Popups include a phone-first Zavis directory search link for provider cross-checking
 - 11,499 Zavis provider records are extracted into `sources/csv/zavis-providers.csv`
-- 1,137 registry providers are linked to direct Zavis records through a phone/name crosswalk
+- 2,390 registry providers are linked to direct Zavis records through a phone/name crosswalk
 
 ## Data
 
 | File | Contents |
 |---|---|
 | `data/moh-complete.json` | Full provider registry (deduped, valid coordinates) |
-| `data/needs-geocoding.json` | Providers still missing reliable coordinates (174) |
+| `data/needs-geocoding.json` | Providers still missing reliable coordinates (106) |
 | `data/network-unmatched.json` | Official-network records not matched to the registry, for review |
 | `data/plans.json` | Plan metadata (name, insurer, coverage, emirates, provider count) |
 | `data/<plan-id>.json` | Per-plan provider subsets |

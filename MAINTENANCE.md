@@ -35,7 +35,7 @@ data/*.json                what the website and review tools load
 **Coordinate quality, honestly:**
 - `merged-providers.csv` rows that came from the old `ecare-blue.json` have real building-level Geoapify coords (with `confidence`).
 - Rows that came from the MOH batch mostly have empty or area-level coords.
-- `data/needs-geocoding.json` (currently 174 entries) is exactly the backlog of rows without usable pins.
+- `data/needs-geocoding.json` (currently 106 entries) is exactly the backlog of rows without usable pins.
 
 ## 2. Rebuilding the site data
 
@@ -88,7 +88,7 @@ The command must pass before deployment.
 3. Accept a result only if it lands in the UAE bounding box (lat 22–26.6, lon 51–56.6) **and** the returned address contains the expected emirate — ~42% of the old geocodes were wrong-emirate, so verify.
 4. Merge results back into `sources/merged-registry.json` (fill `lat`/`lon`, set `confidence`), then re-run `build_data.py`.
 
-Rate-limit politely: 1 req/sec Nominatim, ~174 entries ≈ 3 min.
+Rate-limit politely: 1 req/sec Nominatim, ~106 entries ≈ 2 min.
 
 ## 4. Adding a REAL insurance network
 
@@ -152,7 +152,7 @@ Known limits (fine to ignore until they bite):
 - [x] 2,390-provider deduped registry, all 8 emirates
 - [x] Company → plan selectors wired into the map
 - [x] 41 Takafol network workbooks imported and assigned by name/phone
-- [ ] Geocode the 174-entry backlog (§3) — **highest impact next step**
+- [ ] Geocode the 106-entry backlog (§3) — **highest impact next step**
 - [ ] Replace remaining legacy emirate-approximation plans with official network lists (§4)
 - [ ] Dedupe review: some kept "duplicates" may be genuine branches — spot-check a sample
 - [ ] Provider-network-xref (§1) is heuristic; rebuild it against official lists

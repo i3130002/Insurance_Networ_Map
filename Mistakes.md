@@ -81,3 +81,4 @@
 
 - `python3 -m unittest test_takafol_import.py` failed before the importer existed; the new test correctly exposed the missing implementation.
 - A combined documentation patch did not apply because one expected paragraph had changed; no files were modified by that failed patch.
+- 2026-08-29: The first documentation commit failed because the sandbox could not create `.git/index.lock`; retry Git metadata operations with elevated permission.
