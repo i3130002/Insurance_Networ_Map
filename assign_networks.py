@@ -80,6 +80,8 @@ def norm_name(s):
 def load_official_networks():
     """Load per-insurer official CSVs from sources/networks/ if present."""
     official = {}  # insurer -> set of (norm_name, emirate)
+    if not os.path.isdir(NETWORKS_DIR):
+        return official
     for fn in os.listdir(NETWORKS_DIR):
         if not fn.endswith('.csv'):
             continue
