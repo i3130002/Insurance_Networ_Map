@@ -8322,6 +8322,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY - BR3",
+  "AREA": "AL JADA SHJ UNIVERSITY",
+  "ADDRESS": "SHARJAH MUWAILIH COMMERCIAL /AL JADA REHAN 01 OPP SHJ UNVIERSITY",
+  "TELEPHONE": "06-7678715",
+  "lat": "25.338116",
+  "lon": "55.388817",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: HEALTH FIRST PHARMACY BR-3",
+  "Index": 2334
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "HEALTH FIRST PHARMACY - BRANCH 11",
   "AREA": "AL DHAID",
   "ADDRESS": "SHARJAH AL DHAID /AL DHAID MALL NEXT SHJ COOP",
@@ -8763,6 +8776,19 @@
  },
  {
   "P": "UMQ",
+  "PROVIDER TYPE": "HOSPITAL",
+  "PROVIDER NAME": "SHEIKH KHALIFA GENERAL HOSPITAL UMQ",
+  "AREA": "AL SALAMA",
+  "ADDRESS": "OPP: MINISTRY OF COMMUNITY DEVELOPMENT, AL SALAMA UMM AL QUWAIN, UAE",
+  "TELEPHONE": "06-7061111",
+  "lat": "25.50114",
+  "lon": "55.59884",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: SHEIKH KHALIFA GENERAL HOSPITAL",
+  "Index": 2380
+ },
+ {
+  "P": "UMQ",
   "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "ASTER MEDICOM -26 (MEDICOM PHARMACY -26)",
   "AREA": "UMM AL QUWAIN",
@@ -8838,5 +8864,18 @@
   "confidence": "area_match",
   "formatted": "أم الثعوب, أم القيوين, الإمارات العربية المتحدة",
   "Index": 2389
+ },
+ {
+  "P": "UMQ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "SHEIKH KHALIFA GENERAL HOSPITAL PHARMACY UMQ",
+  "AREA": "AL SALAMA",
+  "ADDRESS": "OPP: MINISTRY OF COMMUNITY DEVELOPMENT, AL SALAMA UMM AL QUWAIN, UAE",
+  "TELEPHONE": "06-7061111",
+  "lat": "25.501284",
+  "lon": "55.599403",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: SHEIKH KHALIFA GENERAL HOSPITAL PHARMACY",
+  "Index": 2390
  }
 ]

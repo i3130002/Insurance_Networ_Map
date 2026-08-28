@@ -3473,6 +3473,19 @@
  {
   "P": "DXB",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "DR.KOYA'S CLINIC",
+  "AREA": "DEIRA -NAIF POLICE STATION",
+  "ADDRESS": "BEHIND NAIF POLICE STATION, DEIRA, UAE",
+  "TELEPHONE": "04-2225854",
+  "lat": "25.209637",
+  "lon": "55.248339",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: DR. KOYA CLINIC",
+  "Index": 357
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "ACCESS CLINIC DIC BR DM HEALTHCARE LLC",
   "AREA": "DIP",
   "ADDRESS": "FIRST FLOOR, SHOP # 39 -42, DUBAI INDUSTRIAL PARK, SAIH SHUAIB 2, AL MADEENA HYPERMARKET, SAPPHIRE MALL, DUBAI UAE",
@@ -13782,6 +13795,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "MEDSTAR PHARMACY ICAD RESIDENTIAL LLC",
+  "AREA": "ICAD RESIDENTIAL CITY, MUSSAFAH",
+  "ADDRESS": "PO BOX 106964, ICAD RESIDENTIAL CITY, MUSSAFAH, ABU DHABI, NEAR FRESH & MORE HYPERMARKET",
+  "TELEPHONE": "02-5845657",
+  "lat": "24.339086",
+  "lon": "54.489875",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: MEDSTAR PHARMACY ICAD RESIDINTIAL LLC",
+  "Index": 1474
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "GOLDEN HEALTH PHARMACY L.L.C.",
   "AREA": "HAMEEM ROAD",
   "ADDRESS": "AL SALAM LIVING CITY, HAMEEM ROAD, ABU DHABI",
@@ -14415,6 +14441,19 @@
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: UNIQUE AL AHALIA PHARMACY, ABU DHABI",
   "Index": 1530
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "WESTERN TOWERS AL AHLIA PHARMACY",
+  "AREA": "SANAYA, MADINA ZAYED",
+  "ADDRESS": "MZE-19, SANAYA, MADINA ZAYED",
+  "TELEPHONE": "02-8841020",
+  "lat": "23.662156",
+  "lon": "53.729111",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: WESTERN TOWERS AL AHALIA PHARMACY",
+  "Index": 1531
  },
  {
   "P": "AUH",
@@ -17561,6 +17600,19 @@
   "confidence": "area_match",
   "formatted": "Emicool DIP DCP 1, دبي, الإمارات العربية المتحدة",
   "Index": 1811
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "AL MANZIL AL JADEED PHARMACY LLC",
+  "AREA": "ALAWEER",
+  "ADDRESS": "ALAWEER",
+  "TELEPHONE": "8007400",
+  "lat": "25.10277",
+  "lon": "55.23386",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: ALMANZIL AL JADEED PHARMACY LLC",
+  "Index": 1812
  },
  {
   "P": "DXB",
@@ -22800,6 +22852,19 @@
   "confidence": "area_match",
   "formatted": "Al Bustan, شارع بلال بن رباح, Al Qasimia, القاسمية, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
   "Index": 2333
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY - BR3",
+  "AREA": "AL JADA SHJ UNIVERSITY",
+  "ADDRESS": "SHARJAH MUWAILIH COMMERCIAL /AL JADA REHAN 01 OPP SHJ UNVIERSITY",
+  "TELEPHONE": "06-7678715",
+  "lat": "25.338116",
+  "lon": "55.388817",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: HEALTH FIRST PHARMACY BR-3",
+  "Index": 2334
  },
  {
   "P": "SHJ",

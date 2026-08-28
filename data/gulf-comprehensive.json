@@ -2823,6 +2823,19 @@
  {
   "P": "DXB",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "DR.KOYA'S CLINIC",
+  "AREA": "DEIRA -NAIF POLICE STATION",
+  "ADDRESS": "BEHIND NAIF POLICE STATION, DEIRA, UAE",
+  "TELEPHONE": "04-2225854",
+  "lat": "25.209637",
+  "lon": "55.248339",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: DR. KOYA CLINIC",
+  "Index": 357
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "ACCESS CLINIC DIC BR DM HEALTHCARE LLC",
   "AREA": "DIP",
   "ADDRESS": "FIRST FLOOR, SHOP # 39 -42, DUBAI INDUSTRIAL PARK, SAIH SHUAIB 2, AL MADEENA HYPERMARKET, SAPPHIRE MALL, DUBAI UAE",
@@ -15173,6 +15186,19 @@
  {
   "P": "DXB",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "AL MANZIL AL JADEED PHARMACY LLC",
+  "AREA": "ALAWEER",
+  "ADDRESS": "ALAWEER",
+  "TELEPHONE": "8007400",
+  "lat": "25.10277",
+  "lon": "55.23386",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: ALMANZIL AL JADEED PHARMACY LLC",
+  "Index": 1812
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "RIGHT HEALTH PHARMACY L.L.C",
   "AREA": "MUHAISNAH",
   "ADDRESS": "BLOCK -19,MUHAISANAH SECOND, PLOT NUM: 54,SHOP NO 2 & 3,DUBAI,UAE",
@@ -20408,6 +20434,19 @@
   "confidence": "area_match",
   "formatted": "Al Bustan, شارع بلال بن رباح, Al Qasimia, القاسمية, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
   "Index": 2333
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY - BR3",
+  "AREA": "AL JADA SHJ UNIVERSITY",
+  "ADDRESS": "SHARJAH MUWAILIH COMMERCIAL /AL JADA REHAN 01 OPP SHJ UNVIERSITY",
+  "TELEPHONE": "06-7678715",
+  "lat": "25.338116",
+  "lon": "55.388817",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: HEALTH FIRST PHARMACY BR-3",
+  "Index": 2334
  },
  {
   "P": "SHJ",

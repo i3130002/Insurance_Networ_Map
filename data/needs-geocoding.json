@@ -63,17 +63,6 @@
   "TELEPHONE": "43474537"
  },
  {
-  "PROVIDER NAME": "DR.KOYA'S CLINIC",
-  "P": "DXB",
-  "AREA": "DEIRA -NAIF POLICE STATION",
-  "ADDRESS": "BEHIND NAIF POLICE STATION, DEIRA, UAE",
-  "TELEPHONE": "04-2225854",
-  "lat": "25.209637",
-  "lon": "55.248339",
-  "confidence": "official_adnic_fuzzy",
-  "formatted": "ADNIC official network: DR. KOYA CLINIC"
- },
- {
   "PROVIDER NAME": "DR ABDUL LATIF CLINIC L.L.C",
   "P": "DXB",
   "AREA": "NEAR AL SABKHA BUS STATION",
@@ -536,17 +525,6 @@
   "TELEPHONE": "02-8763338"
  },
  {
-  "PROVIDER NAME": "MEDSTAR PHARMACY ICAD RESIDENTIAL LLC",
-  "P": "AUH",
-  "AREA": "ICAD RESIDENTIAL CITY, MUSSAFAH",
-  "ADDRESS": "PO BOX 106964, ICAD RESIDENTIAL CITY, MUSSAFAH, ABU DHABI, NEAR FRESH & MORE HYPERMARKET",
-  "TELEPHONE": "02-5845657",
-  "lat": "24.339086",
-  "lon": "54.489875",
-  "confidence": "official_adnic_fuzzy",
-  "formatted": "ADNIC official network: MEDSTAR PHARMACY ICAD RESIDINTIAL LLC"
- },
- {
   "PROVIDER NAME": "PUBLIC LIFE PHARMACY L.L.C",
   "P": "AUH",
   "AREA": "CHINA CAMP, BANIYAS",
@@ -594,17 +572,6 @@
   "AREA": "NAJATHA STREET",
   "ADDRESS": "NAJATHA STREET, OPP. NATIONAL CINEMA",
   "TELEPHONE": "02-6766125"
- },
- {
-  "PROVIDER NAME": "WESTERN TOWERS AL AHLIA PHARMACY",
-  "P": "AUH",
-  "AREA": "SANAYA, MADINA ZAYED",
-  "ADDRESS": "MZE-19, SANAYA, MADINA ZAYED",
-  "TELEPHONE": "02-8841020",
-  "lat": "23.662156",
-  "lon": "53.729111",
-  "confidence": "official_adnic_fuzzy",
-  "formatted": "ADNIC official network: WESTERN TOWERS AL AHALIA PHARMACY"
  },
  {
   "PROVIDER NAME": "AL DABBAYIA PHARMACY",
@@ -871,17 +838,6 @@
   "AREA": "SONAPUR",
   "ADDRESS": "SONAPUR",
   "TELEPHONE": "04-2648202/8007400"
- },
- {
-  "PROVIDER NAME": "AL MANZIL AL JADEED PHARMACY LLC",
-  "P": "DXB",
-  "AREA": "ALAWEER",
-  "ADDRESS": "ALAWEER",
-  "TELEPHONE": "8007400",
-  "lat": "25.10277",
-  "lon": "55.23386",
-  "confidence": "official_adnic_fuzzy",
-  "formatted": "ADNIC official network: ALMANZIL AL JADEED PHARMACY LLC"
  },
  {
   "PROVIDER NAME": "NEO PHARMACY LLC BRANCH-ALQOUZ 2",
@@ -1164,17 +1120,6 @@
   "TELEPHONE": "07-2082082"
  },
  {
-  "PROVIDER NAME": "HEALTH FIRST PHARMACY 22 - RAK",
-  "P": "RAK",
-  "AREA": "MANAR MALLL",
-  "ADDRESS": "MANAR MALL, RAK",
-  "TELEPHONE": "07-2274848",
-  "lat": "25.784667",
-  "lon": "55.96564",
-  "confidence": "official_adnic_fuzzy",
-  "formatted": "ADNIC official network: HEALTH FIRST PHARMACY 22"
- },
- {
   "PROVIDER NAME": "HEALTH FIRST PHARMACY 63 LLC ONE PERSON",
   "P": "RAK",
   "AREA": "RAK KHALIFA CITY",
@@ -1357,17 +1302,6 @@
   "TELEPHONE": "06-5552277"
  },
  {
-  "PROVIDER NAME": "HEALTH FIRST PHARMACY - BR3",
-  "P": "SHJ",
-  "AREA": "AL JADA SHJ UNIVERSITY",
-  "ADDRESS": "SHARJAH MUWAILIH COMMERCIAL /AL JADA REHAN 01 OPP SHJ UNVIERSITY",
-  "TELEPHONE": "06-7678715",
-  "lat": "25.338116",
-  "lon": "55.388817",
-  "confidence": "official_adnic_fuzzy",
-  "formatted": "ADNIC official network: HEALTH FIRST PHARMACY BR-3"
- },
- {
   "PROVIDER NAME": "HEALTH FIRST PHARMACY - BRANCH 8",
   "P": "SHJ",
   "AREA": "AL MIRQAB",
@@ -1445,17 +1379,6 @@
   "TELEPHONE": "06-6787382"
  },
  {
-  "PROVIDER NAME": "SHEIKH KHALIFA GENERAL HOSPITAL UMQ",
-  "P": "UMQ",
-  "AREA": "AL SALAMA",
-  "ADDRESS": "OPP: MINISTRY OF COMMUNITY DEVELOPMENT, AL SALAMA UMM AL QUWAIN, UAE",
-  "TELEPHONE": "06-7061111",
-  "lat": "25.50114",
-  "lon": "55.59884",
-  "confidence": "official_adnic_fuzzy",
-  "formatted": "ADNIC official network: SHEIKH KHALIFA GENERAL HOSPITAL"
- },
- {
   "PROVIDER NAME": "WELLNESS PHARMACY LLC",
   "P": "UMQ",
   "AREA": "BADAMI 2",
@@ -1475,16 +1398,5 @@
   "AREA": "OLD BAZZAR",
   "ADDRESS": "UAQ MAIN RD. OLD BAZZAR",
   "TELEPHONE": "06-7656180"
- },
- {
-  "PROVIDER NAME": "SHEIKH KHALIFA GENERAL HOSPITAL PHARMACY UMQ",
-  "P": "UMQ",
-  "AREA": "AL SALAMA",
-  "ADDRESS": "OPP: MINISTRY OF COMMUNITY DEVELOPMENT, AL SALAMA UMM AL QUWAIN, UAE",
-  "TELEPHONE": "06-7061111",
-  "lat": "25.501284",
-  "lon": "55.599403",
-  "confidence": "official_adnic_fuzzy",
-  "formatted": "ADNIC official network: SHEIKH KHALIFA GENERAL HOSPITAL PHARMACY"
  }
 ]

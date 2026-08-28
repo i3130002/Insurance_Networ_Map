@@ -2745,6 +2745,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "MEDSTAR PHARMACY ICAD RESIDENTIAL LLC",
+  "AREA": "ICAD RESIDENTIAL CITY, MUSSAFAH",
+  "ADDRESS": "PO BOX 106964, ICAD RESIDENTIAL CITY, MUSSAFAH, ABU DHABI, NEAR FRESH & MORE HYPERMARKET",
+  "TELEPHONE": "02-5845657",
+  "lat": "24.339086",
+  "lon": "54.489875",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: MEDSTAR PHARMACY ICAD RESIDINTIAL LLC",
+  "Index": 1474
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "GOLDEN HEALTH PHARMACY L.L.C.",
   "AREA": "HAMEEM ROAD",
   "ADDRESS": "AL SALAM LIVING CITY, HAMEEM ROAD, ABU DHABI",
@@ -3378,6 +3391,19 @@
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: UNIQUE AL AHALIA PHARMACY, ABU DHABI",
   "Index": 1530
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "WESTERN TOWERS AL AHLIA PHARMACY",
+  "AREA": "SANAYA, MADINA ZAYED",
+  "ADDRESS": "MZE-19, SANAYA, MADINA ZAYED",
+  "TELEPHONE": "02-8841020",
+  "lat": "23.662156",
+  "lon": "53.729111",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: WESTERN TOWERS AL AHALIA PHARMACY",
+  "Index": 1531
  },
  {
   "P": "AUH",

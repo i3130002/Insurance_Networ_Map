@@ -4634,10 +4634,10 @@
   "AREA": "DEIRA -NAIF POLICE STATION",
   "ADDRESS": "BEHIND NAIF POLICE STATION, DEIRA, UAE",
   "TELEPHONE": "04-2225854",
-  "lat": "",
-  "lon": "",
-  "confidence": "",
-  "formatted": "",
+  "lat": "25.209637",
+  "lon": "55.248339",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: DR. KOYA CLINIC",
   "Index": 357
  },
  {
@@ -19155,10 +19155,10 @@
   "AREA": "ICAD RESIDENTIAL CITY, MUSSAFAH",
   "ADDRESS": "PO BOX 106964, ICAD RESIDENTIAL CITY, MUSSAFAH, ABU DHABI, NEAR FRESH & MORE HYPERMARKET",
   "TELEPHONE": "02-5845657",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "24.339086",
+  "lon": "54.489875",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: MEDSTAR PHARMACY ICAD RESIDINTIAL LLC",
   "Index": 1474
  },
  {
@@ -19896,10 +19896,10 @@
   "AREA": "SANAYA, MADINA ZAYED",
   "ADDRESS": "MZE-19, SANAYA, MADINA ZAYED",
   "TELEPHONE": "02-8841020",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "23.662156",
+  "lon": "53.729111",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: WESTERN TOWERS AL AHALIA PHARMACY",
   "Index": 1531
  },
  {
@@ -23549,10 +23549,10 @@
   "AREA": "ALAWEER",
   "ADDRESS": "ALAWEER",
   "TELEPHONE": "8007400",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.10277",
+  "lon": "55.23386",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: ALMANZIL AL JADEED PHARMACY LLC",
   "Index": 1812
  },
  {
@@ -28749,10 +28749,10 @@
   "AREA": "MANAR MALLL",
   "ADDRESS": "MANAR MALL, RAK",
   "TELEPHONE": "07-2274848",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.784667",
+  "lon": "55.96564",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: HEALTH FIRST PHARMACY 22",
   "Index": 2212
  },
  {
@@ -30335,10 +30335,10 @@
   "AREA": "AL JADA SHJ UNIVERSITY",
   "ADDRESS": "SHARJAH MUWAILIH COMMERCIAL /AL JADA REHAN 01 OPP SHJ UNVIERSITY",
   "TELEPHONE": "06-7678715",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.338116",
+  "lon": "55.388817",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: HEALTH FIRST PHARMACY BR-3",
   "Index": 2334
  },
  {
@@ -30374,9 +30374,9 @@
   "AREA": "AL MIRQAB",
   "ADDRESS": "MATAJER MALL – AL MIRQAB, SHARJAH -AL SHARQ STREET OPP ADNOC STATION",
   "TELEPHONE": "06-5462537",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
+  "lat": null,
+  "lon": null,
+  "confidence": "",
   "formatted": "",
   "Index": 2337
  },
@@ -30387,9 +30387,9 @@
   "AREA": "AL SUYOH",
   "ADDRESS": "SHARJAH COOPERATIVE SOCIETY SUYOH4  AL SUYOH SUBURB",
   "TELEPHONE": "06-5353951",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
+  "lat": null,
+  "lon": null,
+  "confidence": "",
   "formatted": "",
   "Index": 2338
  },
@@ -30933,10 +30933,10 @@
   "AREA": "AL SALAMA",
   "ADDRESS": "OPP: MINISTRY OF COMMUNITY DEVELOPMENT, AL SALAMA UMM AL QUWAIN, UAE",
   "TELEPHONE": "06-7061111",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.50114",
+  "lon": "55.59884",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: SHEIKH KHALIFA GENERAL HOSPITAL",
   "Index": 2380
  },
  {
@@ -31063,10 +31063,10 @@
   "AREA": "AL SALAMA",
   "ADDRESS": "OPP: MINISTRY OF COMMUNITY DEVELOPMENT, AL SALAMA UMM AL QUWAIN, UAE",
   "TELEPHONE": "06-7061111",
-  "lat": "",
-  "lon": "",
-  "confidence": "verified",
-  "formatted": "",
+  "lat": "25.501284",
+  "lon": "55.599403",
+  "confidence": "official_adnic_fuzzy",
+  "formatted": "ADNIC official network: SHEIKH KHALIFA GENERAL HOSPITAL PHARMACY",
   "Index": 2390
  }
 ]

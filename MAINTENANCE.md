@@ -132,7 +132,7 @@ Known limits (fine to ignore until they bite):
 
 - [x] 2,390-provider deduped registry, all 8 emirates
 - [x] 15 plans / 8 insurers wired into the dropdown
-- [ ] Geocode the 1,258-entry backlog (§3) — **highest impact next step**
+- [ ] Geocode the 200-entry backlog (§3) — **highest impact next step**
 - [ ] Replace emirate-approximation plans with official network lists (§4)
 - [ ] Dedupe review: some kept "duplicates" may be genuine branches — spot-check a sample
 - [ ] Provider-network-xref (§1) is heuristic; rebuild it against official lists

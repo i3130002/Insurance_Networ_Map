@@ -16,7 +16,7 @@ Interactive map of UAE healthcare providers, filterable by insurance plan.
 | File | Contents |
 |---|---|
 | `data/moh-complete.json` | Full provider registry (deduped, valid coordinates) |
-| `data/needs-geocoding.json` | Providers still missing valid coordinates (~1,260) |
+| `data/needs-geocoding.json` | Providers still missing reliable coordinates (200) |
 | `data/plans.json` | Plan metadata (name, insurer, coverage, emirates, provider count) |
 | `data/<plan-id>.json` | Per-plan provider subsets |
 
