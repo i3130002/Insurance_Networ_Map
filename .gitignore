@@ -6,3 +6,6 @@
 !sources/csv/*.csv
 !sources/networks/*.csv
 
+# Local agent instructions and skill files
+AGENTS.md
+skills/
