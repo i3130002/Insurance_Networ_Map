@@ -149,6 +149,8 @@
                 + `Type: ${e['PROVIDER TYPE']}\nArea: ${e.AREA}`;
             const mapsQuery = encodeURIComponent(
                 `${e['PROVIDER NAME']} ${e.AREA} ${em} UAE`);
+            const zavisQuery = encodeURIComponent(
+                `site:zavis.ai/directory "${e['PROVIDER NAME']}" "${e.TELEPHONE}"`);
             const LAYER_BADGE = {
                 official: '<span style="color:#198754">✔ in official network list</span>',
                 chain:    `<span style="color:#0d6efd">${esc(chain || 'chain')} group provider</span>`,
@@ -168,6 +170,8 @@
                     target="_blank" rel="noopener">📍 Google Maps</a>
                 &nbsp;<a href="https://www.google.com/search?q=${encodeURIComponent(query)}"
                     target="_blank" rel="noopener">🤖 Google AI</a>
+                &nbsp;<a href="https://www.google.com/search?q=${zavisQuery}"
+                    target="_blank" rel="noopener">🔎 Zavis</a>
             </div>`;
         }
 
