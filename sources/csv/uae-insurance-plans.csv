@@ -1,6 +1,6 @@
 INSURANCE_NAME,HOMEPAGE,EMIRATES,PLAN_NAME,COVERAGE_TYPE,NETWORK_CLINICS,NETWORK_HOSPITALS
-ADICO - Abu Dhabi National Insurance Company,https://www.adico.ae,"ABU,AXJ",Classic,Inpatient,"['NMC, Aster, Allied', 'Network of 300+ clinics']","['Corniche, NMC, LLH']"
-ADICO - Abu Dhabi National Insurance Company,https://www.adico.ae,"ABU,AXJ",Premium,Both,"['Full network', '500+ clinics']",['All major hospitals']
+ADNIC - Abu Dhabi National Insurance Company,https://adnic.ae,"ABU,AXJ",Classic,Inpatient,"['NMC, Aster, Allied', 'Network of 300+ clinics']","['Corniche, NMC, LLH']"
+ADNIC - Abu Dhabi National Insurance Company,https://adnic.ae,"ABU,AXJ",Premium,Both,"['Full network', '500+ clinics']",['All major hospitals']
 DARIC - Dar Al-Insurance Company,https://www.daric.ae,"DUBAI,SHJ,AJM",Standard,Inpatient,['Network of 200 clinics'],"['Rashid, Zayed']"
 DARIC - Dar Al-Insurance Company,https://www.daric.ae,"DUBAI,SHJ,AJM",Premium,Both,['Expanded network'],['All Dubai hospitals']
 Aman Insurance,https://www.aman.ae,"AJM,SHJ,FUJ,UQ",Essential,Outpatient,['Listed GP clinics'],[]

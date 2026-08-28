@@ -118,8 +118,8 @@ def build_registry(entries: list):
 
 PLANS = [
     # (plan_id, display name, insurer, coverage, emirate codes)
-    ('adico-classic',      'ADICO Classic',              'ADICO',              'Inpatient',  ['AUH']),
-    ('adico-premium',      'ADICO Premium',              'ADICO',              'Both',       ['AUH']),
+    ('adico-classic',      'ADNIC Classic',              'ADNIC',              'Inpatient',  ['AUH']),
+    ('adico-premium',      'ADNIC Premium',              'ADNIC',              'Both',       ['AUH']),
     ('axa-basic',          'AXA Gulf Basic',             'AXA Gulf',           'Inpatient',  ['DXB', 'AUH', 'SHJ']),
     ('axa-premier',        'AXA Gulf Premier',           'AXA Gulf',           'Both',       ['DXB', 'AUH', 'SHJ']),
     ('aman-essential',     'Aman Essential',             'Aman Insurance',     'Outpatient', ['AJM', 'SHJ', 'FUJ', 'UMQ']),

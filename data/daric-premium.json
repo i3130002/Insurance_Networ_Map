@@ -3941,6 +3941,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "MGM MEDICAL CENTRE LLC",
+  "AREA": "KING FAIZAL STREET",
+  "ADDRESS": "ROOM 205 AL FAISAL BUILDING 1, ABOVE SUZUKI SHOWROOM, KING FAIZAL STREET, SHARJAH, UAE",
+  "TELEPHONE": "06-5741444",
+  "lat": "25.33809",
+  "lon": "55.389521",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: MGM MEDICAL CENTRE LLC, SHARJAH",
+  "Index": 483
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "PESHAWAR MEDICAL CLINIC LLC",
   "AREA": "ROLLA",
   "ADDRESS": "AL AROUBA TREE,AL ROLLA SHARJAH",
@@ -4630,6 +4643,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "AL AHLIA REGIONAL MEDICAL CENTRE",
+  "AREA": "AL MINA ROAD",
+  "ADDRESS": "ABUSHAGA,SHARJAH,UAE",
+  "TELEPHONE": "06-5621700",
+  "lat": "25.355503",
+  "lon": "55.400201",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: AL AHLIA REGIONAL MEDICAL CENTRE, SHARJAH",
+  "Index": 538
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "SHAMAL AL AHALIA MEDICAL CENTRE",
   "AREA": "SHEIKH ZAYED STREET",
   "ADDRESS": "SHEIKH ZAYED STREET, NEAR CLOCK TOWER, OPP.KALYAN SILKS",
@@ -4821,6 +4847,19 @@
   "confidence": "area_match",
   "formatted": "Abu Shaghara, شارع سعد بن زيد, أبو شغارة, القاسمية, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
   "Index": 554
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "DAYCARE",
+  "PROVIDER NAME": "ASTER DAY SURGERY CENTRE LLC",
+  "AREA": "BUR DUBAI-KUWAIT ROAD",
+  "ADDRESS": "MOHAMMAD HUSSAIN ALIYATEEM BUILDING, NEAR ASTER HOSPITAL AL MANKHOOL, KUWAIT ROAD,",
+  "TELEPHONE": "04-3814987",
+  "lat": "25.252423",
+  "lon": "55.286708",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ASTER DAY SURGERY CENTRE LLC, DUBAI",
+  "Index": 574
  },
  {
   "P": "DXB",
@@ -5315,6 +5354,19 @@
   "confidence": "0.2025",
   "formatted": "Al Qusais First, DU, United Arab Emirates",
   "Index": 633
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "HOSPITAL",
+  "PROVIDER NAME": "ASTER HOSPITAL SONAPUR",
+  "AREA": "SONAPUR",
+  "ADDRESS": "P.O.BOX: 119428, SONAPUR, ALGERIA STREET, MUHAISNAH",
+  "TELEPHONE": "04-4005004",
+  "lat": "25.264627",
+  "lon": "55.433619",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ASTER HOSPITAL SONAPUR, DUBAI",
+  "Index": 634
  },
  {
   "P": "DXB",
@@ -7382,6 +7434,19 @@
   "confidence": "",
   "formatted": "Mohd. Khalid Al Attar General Trading, Al Soor Street, Al Sabkha, Deira, United Arab Emirates",
   "Index": 828
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "BELHOUL SPECIALITY HOSPITAL PHARMACY",
+  "AREA": "AL BARHA",
+  "ADDRESS": "BSH BUILDING, NEAR BIG MART SUPERMARKET, AL BARAHA, DUBAI",
+  "TELEPHONE": "04-2140638",
+  "lat": "25.280538",
+  "lon": "55.313182",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: BELHOUL SPECIALITY HOSPITAL PHARMACY, DUBAI",
+  "Index": 829
  },
  {
   "P": "DXB",
@@ -11767,6 +11832,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "ASTER PHARMACY 133",
+  "AREA": "ABUTINA",
+  "ADDRESS": "AL SHARQ STREET,NEXT TO FINE FAIR, BUTINA, OPP: SHARJAH COP SOCEITY",
+  "TELEPHONE": "06-5619322",
+  "lat": "25.346648",
+  "lon": "55.389901",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ASTER PHARMACY 133, SHARJAH",
+  "Index": 1226
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "ASTER MEDICOM -17 (AL ANSAR PHARMACY)",
   "AREA": "SHARJAH",
   "ADDRESS": "ANSAR MALL, AL NAHADA ROAD, SHARJAH",
@@ -13040,6 +13118,19 @@
  },
  {
   "P": "AJM",
+  "PROVIDER TYPE": "DENTAL",
+  "PROVIDER NAME": "AL DURRA DENTAL CLINIC L.L.C",
+  "AREA": "LEWARA 2",
+  "ADDRESS": "FLAT NO.105,LEWARA BUILDING,LEWARA 2,AJMAN,UAE",
+  "TELEPHONE": "06-7313544",
+  "lat": "25.405342",
+  "lon": "55.447851",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: AL DURRA DENTAL CLINIC, AJMAN",
+  "Index": 1356
+ },
+ {
+  "P": "AJM",
   "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "KHALIDHA PHARMACY L.L.C-AJMAN",
   "AREA": "AJMAN",
@@ -13167,6 +13258,19 @@
   "confidence": "area_match",
   "formatted": "شارع الشيخ عمار بن حميد, الحميدية 1, الجرف, عجمان, إمارة عجمان, الإمارات العربية المتحدة",
   "Index": 1367
+ },
+ {
+  "P": "AJM",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "AL BUSTAN PHARMACY",
+  "AREA": "JURG",
+  "ADDRESS": "NEAR LUCKY CENTRE, NEAR CHINA MALL, JURF , AJMAN",
+  "TELEPHONE": "06-7447969",
+  "lat": "24.406483",
+  "lon": "54.601918",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: AL BUSTAN PHARMACY, AJMAN",
+  "Index": 1370
  },
  {
   "P": "AJM",
@@ -15364,6 +15468,19 @@
   "confidence": "area_match",
   "formatted": "Satwa, شارع 2 ديسمبر, بر دبي, الحضيبة, دبي, الإمارات العربية المتحدة",
   "Index": 1836
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "MUSALLA SONAPOOR PHARMACY",
+  "AREA": "SONAPUR",
+  "ADDRESS": "NEAR SHAKLAN 2 SUPERMARKET BUILDING , MUHAISNAH-2(SONAPOOR) DUBAI, P.O. BOX-26238",
+  "TELEPHONE": "04-2544461",
+  "lat": "25.274567",
+  "lon": "55.421783",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: MUSALLA SONAPOOR PHARMACY, DUBAI",
+  "Index": 1837
  },
  {
   "P": "DXB",
@@ -18241,6 +18358,19 @@
  {
   "P": "DXB",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "MEDICOM PHARMACY 33 (LLC)",
+  "AREA": "FRIJ MURAR",
+  "ADDRESS": "FRIJ MURAR,DEIRA,DUBAI,UAE",
+  "TELEPHONE": "04-2733237",
+  "lat": "25.275916",
+  "lon": "55.308873",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: MEDICOM PHARMACY 33 LLC, DUBAI",
+  "Index": 2074
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "MEDICOM PHARMACY 38 LLC",
   "AREA": "BEIRUT ST",
   "ADDRESS": "BEIRUT ST., AL QUSAIS INDUSTRIAL AREA-5,DUBAI,UAE",
@@ -19346,6 +19476,19 @@
  {
   "P": "SHJ",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "AL FURQAN MEDICAL CENTRE",
+  "AREA": "IND AAREA -11",
+  "ADDRESS": "PO. BOX 48431, M- 2179, FLOOR 1, SALEM SAEED OMAI AL JABERI BLDG, INDUSTRIAL AREA 11SHARJAH",
+  "TELEPHONE": "06-5353868",
+  "lat": "24.914118",
+  "lon": "55.775289",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: AL FURQAN MEDICAL CENTRE LLC, SHARJAH",
+  "Index": 2246
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "AL SHAMS AL JADEED MEDICAL CENTRE",
   "AREA": "IND AREA-5",
   "ADDRESS": "PO. BOX 25686, WAHID SALIM BLDG, FLOOR M, FLAT M6, DOUBLE COLA ROAD, INDUSTRIAL AREA 5, SHARJAH",
@@ -19641,6 +19784,19 @@
   "confidence": "area_match",
   "formatted": "Rolla, الغرب, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
   "Index": 2275
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "DENTAL",
+  "PROVIDER NAME": "DR.SAI GANESH PILLAI MEDICAL CENTRE",
+  "AREA": "ALAROUBA STREET",
+  "ADDRESS": "BANK SADERAT IRAN,SECOND FLOOR,SUIT NO 203, AL AROUBA STREET,SHARJAH-ROLLA.",
+  "TELEPHONE": "054-4462109",
+  "lat": "25.356616",
+  "lon": "55.387267",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: DR.SAI GANESH PILLAI MEDICAL CENTRE, SHARJAH",
+  "Index": 2276
  },
  {
   "P": "SHJ",
@@ -20369,6 +20525,19 @@
   "confidence": "area_match",
   "formatted": "مويلح, الشارقة, الإمارات العربية المتحدة",
   "Index": 2349
+ },
+ {
+  "P": "SHJ",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "CENTRAL PRIVATE HOSPITAL PHARMACY",
+  "AREA": "CLOCK TOWER, MYSALOON",
+  "ADDRESS": "SHEIKH ZAYED STREET, CLOCK TOWER, MYSALOON, SHARJAH, UAE",
+  "TELEPHONE": "06-5639900",
+  "lat": "25.361071",
+  "lon": "55.398162",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: CENTRAL PRIVATE HOSPITAL PHARMACY, SHARJAH",
+  "Index": 2350
  },
  {
   "P": "SHJ",

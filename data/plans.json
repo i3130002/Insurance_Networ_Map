@@ -1,37 +1,37 @@
 [
   {
     "id": "adico-classic",
-    "name": "ADICO Classic",
-    "insurer": "ADICO",
+    "name": "ADNIC Classic",
+    "insurer": "ADNIC",
     "coverage": "Inpatient",
     "emirates": [
       "AUH"
     ],
     "file": "data/adico-classic.json",
-    "providers": 334,
+    "providers": 364,
     "layers": {
-      "geo_only": 307,
-      "chain": 27,
-      "official": 0
+      "official": 169,
+      "chain": 19,
+      "geo_only": 0
     },
-    "network_source": "chain+geo"
+    "network_source": "official"
   },
   {
     "id": "adico-premium",
-    "name": "ADICO Premium",
-    "insurer": "ADICO",
+    "name": "ADNIC Premium",
+    "insurer": "ADNIC",
     "coverage": "Both",
     "emirates": [
       "AUH"
     ],
     "file": "data/adico-premium.json",
-    "providers": 334,
+    "providers": 364,
     "layers": {
-      "geo_only": 307,
-      "chain": 27,
-      "official": 0
+      "official": 169,
+      "chain": 19,
+      "geo_only": 0
     },
-    "network_source": "chain+geo"
+    "network_source": "official"
   },
   {
     "id": "axa-basic",
@@ -44,10 +44,10 @@
       "SHJ"
     ],
     "file": "data/axa-basic.json",
-    "providers": 1744,
+    "providers": 1785,
     "layers": {
-      "geo_only": 1461,
-      "chain": 283,
+      "geo_only": 1496,
+      "chain": 289,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -63,10 +63,10 @@
       "SHJ"
     ],
     "file": "data/axa-premier.json",
-    "providers": 1744,
+    "providers": 1785,
     "layers": {
-      "geo_only": 1461,
-      "chain": 283,
+      "geo_only": 1496,
+      "chain": 289,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -83,9 +83,9 @@
       "UMQ"
     ],
     "file": "data/aman-essential.json",
-    "providers": 668,
+    "providers": 680,
     "layers": {
-      "geo_only": 649,
+      "geo_only": 661,
       "chain": 19,
       "official": 0
     },
@@ -103,9 +103,9 @@
       "UMQ"
     ],
     "file": "data/aman-comprehensive.json",
-    "providers": 668,
+    "providers": 680,
     "layers": {
-      "geo_only": 649,
+      "geo_only": 661,
       "chain": 19,
       "official": 0
     },
@@ -122,10 +122,10 @@
       "AJM"
     ],
     "file": "data/daric-standard.json",
-    "providers": 1588,
+    "providers": 1601,
     "layers": {
-      "geo_only": 1303,
-      "chain": 285,
+      "geo_only": 1313,
+      "chain": 288,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -141,10 +141,10 @@
       "AJM"
     ],
     "file": "data/daric-premium.json",
-    "providers": 1588,
+    "providers": 1601,
     "layers": {
-      "geo_only": 1303,
-      "chain": 285,
+      "geo_only": 1313,
+      "chain": 288,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -159,10 +159,10 @@
       "AUH"
     ],
     "file": "data/enbd-gold.json",
-    "providers": 1331,
+    "providers": 1366,
     "layers": {
-      "geo_only": 1092,
-      "chain": 239,
+      "geo_only": 1123,
+      "chain": 243,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -177,10 +177,10 @@
       "AUH"
     ],
     "file": "data/enbd-silver.json",
-    "providers": 1331,
+    "providers": 1366,
     "layers": {
-      "geo_only": 1092,
-      "chain": 239,
+      "geo_only": 1123,
+      "chain": 243,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -196,10 +196,10 @@
       "AJM"
     ],
     "file": "data/gulf-essential.json",
-    "providers": 1588,
+    "providers": 1601,
     "layers": {
-      "geo_only": 1310,
-      "chain": 278,
+      "geo_only": 1320,
+      "chain": 281,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -215,10 +215,10 @@
       "AJM"
     ],
     "file": "data/gulf-comprehensive.json",
-    "providers": 1588,
+    "providers": 1601,
     "layers": {
-      "geo_only": 1310,
-      "chain": 278,
+      "geo_only": 1320,
+      "chain": 281,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -234,9 +234,9 @@
       "SHJ"
     ],
     "file": "data/noor-family.json",
-    "providers": 1744,
+    "providers": 1785,
     "layers": {
-      "geo_only": 1718,
+      "geo_only": 1759,
       "chain": 26,
       "official": 0
     },
@@ -253,9 +253,9 @@
       "SHJ"
     ],
     "file": "data/noor-individual.json",
-    "providers": 1744,
+    "providers": 1785,
     "layers": {
-      "geo_only": 1718,
+      "geo_only": 1759,
       "chain": 26,
       "official": 0
     },
@@ -272,9 +272,9 @@
       "AJM"
     ],
     "file": "data/takafol-family.json",
-    "providers": 1588,
+    "providers": 1601,
     "layers": {
-      "geo_only": 1566,
+      "geo_only": 1579,
       "chain": 22,
       "official": 0
     },

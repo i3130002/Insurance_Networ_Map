@@ -7,7 +7,7 @@ Interactive map of UAE healthcare providers, filterable by insurance plan.
 ## Features
 
 - 2,390 unique providers (clinics, hospitals, pharmacies, dental, diagnostic, daycare) across all 8 emirates
-- 15 insurance plans from 8 insurers (ADICO, AXA Gulf, Aman, DARIC, Emirates NBD, Gulf Insurance, Noor Takaful, Takafol Emarat)
+- 15 insurance plans from 8 insurers (ADNIC, AXA Gulf, Aman, DARIC, Emirates NBD, Gulf Insurance, Noor Takaful, Takafol Emarat)
 - Marker clustering for performance; color-coded provider types
 - Popups with Google Maps link + AI search query per provider
 

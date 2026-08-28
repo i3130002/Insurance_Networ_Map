@@ -53,7 +53,7 @@ CHAINS = {
 # Which chains each insurer includes, per known group agreements (public info).
 # Plans not listed here get L3 geo-only until official lists arrive.
 INSURER_CHAINS = {
-    'ADICO':                ['NMC Healthcare', 'Burjeel / VPS', 'LLH Group'],
+    'ADNIC':                ['NMC Healthcare', 'Burjeel / VPS', 'LLH Group'],
     'AXA Gulf':             ['Aster DM Healthcare', 'Mediclinic Middle East',
                              'Burjeel / VPS', 'Emirates Hospitals'],
     'Aman Insurance':       ['NMC Healthcare', 'Lifecare / CCS', 'LLH Group',
@@ -147,7 +147,7 @@ def main():
             em = r['P']
             n = norm_name(r['PROVIDER NAME'])
             layer = None
-            if official_set is not None and (n, em) in official_set:
+            if official_set is not None and em in plan_emirates and (n, em) in official_set:
                 layer = 'official'
             elif r['_chain'] and r['_chain'] in chain_allow and em in plan_emirates:
                 layer = 'chain'

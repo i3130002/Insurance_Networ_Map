@@ -2,6 +2,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "ZIA MEDICAL CENTRE LLC",
+  "AREA": "SHABIYA 12 MBZ CITY",
+  "ADDRESS": "BUILDING #104 SHABIYA 12 MBZ CITY ABU DHABI UAE",
+  "TELEPHONE": "02-5522201",
+  "lat": "24.337517",
+  "lon": "54.530336",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ZIA MEDICAL CENTRE, ABU DHABI",
+  "Index": 83
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "PESHAWAR MEDICAL CENTRE LLC",
   "AREA": "MUSSAFAH",
   "ADDRESS": "OPPOSITE TO ICAD GATE 1 , SANAIYA M-40 MUSSAFAH ABU DHABI,UAE",
@@ -37,6 +50,19 @@
   "confidence": "area_match",
   "formatted": "Ameen Car Garage, Al Ain Sanaiya, شارع الشَّلَّال 6, الصناعية, Industrial Area, العين, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 86
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "BAB AL TEB MEDICAL CENTRE LLC-SOLE PROPRIETORSHIP L.L.C",
+  "AREA": "SANAIYA M-44",
+  "ADDRESS": "SANAIYA M-44 MUSSAFAH ABU DHABI,UAE",
+  "TELEPHONE": "02-6261914",
+  "lat": "24.34861",
+  "lon": "54.472986",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: BAB AL TEB MEDICAL CENTRE, ABU DHABI",
+  "Index": 87
  },
  {
   "P": "AUH",
@@ -492,6 +518,19 @@
   "confidence": "area_match",
   "formatted": "منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 122
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "CARE POINT CLINIC L.L.C",
+  "AREA": "WORKERS CITY 1,BANIYAS",
+  "ADDRESS": "AL JABER SHOPPING COMPLEX,MAFRAQ WORKERS CITY 1, BANIYAS,ABU DHABI",
+  "TELEPHONE": "26228383",
+  "lat": "24.284159",
+  "lon": "54.607036",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: CARE POINT CLINIC, ABU DHABI",
+  "Index": 123
  },
  {
   "P": "AUH",
@@ -990,6 +1029,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "SHAH GENERAL CLINIC",
+  "AREA": "RAMS SHAH FIRST AID CENTER",
+  "ADDRESS": "RAMS SHAH FIRST AID CENTER - ADNOC (R18),ABU DHABI",
+  "TELEPHONE": "02-6020541",
+  "lat": "23.13545",
+  "lon": "53.9067",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: SHAH GENERAL CLINIC, ABU DHABI",
+  "Index": 163
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "SAHEL CLINIC",
   "AREA": "SAHEL",
   "ADDRESS": "SAHEL, WESTERN REGION, ABU DHABI",
@@ -1012,6 +1064,19 @@
   "confidence": "0",
   "formatted": "Buhasa Airport, Al Dhafra, United Arab Emirates",
   "Index": 165
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "DABBAYIA CLINIC",
+  "AREA": "RAMS DHABIYYA",
+  "ADDRESS": "RAMS DHABIYYA CLINIC,ABU DHABI",
+  "TELEPHONE": "02-26046788",
+  "lat": "24.305983",
+  "lon": "54.113633",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: DABBAYIA CLINIC, ABU DHABI",
+  "Index": 166
  },
  {
   "P": "AUH",
@@ -4266,6 +4331,19 @@
  {
   "P": "DXB",
   "PROVIDER TYPE": "DAYCARE",
+  "PROVIDER NAME": "ASTER DAY SURGERY CENTRE LLC",
+  "AREA": "BUR DUBAI-KUWAIT ROAD",
+  "ADDRESS": "MOHAMMAD HUSSAIN ALIYATEEM BUILDING, NEAR ASTER HOSPITAL AL MANKHOOL, KUWAIT ROAD,",
+  "TELEPHONE": "04-3814987",
+  "lat": "25.252423",
+  "lon": "55.286708",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ASTER DAY SURGERY CENTRE LLC, DUBAI",
+  "Index": 574
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "DAYCARE",
   "PROVIDER NAME": "ARMADA ONE DAY SURGICAL CENTER",
   "AREA": "JLT",
   "ADDRESS": "ARMADA TOWER-CLUSTER P -P2 -GOUND FLOOR JLT DUBAI",
@@ -4721,6 +4799,19 @@
  {
   "P": "DXB",
   "PROVIDER TYPE": "HOSPITAL",
+  "PROVIDER NAME": "ASTER HOSPITAL SONAPUR",
+  "AREA": "SONAPUR",
+  "ADDRESS": "P.O.BOX: 119428, SONAPUR, ALGERIA STREET, MUHAISNAH",
+  "TELEPHONE": "04-4005004",
+  "lat": "25.264627",
+  "lon": "55.433619",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ASTER HOSPITAL SONAPUR, DUBAI",
+  "Index": 634
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "HOSPITAL",
   "PROVIDER NAME": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH(FORMERLY NMC SPECIALTY HOSPITAL-AL NAHADA)",
   "AREA": "AL NAHDA 2",
   "ADDRESS": "AMMAN STREET, AL NAHDA 2 ,DUBAI",
@@ -4786,6 +4877,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "AL ZIA PHARMACY LLC",
+  "AREA": "SHABIYA 12 MBZ CITY",
+  "ADDRESS": "BUILDING #87 SHABIYA 12 MBZ CITY ABU DHABI UAE",
+  "TELEPHONE": "02-5529220",
+  "lat": "24.324114",
+  "lon": "54.531302",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: AL ZIA PHARMACY - L.L.C, ABU DHABI",
+  "Index": 751
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "LAHORE PHARMACY LLC",
   "AREA": "MUSSAFAH",
   "ADDRESS": "OPPOSITE TO ICAD GATE 1 , SANAIYA M-40 MUSSAFAH ABU DHABI",
@@ -4808,6 +4912,19 @@
   "confidence": "area_match",
   "formatted": "Premier Motors, Ford, شارع البَيلِي 5, M 15, Musaffah, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 753
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "BAB AL TEB PHARMACY LLC-SOLE PROPRIETORSHIP L.L.C",
+  "AREA": "SANAIYA M-26",
+  "ADDRESS": "SANAIYA M-26 MUSSAFAH ABU DHABI,UAE",
+  "TELEPHONE": "02-6261914",
+  "lat": "24.34861",
+  "lon": "54.472986",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: BAB AL TEB PHARMACY, ABU DHABI",
+  "Index": 754
  },
  {
   "P": "AUH",
@@ -5744,6 +5861,19 @@
   "confidence": "",
   "formatted": "Mohd. Khalid Al Attar General Trading, Al Soor Street, Al Sabkha, Deira, United Arab Emirates",
   "Index": 828
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "BELHOUL SPECIALITY HOSPITAL PHARMACY",
+  "AREA": "AL BARHA",
+  "ADDRESS": "BSH BUILDING, NEAR BIG MART SUPERMARKET, AL BARAHA, DUBAI",
+  "TELEPHONE": "04-2140638",
+  "lat": "25.280538",
+  "lon": "55.313182",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: BELHOUL SPECIALITY HOSPITAL PHARMACY, DUBAI",
+  "Index": 829
  },
  {
   "P": "DXB",
@@ -8842,6 +8972,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "BAREEN PHARMACY",
+  "AREA": "MOHAMMAD BIN ZAYED CITY",
+  "ADDRESS": "MOHAMMAD BIN ZAYED CITY, ZONE 15 (NEXT TO SHAIKAH FATIMA BINT MUBARAK MOSQUE) ,P.O. BOX 108727, ABU DHABI, U.A.E",
+  "TELEPHONE": "02-5545555",
+  "lat": "24.3391",
+  "lon": "54.5545",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: BAREEN PHARMACY, ABU DHABI",
+  "Index": 1317
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "NEW PHARMACY COMPANY LTD - BRANCH 7",
   "AREA": "AL KHALIDIYAH",
   "ADDRESS": "14 AL FARIS ST - AL KHALIDIYAH - W17-01 - ABU DHABI",
@@ -9111,6 +9254,32 @@
   "confidence": "area_match",
   "formatted": "Darwish Tower, شارع جمعة بن كسلا الرميثي, الريحان, Al Rehhan, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1421
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "MEDLUX MEDICAL CENTER L.L.C",
+  "AREA": "AL MAFRAQ INDUSTRIAL AREA",
+  "ADDRESS": "AL MAFRAQ INDUSTRIAL AREA,ABU DHABI,UAE",
+  "TELEPHONE": "02-6229722",
+  "lat": "24.290563",
+  "lon": "54.591508",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: MEDLUX MEDICAL CENTER LLC, ABU DHABI",
+  "Index": 1422
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "ROYAL INTERNATIONAL MEDICAL CENTER - SOLE PROPRIETORSHIP L.L.C.",
+  "AREA": "AL MAFRAQ WORKERS VILLAGE",
+  "ADDRESS": "AL MAFRAQ WORKERS VILLAGE NO. 1 ABU DHABI, UAE",
+  "TELEPHONE": "02-8775522",
+  "lat": "24.27607",
+  "lon": "54.580335",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ROYAL INTERNATIONAL MEDICAL CENTER, ABU DHABI",
+  "Index": 1424
  },
  {
   "P": "AUH",
@@ -9427,6 +9596,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "CLINIC",
+  "PROVIDER NAME": "DRONCALL LTD",
+  "AREA": "AL MARYAHA",
+  "ADDRESS": "16TH FLOOR , WEWORK  HUB 71 ,ALMARYAHA ISLAND,NEAR GALLERIA MALL ,ADGM SQUARE,ABUDHABI-UAE",
+  "TELEPHONE": "02-6730950",
+  "lat": "24.50185",
+  "lon": "54.38882",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: DRONCALL LTD, ABU DHABI",
+  "Index": 1450
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "CLINIC",
   "PROVIDER NAME": "ELITECARE MEDICAL CENTRE-SOLE PROPRIETORSHIP L.L.C",
   "AREA": "AL DANAH",
   "ADDRESS": "SULTAN BIN ZAYED THE FIRST, 53 ST, AL DANAH, ABU DHABI, UAE",
@@ -9579,6 +9761,19 @@
   "confidence": "area_match",
   "formatted": "مصفح الصناعية, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1463
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "LLH HOSPITAL PHARMACY AL MUSAFFAH",
+  "AREA": "SANAYYA – 7",
+  "ADDRESS": "PO BOX NO:  92313,16TH, STREET, SANAYYA – 7, INDUSTRIAL AREA, MUSAFFAH, ABU DHABI, UNITED ARAB EMIRA",
+  "TELEPHONE": "02-4126018",
+  "lat": "24.378683",
+  "lon": "54.51845",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: LLH HOSPITAL PHARMACY AL MUSAFFAH, ABU DHABI",
+  "Index": 1464
  },
  {
   "P": "AUH",
@@ -9895,6 +10090,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "MEDI CURE PHARMACY L.L.C",
+  "AREA": "WORKERS CITY 1,BANIYAS",
+  "ADDRESS": "AL JABER SHOPPING COMPLEX,MAFRAQ WORKERS CITY 1, BANIYAS,ABU DHABI",
+  "TELEPHONE": "026228383",
+  "lat": "24.284191",
+  "lon": "54.606845",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: MEDI CURE PHARMACY L.L.C, ABU DHABI",
+  "Index": 1492
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "BLUE OCEAN PHARMACY - SOLE PROPRIETORSHIP L.L.C",
   "AREA": "SHABIYA-ME10",
   "ADDRESS": "ABU DHABI-MUSAFFAH SHABIYA-ME10-MOHAMED BIN ZAYED CITY,ABUDHABI",
@@ -9956,6 +10164,19 @@
   "confidence": "area_match",
   "formatted": "شارع زايد الأول, البطين, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1498
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "ASTER PHARMACIES GROUP LLC- BRANCH OF ABU DHABI 2",
+  "AREA": "KHALIDYA",
+  "ADDRESS": "DAR AL THALMIYA, KHALIDIYA, ABU DHABI, UAE, BEHIND AL MUHAIRY CENTRE",
+  "TELEPHONE": "02-4910686",
+  "lat": "24.488844",
+  "lon": "54.361145",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ASTER PHARMACIES GROUP LLC - BRANCH OF ABU DHABI 2, ABU DHABI",
+  "Index": 1499
  },
  {
   "P": "AUH",
@@ -10129,6 +10350,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "AL AHALIA NATIONAL PHARMACY L.L.C. - BRANCH 1",
+  "AREA": "TARIF ROAD",
+  "ADDRESS": "M 24, MUSAFFAH, NEAR BMW SHOW ROOM, TARIF ROAD",
+  "TELEPHONE": "02-5597090",
+  "lat": "24.362246",
+  "lon": "54.524268",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: AL AHALIA NATIONAL PHARMACY LLC - BRANCH 1, ABU DHABI",
+  "Index": 1516
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "BETTER LIFE PHARMACY - SOLE PROPRIETORSHIP L.L.C.",
   "AREA": "MUSAFFAH ICAD",
   "ADDRESS": "MUSAFFAH ICAD, NEAR FATHIMA SUPERMARKET",
@@ -10138,6 +10372,19 @@
   "confidence": "area_match",
   "formatted": "UAE Navy School, شارع النَّصيلة, أبو ظبي الصناعية 1, مَدينة أبوظبي الصناعية, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1519
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "EASTERN AL AHLIA PHARMACY - L.L.C.",
+  "AREA": "MAFRAQ, WORKERS CITY-2",
+  "ADDRESS": "MAFRAQ, WORKERS CITY-2,AUH",
+  "TELEPHONE": "02-5856008",
+  "lat": "24.256727",
+  "lon": "54.628462",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: EASTERN AL AHLIA PHARMACY, ABU DHABI",
+  "Index": 1520
  },
  {
   "P": "AUH",
@@ -10233,6 +10480,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "NOOR ALAHLI PHARMACY L.L.C. - BRANCH 8",
+  "AREA": "MARFA SOUQ",
+  "ADDRESS": "MARFA SOUQ, OPP ABUSAEED MOSQUE, MIRFA",
+  "TELEPHONE": "02-8833443",
+  "lat": "24.09855",
+  "lon": "53.492248",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: NOOR ALAHLI PHARMACY - BRANCH 8, ABU DHABI",
+  "Index": 1528
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "STAR AL AHALIA PHARMACY",
   "AREA": "GAYATHI",
   "ADDRESS": "C76, NEAR GAYATHI MARKET, GAYATHI",
@@ -10242,6 +10502,45 @@
   "confidence": "area_match",
   "formatted": "Golden Arrow, شارع الزَّخرَفة 5, غياثي, غِيَّاثِي, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1529
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "UNIQUE AL AHALIA PHARMACY",
+  "AREA": "MUSSAFAH, SHABIYA",
+  "ADDRESS": "ME-10, NEAR RED CRESCENT, MUSSAFAH, SHABIYA",
+  "TELEPHONE": "02-5595441",
+  "lat": "24.487075",
+  "lon": "54.361533",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: UNIQUE AL AHALIA PHARMACY, ABU DHABI",
+  "Index": 1530
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "PHOENIX HOSPITAL PHARMACY L.L.C.",
+  "AREA": "SHABIYAH",
+  "ADDRESS": "M-10, SHABIYAH, MUSAFFAH",
+  "TELEPHONE": "02-6151525",
+  "lat": "24.332543",
+  "lon": "54.530814",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: PHOENIX HOSPITAL PHARMACY L.L.C, ABU DHABI",
+  "Index": 1532
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "MILLENNIUM HOSPITAL PHARMACY L.L.C.",
+  "AREA": "SHABIA 9",
+  "ADDRESS": "C 175, ME 9, SHABIA 9, MUSSAFAH",
+  "TELEPHONE": "02-5649409",
+  "lat": "24.34179",
+  "lon": "54.537435",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: MILLENNIUM HOSPITAL PHARMACY L.L.C., ABU DHABI",
+  "Index": 1533
  },
  {
   "P": "AUH",
@@ -10320,6 +10619,19 @@
   "confidence": "area_match",
   "formatted": "Sheikh Khalifa Energy Complex, شارع التُّوك, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1539
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "ASAB PHARMACY",
+  "AREA": "ASAB AREA",
+  "ADDRESS": "ASAB AREA, ABU DHABI",
+  "TELEPHONE": "02-6034222",
+  "lat": "24.467566",
+  "lon": "54.322406",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ASAB PHARMACY, ABU DHABI",
+  "Index": 1541
  },
  {
   "P": "AUH",
@@ -10506,6 +10818,32 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "BLACK FALCON PHARMACY L.L.C",
+  "AREA": "GHAYATHI NEW INDUSTRIAL AREA",
+  "ADDRESS": "BIN ASHEER BUILDING, GHAYATHI NEW INDUSTRIAL AREA, WESTERN REGION GHAYATHI ABU DHABI, UAE",
+  "TELEPHONE": "02-8762647",
+  "lat": "23.937972",
+  "lon": "52.8185",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: BLACK FALCON PHARMACY - L.L.C, ABU DHABI",
+  "Index": 1562
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "SMART HEALTH PHARMACY",
+  "AREA": "WORKERS VILLAGE 2 AL MAFRAQ",
+  "ADDRESS": "WORKERS VILLAGE 2 AL MAFRAQ INDUSTRIAL AREA ABU DHABI, UAE",
+  "TELEPHONE": "02-4467700",
+  "lat": "24.310265",
+  "lon": "54.606502",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: SMART HEALTH PHARMACY, ABU DHABI",
+  "Index": 1564
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "NORTH WEST PHARMACY LLC",
   "AREA": "MUSAFFAH 38",
   "ADDRESS": "MUSAFFAH 38, ABUDHABI,UAE",
@@ -10636,6 +10974,32 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "MEDLUX PHARMACY L.L.C",
+  "AREA": "AL MAFRAQ INDUSTRIAL AREA",
+  "ADDRESS": "AL MAFRAQ INDUSTRIAL AREA,ABU DHABI,UAE",
+  "TELEPHONE": "02-6229722",
+  "lat": "24.290563",
+  "lon": "54.591508",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: MEDLUX PHARMACY LLC., ABU DHABI",
+  "Index": 1577
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "ROYAL INTERNATIONAL PHARMACY",
+  "AREA": "AL MAFRAQ WORKERS VILLAGE",
+  "ADDRESS": "AL MAFRAQ WORKERS VILLAGE NO. 1 ABU DHABI, UAE",
+  "TELEPHONE": "02-5833735",
+  "lat": "24.275991",
+  "lon": "54.580612",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: ROYAL INTERNATIONAL PHARMACY, ABU DHABI",
+  "Index": 1578
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "BUPA PHARMACY SOLE PROPRIETORSHIP L.L.C",
   "AREA": "HAMDAN BIN MOHAMMED",
   "ADDRESS": "GROUND FLOOR, FOTOUH AL KHAIR MALL SHEIKH RASHID BIN SAEED ST - HAMDAN BIN MOHAMMED ST - E3-01 - ABU DHABI",
@@ -10701,6 +11065,19 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY LLC - BRANCH 10",
+  "AREA": "BANIYAS EAST",
+  "ADDRESS": "BANIYAS EAST , AL MUWAILI ST BEHIND BIN HAMODA MOSUQ ABD,ABU DHABI,UAE",
+  "TELEPHONE": "02-5464318",
+  "lat": "24.338383",
+  "lon": "54.46255",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: HEALTH FIRST PHARMACY - BRANCH 10, ABU DHABI",
+  "Index": 1584
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "HEALTH FIRST PHARMACY LLC - BRANCH 13",
   "AREA": "AL SAYYAR ST",
   "ADDRESS": "AL BAHIA ABU DUBAI ROAD AL SAYYAR ST,ABU DHABI,UAE",
@@ -10753,6 +11130,32 @@
  {
   "P": "AUH",
   "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY LLC",
+  "AREA": "SADYAT ISLAND",
+  "ADDRESS": "SAINT REDGIS RESORT - SADYAT ISLAND, ABU DHABI, UAE",
+  "TELEPHONE": "02-6219720",
+  "lat": "24.537699",
+  "lon": "54.425255",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: HEALTH FIRST PHARMACY, ABU DHABI",
+  "Index": 1589
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY LLC BRANCH 4",
+  "AREA": "KHALIDIA STREET",
+  "ADDRESS": "KHALIDIA STREET",
+  "TELEPHONE": "02-6666427",
+  "lat": "24.474233",
+  "lon": "54.350967",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: HEALTH FIRST PHARMACY - BRANCH 4, ABU DHABI",
+  "Index": 1590
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
   "PROVIDER NAME": "HEALTH FIRST PHARMACY LLC BRANCH 5",
   "AREA": "SECTOR #11(MUSSAFAH)",
   "ADDRESS": "SHABIA KHALIFA-SECTOR #11(MUSSAFAH)",
@@ -10762,6 +11165,19 @@
   "confidence": "area_match",
   "formatted": "Global Ascent Business Center Mussafah Abu Dhabi, M 4, مصفح الصناعية, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1591
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "HEALTH FIRST PHARMACY LLC BRANCH 6",
+  "AREA": "KHALIDIA ST",
+  "ADDRESS": "BEHIND LEBANESE RESTAU.AL KHALIDIA ST.",
+  "TELEPHONE": "02-6668798",
+  "lat": "24.47565",
+  "lon": "54.353367",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: HEALTH FIRST PHARMACY BR - 6, ABU DHABI",
+  "Index": 1592
  },
  {
   "P": "AUH",
@@ -10996,6 +11412,19 @@
   "confidence": "area_match",
   "formatted": "الخالدية مول, شارع مبارك بن محمد, المنهل, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
   "Index": 1613
+ },
+ {
+  "P": "AUH",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "LULU RAHA PHARMACY BRANCH 1",
+  "AREA": "LULU BANIYAS",
+  "ADDRESS": "LULU HYPERMARKET, BANIYAS,ABU DHABI",
+  "TELEPHONE": "02-5505051",
+  "lat": "24.438699",
+  "lon": "54.576487",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: LULU RAHA PHARMACY - LLC - BRANCH 1, ABU DHABI",
+  "Index": 1614
  },
  {
   "P": "AUH",
@@ -13531,6 +13960,19 @@
   "confidence": "area_match",
   "formatted": "Satwa, شارع 2 ديسمبر, بر دبي, الحضيبة, دبي, الإمارات العربية المتحدة",
   "Index": 1836
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "MUSALLA SONAPOOR PHARMACY",
+  "AREA": "SONAPUR",
+  "ADDRESS": "NEAR SHAKLAN 2 SUPERMARKET BUILDING , MUHAISNAH-2(SONAPOOR) DUBAI, P.O. BOX-26238",
+  "TELEPHONE": "04-2544461",
+  "lat": "25.274567",
+  "lon": "55.421783",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: MUSALLA SONAPOOR PHARMACY, DUBAI",
+  "Index": 1837
  },
  {
   "P": "DXB",
@@ -16404,6 +16846,19 @@
   "confidence": "area_match",
   "formatted": "السطوة, دبي, الإمارات العربية المتحدة",
   "Index": 2073
+ },
+ {
+  "P": "DXB",
+  "PROVIDER TYPE": "PHARMACY",
+  "PROVIDER NAME": "MEDICOM PHARMACY 33 (LLC)",
+  "AREA": "FRIJ MURAR",
+  "ADDRESS": "FRIJ MURAR,DEIRA,DUBAI,UAE",
+  "TELEPHONE": "04-2733237",
+  "lat": "25.275916",
+  "lon": "55.308873",
+  "confidence": "official_adnic_network",
+  "formatted": "ADNIC network: MEDICOM PHARMACY 33 LLC, DUBAI",
+  "Index": 2074
  },
  {
   "P": "DXB",
