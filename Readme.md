@@ -29,10 +29,10 @@ Emirate codes: AJM, AUH, DXB, FUJ, RAK, SHJ, UMQ, ALAIN
 
 ### Plan network caveat
 
-Per-plan files currently filter the full registry by the plan's **emirate
-coverage**. True network membership requires each insurer's official provider
-list — replace `data/<plan-id>.json` when those lists are available and re-run
-`build_data.py` with membership data.
+Most per-plan files currently filter the full registry by the plan's **emirate
+coverage**. The ADNIC plans also use matches from the official ADNIC directory.
+True plan-level membership for the other insurers requires each insurer's
+official provider list.
 
 ## Rebuilding data
 
