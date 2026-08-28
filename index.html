@@ -155,12 +155,15 @@
                 geo_only: '<span style="color:#b8860b" title="Within the plan\'s emirate coverage — not yet confirmed against an official network list">≈ coverage-area match</span>'
             };
             const badge = layer ? (LAYER_BADGE[layer] || '') + '<br>' : '';
+            const locationConfidence = e.confidence !== undefined && e.confidence !== null && e.confidence !== '' ?
+                `<br><small class="muted">📍 Location confidence: ${esc(e.confidence)}</small>` : '';
             return `<div class="popup-scroll">
                 <h6>${esc(e['PROVIDER NAME'])}</h6>
                 <span class="muted">${esc(e['PROVIDER TYPE'])} · ${esc(em)} · ${esc(e.AREA)}</span><br>
                 <small>${esc(e.ADDRESS)}</small><br>
                 <small>☎ ${esc(e.TELEPHONE) || '—'}</small>
                 ${badge}
+                ${locationConfidence}
                 <br><a href="https://www.google.com/maps/search/?api=1&query=${mapsQuery}"
                     target="_blank" rel="noopener">📍 Google Maps</a>
                 &nbsp;<a href="https://www.google.com/search?q=${encodeURIComponent(query)}"
