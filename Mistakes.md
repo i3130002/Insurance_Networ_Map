@@ -39,6 +39,7 @@
 - 2026-08-29: The iframe download-event transfer timed out after the menu item was clicked; Excel’s browser download is not consistently observable by Playwright in this session.
 - 2026-08-29: The captured Excel download endpoint returned a 1,466-byte HTML internal-error page with HTTP 200, not an XLSX. Verify MIME/signature before accepting browser downloads.
 - 2026-08-29: The general web tool followed a Takafol SharePoint workbook link into a Microsoft login redirect and could not fetch the workbook. Use the rendered Excel browser route for public page inspection.
+- 2026-08-29: Local Brave headless navigation hung on the SharePoint workbook and produced no download. The user’s interactive Brave session may succeed because it has a full GUI/private profile unavailable to this agent.
 - 2026-08-29: Reusing the `frame` binding in the persistent browser REPL caused a redeclaration syntax error. Use unique binding names for each interaction call.
 - 2026-08-28: The first Zavis batch exited without producing its result file. Add a hard timeout and verify the output file before treating a public-directory run as complete.
 - 2026-08-28: Direct urllib access to Zavis returned HTTP 403; use the approved browser/scraping path for JS-rendered public pages instead of assuming raw HTTP access.
