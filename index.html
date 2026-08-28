@@ -31,6 +31,11 @@
             width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px;
             font-size: .9rem; margin-bottom: 10px;
         }
+        .reset-filters {
+            padding: 6px 10px; border: 1px solid #ccc; border-radius: 6px;
+            background: #f8f9fa; cursor: pointer; font-size: .8rem;
+        }
+        .reset-filters:disabled { cursor: not-allowed; opacity: .6; }
         #status { font-size: .85rem; color: #666; min-height: 1.2em; margin-bottom: 6px; }
         #status.error { color: #b02a37; }
         .legend { font-size: .75rem; color: #666; border-top: 1px solid #eee; padding-top: 8px; margin-top: 8px; }
@@ -69,6 +74,7 @@
         <select id="emirateFilter" disabled><option value="">All emirates</option></select>
         <label for="typeFilter">Provider type:</label>
         <select id="typeFilter" disabled><option value="">All provider types</option></select>
+        <button id="resetFilters" class="reset-filters" type="button" disabled>Reset filters</button>
         <div id="status"></div>
         <div class="legend" id="legend">
             <b>Provider types:</b><br>
@@ -263,6 +269,15 @@
             document.getElementById('providerSearch').disabled = false;
             options('P', 'emirateFilter', 'emirates');
             options('PROVIDER TYPE', 'typeFilter', 'provider types');
+            document.getElementById('resetFilters').disabled = false;
+        }
+
+        function resetFilters() {
+            document.getElementById('providerSearch').value = '';
+            ['emirateFilter', 'typeFilter'].forEach(id => {
+                document.getElementById(id).value = '';
+            });
+            renderProviders();
         }
 
         async function loadPlan(selection) {
@@ -272,6 +287,7 @@
             if (cluster) { map.removeLayer(cluster); cluster = null; }
             selectedPlan = [];
             selectedPlanNet = null;
+            document.getElementById('resetFilters').disabled = true;
             document.getElementById('providerSearch').disabled = true;
             ['emirateFilter', 'typeFilter'].forEach(id => {
                 const select = document.getElementById(id);
@@ -298,6 +314,7 @@
         document.getElementById('providerSearch').addEventListener('input', renderProviders);
         ['emirateFilter', 'typeFilter'].forEach(id =>
             document.getElementById(id).addEventListener('change', renderProviders));
+        document.getElementById('resetFilters').addEventListener('click', resetFilters);
 
         // ---------- boot ----------
         loadNetworkIndex().then(loadPlans);
