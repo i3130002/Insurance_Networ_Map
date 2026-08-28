@@ -1,0 +1,193 @@
+[
+  {
+    "id": "adico-classic",
+    "name": "ADICO Classic",
+    "insurer": "ADICO",
+    "coverage": "Inpatient",
+    "emirates": [
+      "AUH"
+    ],
+    "file": "data/adico-classic.json",
+    "providers": 129
+  },
+  {
+    "id": "adico-premium",
+    "name": "ADICO Premium",
+    "insurer": "ADICO",
+    "coverage": "Both",
+    "emirates": [
+      "AUH"
+    ],
+    "file": "data/adico-premium.json",
+    "providers": 129
+  },
+  {
+    "id": "axa-basic",
+    "name": "AXA Gulf Basic",
+    "insurer": "AXA Gulf",
+    "coverage": "Inpatient",
+    "emirates": [
+      "DXB",
+      "AUH",
+      "SHJ"
+    ],
+    "file": "data/axa-basic.json",
+    "providers": 867
+  },
+  {
+    "id": "axa-premier",
+    "name": "AXA Gulf Premier",
+    "insurer": "AXA Gulf",
+    "coverage": "Both",
+    "emirates": [
+      "DXB",
+      "AUH",
+      "SHJ"
+    ],
+    "file": "data/axa-premier.json",
+    "providers": 867
+  },
+  {
+    "id": "aman-essential",
+    "name": "Aman Essential",
+    "insurer": "Aman Insurance",
+    "coverage": "Outpatient",
+    "emirates": [
+      "AJM",
+      "SHJ",
+      "FUJ",
+      "UMQ"
+    ],
+    "file": "data/aman-essential.json",
+    "providers": 439
+  },
+  {
+    "id": "aman-comprehensive",
+    "name": "Aman Comprehensive",
+    "insurer": "Aman Insurance",
+    "coverage": "Both",
+    "emirates": [
+      "AJM",
+      "SHJ",
+      "FUJ",
+      "UMQ"
+    ],
+    "file": "data/aman-comprehensive.json",
+    "providers": 439
+  },
+  {
+    "id": "daric-standard",
+    "name": "DARIC Standard",
+    "insurer": "DARIC",
+    "coverage": "Inpatient",
+    "emirates": [
+      "DXB",
+      "SHJ",
+      "AJM"
+    ],
+    "file": "data/daric-standard.json",
+    "providers": 873
+  },
+  {
+    "id": "daric-premium",
+    "name": "DARIC Premium",
+    "insurer": "DARIC",
+    "coverage": "Both",
+    "emirates": [
+      "DXB",
+      "SHJ",
+      "AJM"
+    ],
+    "file": "data/daric-premium.json",
+    "providers": 873
+  },
+  {
+    "id": "enbd-gold",
+    "name": "Emirates NBD Gold",
+    "insurer": "Emirates NBD Ins.",
+    "coverage": "Both",
+    "emirates": [
+      "DXB",
+      "AUH"
+    ],
+    "file": "data/enbd-gold.json",
+    "providers": 600
+  },
+  {
+    "id": "enbd-silver",
+    "name": "Emirates NBD Silver",
+    "insurer": "Emirates NBD Ins.",
+    "coverage": "Inpatient",
+    "emirates": [
+      "DXB",
+      "AUH"
+    ],
+    "file": "data/enbd-silver.json",
+    "providers": 600
+  },
+  {
+    "id": "gulf-essential",
+    "name": "Gulf Insurance Essential",
+    "insurer": "Gulf Insurance",
+    "coverage": "Inpatient",
+    "emirates": [
+      "DXB",
+      "SHJ",
+      "AJM"
+    ],
+    "file": "data/gulf-essential.json",
+    "providers": 873
+  },
+  {
+    "id": "gulf-comprehensive",
+    "name": "Gulf Insurance Comprehensive",
+    "insurer": "Gulf Insurance",
+    "coverage": "Both",
+    "emirates": [
+      "DXB",
+      "SHJ",
+      "AJM"
+    ],
+    "file": "data/gulf-comprehensive.json",
+    "providers": 873
+  },
+  {
+    "id": "noor-family",
+    "name": "Noor Takaful Family",
+    "insurer": "Noor Takaful",
+    "coverage": "Both",
+    "emirates": [
+      "DXB",
+      "AUH",
+      "SHJ"
+    ],
+    "file": "data/noor-family.json",
+    "providers": 867
+  },
+  {
+    "id": "noor-individual",
+    "name": "Noor Takaful Individual",
+    "insurer": "Noor Takaful",
+    "coverage": "Outpatient",
+    "emirates": [
+      "DXB",
+      "AUH",
+      "SHJ"
+    ],
+    "file": "data/noor-individual.json",
+    "providers": 867
+  },
+  {
+    "id": "takafol-family",
+    "name": "Takafol Emarat Family Takaful",
+    "insurer": "Takafol Emarat",
+    "coverage": "Both",
+    "emirates": [
+      "DXB",
+      "SHJ",
+      "AJM"
+    ],
+    "file": "data/takafol-family.json",
+    "providers": 873
+  }
+]
