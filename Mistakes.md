@@ -25,3 +25,4 @@
 - 2026-08-28: The geocoder backlog count was read before the deduplication fix, reporting 174 instead of the final 189. Rebuild generated data before publishing counts.
 - 2026-08-28: Takafol's exact SharePoint link and its resolved `NEXTCARE - GN+.xlsx` path both returned HTTP 403 with `download=1`; link-suffix changes cannot bypass the tenant access policy.
 - 2026-08-28: Two direct-link patch attempts missed the existing JavaScript context. Inspect exact source lines before applying a narrow patch.
+- 2026-08-28: An older geocoder process overlapped a newer source refresh and overwrote registry state. Do not run concurrent writers against `sources/merged-registry.json`.

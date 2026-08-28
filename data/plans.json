@@ -44,9 +44,9 @@
       "SHJ"
     ],
     "file": "data/axa-basic.json",
-    "providers": 1805,
+    "providers": 1802,
     "layers": {
-      "geo_only": 1513,
+      "geo_only": 1510,
       "chain": 292,
       "official": 0
     },
@@ -63,9 +63,9 @@
       "SHJ"
     ],
     "file": "data/axa-premier.json",
-    "providers": 1805,
+    "providers": 1802,
     "layers": {
-      "geo_only": 1513,
+      "geo_only": 1510,
       "chain": 292,
       "official": 0
     },
@@ -83,9 +83,9 @@
       "UMQ"
     ],
     "file": "data/aman-essential.json",
-    "providers": 694,
+    "providers": 689,
     "layers": {
-      "geo_only": 675,
+      "geo_only": 670,
       "chain": 19,
       "official": 0
     },
@@ -103,9 +103,9 @@
       "UMQ"
     ],
     "file": "data/aman-comprehensive.json",
-    "providers": 694,
+    "providers": 689,
     "layers": {
-      "geo_only": 675,
+      "geo_only": 670,
       "chain": 19,
       "official": 0
     },
@@ -122,9 +122,9 @@
       "AJM"
     ],
     "file": "data/daric-standard.json",
-    "providers": 1617,
+    "providers": 1614,
     "layers": {
-      "geo_only": 1327,
+      "geo_only": 1324,
       "chain": 290,
       "official": 0
     },
@@ -141,9 +141,9 @@
       "AJM"
     ],
     "file": "data/daric-premium.json",
-    "providers": 1617,
+    "providers": 1614,
     "layers": {
-      "geo_only": 1327,
+      "geo_only": 1324,
       "chain": 290,
       "official": 0
     },
@@ -196,9 +196,9 @@
       "AJM"
     ],
     "file": "data/gulf-essential.json",
-    "providers": 1617,
+    "providers": 1614,
     "layers": {
-      "geo_only": 1334,
+      "geo_only": 1331,
       "chain": 283,
       "official": 0
     },
@@ -215,9 +215,9 @@
       "AJM"
     ],
     "file": "data/gulf-comprehensive.json",
-    "providers": 1617,
+    "providers": 1614,
     "layers": {
-      "geo_only": 1334,
+      "geo_only": 1331,
       "chain": 283,
       "official": 0
     },
@@ -234,9 +234,9 @@
       "SHJ"
     ],
     "file": "data/noor-family.json",
-    "providers": 1805,
+    "providers": 1802,
     "layers": {
-      "geo_only": 1779,
+      "geo_only": 1776,
       "chain": 26,
       "official": 0
     },
@@ -253,9 +253,9 @@
       "SHJ"
     ],
     "file": "data/noor-individual.json",
-    "providers": 1805,
+    "providers": 1802,
     "layers": {
-      "geo_only": 1779,
+      "geo_only": 1776,
       "chain": 26,
       "official": 0
     },
@@ -272,9 +272,9 @@
       "AJM"
     ],
     "file": "data/takafol-family.json",
-    "providers": 1617,
+    "providers": 1614,
     "layers": {
-      "geo_only": 1595,
+      "geo_only": 1592,
       "chain": 22,
       "official": 0
     },

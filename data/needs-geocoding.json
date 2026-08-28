@@ -756,7 +756,11 @@
   "P": "AUH",
   "AREA": "PARAGON BAY MAL",
   "ADDRESS": "GROUND FLOOR PARAGON BAY MALL - AE-AZ",
-  "TELEPHONE": "02 658 5203"
+  "TELEPHONE": "02 658 5203",
+  "lat": "24.49119617",
+  "lon": "54.3942658",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: IBN SINA PHARMACY L.L.C. - BRANCH 12"
  },
  {
   "PROVIDER NAME": "CLINICARE SAMARI (BR OF IMARA HEALTH CARE L.L.C)(IMARA GR)",
@@ -798,7 +802,11 @@
   "P": "DXB",
   "AREA": "DEIRA -BEHIND AL FUTTAIM MASJID",
   "ADDRESS": "BEHIND AL FUTTAIM MASJID ,NEAR DELHI RESTAURANT ,18TH STREET ,FRIJ MURAR,DEIRA",
-  "TELEPHONE": "04-2428849"
+  "TELEPHONE": "04-2428849",
+  "lat": "25.2764",
+  "lon": "55.31",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: ABEER AL NOOR POLY CLINIC LLC-DEIRA"
  },
  {
   "PROVIDER NAME": "RALS HEALTHCARE (BR OF ABD ULWAHED BIN SHABIB INVESTMENT GROUP L.L.C)",
@@ -875,7 +883,11 @@
   "P": "DXB",
   "AREA": "SHEIK ZYED ROAD",
   "ADDRESS": "BLOCK - A SHOP NO. 13 & 14, DUBAI WORLD TRADE CENTER HOTEL APARTMENTS, OPPOSITE DUBAI WORLD TRADE CENTER METRO STATION, SHEIK ZYED ROAD DUBAI.",
-  "TELEPHONE": "04-3313391"
+  "TELEPHONE": "04-3313391",
+  "lat": "25.2267",
+  "lon": "55.2855",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: OASIS PHARMACY LLC"
  },
  {
   "PROVIDER NAME": "AL SANAIYA PHARMACY (SONAPUR)",
@@ -966,7 +978,11 @@
   "P": "DXB",
   "AREA": "NAID ROAD",
   "ADDRESS": "NAIF ROAD, DEIRA,DUBAI,UAE",
-  "TELEPHONE": "04-2242951"
+  "TELEPHONE": "04-2242951",
+  "lat": "25.2755",
+  "lon": "55.3102",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: CITY RELIEF PHARMACY"
  },
  {
   "PROVIDER NAME": "CARE 7 PHARMACY LLC",
@@ -1113,7 +1129,11 @@
   "P": "FUJ",
   "AREA": "MOHD BIN ZAYED CITY",
   "ADDRESS": "AL HAIL NEAR MOHD BIN ZAYED CITY -FUJAIRAH",
-  "TELEPHONE": "09-2385714"
+  "TELEPHONE": "09-2385714",
+  "lat": "25.077",
+  "lon": "56.3045",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: HEALTH FIRST PHARMACY 59 FUJAIRAH BR"
  },
  {
   "PROVIDER NAME": "MERASHID PHARMACY L.L.C - SINGLE PERSON",
@@ -1148,7 +1168,11 @@
   "P": "RAK",
   "AREA": "AL HISN STREET",
   "ADDRESS": "FIRST FLOOR, AVENUE BUILDING. JULPHAR TOWERS, AL HISN ROAD, RAK",
-  "TELEPHONE": "07-2037777"
+  "TELEPHONE": "07-2037777",
+  "lat": "25.7916",
+  "lon": "55.9601",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: EMIRATES HOSPITALS AND CLINICS-RAK"
  },
  {
   "PROVIDER NAME": "CEDAR MEDICAL CENTER LLC",
@@ -1183,14 +1207,22 @@
   "P": "RAK",
   "AREA": "AL JUWAIS",
   "ADDRESS": "NEAR NESTO HYPERMARKET, AL JUWAIS - RAS AL KHAIMAH, UAE",
-  "TELEPHONE": "07-2272402"
+  "TELEPHONE": "07-2272402",
+  "lat": "25.2029",
+  "lon": "51.4349",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: U M D C PHARMACY"
  },
  {
   "PROVIDER NAME": "NEW ROYAL PHARMACY LLC",
   "P": "RAK",
   "AREA": "AL QAWASIM STREET",
   "ADDRESS": "CORNICHE AL QAWASIM STREET, DAFAN AL KHOR, RAS AL KHAIMAH, UAE",
-  "TELEPHONE": "07-2212051"
+  "TELEPHONE": "07-2212051",
+  "lat": "25.7721",
+  "lon": "55.9367",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Sukoon Insurance official network: NEW ROYAL PHARMACY"
  },
  {
   "PROVIDER NAME": "CARE AND CURE PHARMACY LLC",
@@ -1239,7 +1271,11 @@
   "P": "SHJ",
   "AREA": "CATERPILLAR ROAD",
   "ADDRESS": "INDUSTRAIL AREA NO. 2, CATERPILLAR ROAD, OPPOSITE TO ADNOC PETROL STATION NEXT TO DYNATRADE SERVICE CENTER, SHARJAH",
-  "TELEPHONE": "06-5328558"
+  "TELEPHONE": "06-5328558",
+  "lat": "25.3204248",
+  "lon": "55.3837538",
+  "confidence": "official_network_fuzzy",
+  "formatted": "Union Insurance official network: Al Shifa Al Khaleeji Medical Centre - Sharjah"
  },
  {
   "PROVIDER NAME": "AL SHAMS MEDICAL CENTRE-AREA 3 SHJ",
