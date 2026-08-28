@@ -28,6 +28,13 @@
 - 2026-08-28: An older geocoder process overlapped a newer source refresh and overwrote registry state. Do not run concurrent writers against `sources/merged-registry.json`.
 - 2026-08-28: The ADNIC accuracy check exposed that official plans still contained all emirate providers instead of only official matches. Keep plan-file membership aligned with official assignment layers.
 - 2026-08-29: Node `--check` with process substitution tried to open a transient `/proc` pipe. Extract inline JavaScript to a temporary file before syntax checking.
+- 2026-08-29: The first interactive SharePoint navigation exceeded the 60-second browser timeout. Bound page navigation separately and inspect partial page state before retrying.
+- 2026-08-29: Browser-agent inspection of the completed workbook download hung and had to be interrupted; the browser confirmed the filename but did not expose a transferable local path.
+- 2026-08-29: A Playwright download-event capture hung while clicking Excel Online controls. Use the browser agent’s successful download action, but do not assume its remote path is transferable.
+- 2026-08-29: The browser session expired before its remote download could be transferred. Reopen the workbook and inspect the download directory in the same session.
+- 2026-08-29: The reopened browser reported a Downloads URL but its Playwright filesystem had no `/home/user/Downloads` directory. Treat the Firecrawl download as remote-only unless the tool exposes an artifact transfer.
+- 2026-08-29: Capturing the Office iframe download event timed out even after locating the correct frame. The browser agent can click Download a Copy, but Firecrawl does not reliably expose the resulting binary to the workspace.
+- 2026-08-29: Reusing the `frame` binding in the persistent browser REPL caused a redeclaration syntax error. Use unique binding names for each interaction call.
 - 2026-08-28: The first Zavis batch exited without producing its result file. Add a hard timeout and verify the output file before treating a public-directory run as complete.
 - 2026-08-28: Direct urllib access to Zavis returned HTTP 403; use the approved browser/scraping path for JS-rendered public pages instead of assuming raw HTTP access.
 - 2026-08-28: The general web opener rejected the Zavis query URL as unsafe. Use the Firecrawl CLI for this site instead.
