@@ -123,7 +123,7 @@ Re-run. `data/plans.json`, the company → plan selectors, and the plan file all
 
 The Zavis extractor uses the public sitemap and paginated `/directory/<city>/<category>` pages. It stores provider IDs, names, cities, categories, addresses, phone numbers, ratings, accepted insurance, languages, and source URLs. It deduplicates by Zavis provider ID. The current crawl contains 11,499 records; temporary 503 responses can leave a small number of pages for a later retry.
 
-Run `python3 match_zavis.py` after refreshing Zavis or the registry. Matching is phone-first, then unique normalized name plus emirate. `build_data.py` attaches matched Zavis fields to generated provider records.
+Run `python3 match_zavis.py` after refreshing Zavis or the registry, then `python3 enrich_zavis.py` to refresh detail-page coordinates. Matching is phone-first, then unique normalized name plus emirate. `build_data.py` attaches matched Zavis fields to generated provider records and uses valid Zavis coordinates on the map.
 
 ## 6. Adding new providers
 

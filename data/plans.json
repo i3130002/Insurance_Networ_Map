@@ -8,9 +8,9 @@
       "AUH"
     ],
     "file": "data/adico-classic.json",
-    "providers": 253,
+    "providers": 255,
     "layers": {
-      "official": 253,
+      "official": 255,
       "chain": 0,
       "geo_only": 0
     },
@@ -25,9 +25,9 @@
       "AUH"
     ],
     "file": "data/adico-premium.json",
-    "providers": 253,
+    "providers": 255,
     "layers": {
-      "official": 253,
+      "official": 255,
       "chain": 0,
       "geo_only": 0
     },
@@ -44,10 +44,10 @@
       "SHJ"
     ],
     "file": "data/axa-basic.json",
-    "providers": 1805,
+    "providers": 1855,
     "layers": {
-      "geo_only": 1513,
-      "chain": 292,
+      "geo_only": 1558,
+      "chain": 297,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -63,10 +63,10 @@
       "SHJ"
     ],
     "file": "data/axa-premier.json",
-    "providers": 1805,
+    "providers": 1855,
     "layers": {
-      "geo_only": 1513,
-      "chain": 292,
+      "geo_only": 1558,
+      "chain": 297,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -83,9 +83,9 @@
       "UMQ"
     ],
     "file": "data/aman-essential.json",
-    "providers": 694,
+    "providers": 712,
     "layers": {
-      "geo_only": 675,
+      "geo_only": 693,
       "chain": 19,
       "official": 0
     },
@@ -103,9 +103,9 @@
       "UMQ"
     ],
     "file": "data/aman-comprehensive.json",
-    "providers": 694,
+    "providers": 712,
     "layers": {
-      "geo_only": 675,
+      "geo_only": 693,
       "chain": 19,
       "official": 0
     },
@@ -122,10 +122,10 @@
       "AJM"
     ],
     "file": "data/daric-standard.json",
-    "providers": 1617,
+    "providers": 1659,
     "layers": {
-      "geo_only": 1327,
-      "chain": 290,
+      "geo_only": 1365,
+      "chain": 294,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -141,10 +141,10 @@
       "AJM"
     ],
     "file": "data/daric-premium.json",
-    "providers": 1617,
+    "providers": 1659,
     "layers": {
-      "geo_only": 1327,
-      "chain": 290,
+      "geo_only": 1365,
+      "chain": 294,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -159,10 +159,10 @@
       "AUH"
     ],
     "file": "data/enbd-gold.json",
-    "providers": 1379,
+    "providers": 1422,
     "layers": {
-      "geo_only": 1133,
-      "chain": 246,
+      "geo_only": 1173,
+      "chain": 249,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -177,10 +177,10 @@
       "AUH"
     ],
     "file": "data/enbd-silver.json",
-    "providers": 1379,
+    "providers": 1422,
     "layers": {
-      "geo_only": 1133,
-      "chain": 246,
+      "geo_only": 1173,
+      "chain": 249,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -196,10 +196,10 @@
       "AJM"
     ],
     "file": "data/gulf-essential.json",
-    "providers": 1617,
+    "providers": 1659,
     "layers": {
-      "geo_only": 1334,
-      "chain": 283,
+      "geo_only": 1372,
+      "chain": 287,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -215,10 +215,10 @@
       "AJM"
     ],
     "file": "data/gulf-comprehensive.json",
-    "providers": 1617,
+    "providers": 1659,
     "layers": {
-      "geo_only": 1334,
-      "chain": 283,
+      "geo_only": 1372,
+      "chain": 287,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -234,10 +234,10 @@
       "SHJ"
     ],
     "file": "data/noor-family.json",
-    "providers": 1805,
+    "providers": 1855,
     "layers": {
-      "geo_only": 1779,
-      "chain": 26,
+      "geo_only": 1828,
+      "chain": 27,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -253,10 +253,10 @@
       "SHJ"
     ],
     "file": "data/noor-individual.json",
-    "providers": 1805,
+    "providers": 1855,
     "layers": {
-      "geo_only": 1779,
-      "chain": 26,
+      "geo_only": 1828,
+      "chain": 27,
       "official": 0
     },
     "network_source": "chain+geo"
@@ -272,9 +272,9 @@
       "AJM"
     ],
     "file": "data/takafol-family.json",
-    "providers": 1617,
+    "providers": 1659,
     "layers": {
-      "geo_only": 1595,
+      "geo_only": 1637,
       "chain": 22,
       "official": 0
     },
@@ -295,10 +295,10 @@
       "UMQ"
     ],
     "file": "data/takafol-aafiya-apn-edge.json",
-    "providers": 1418,
+    "providers": 1451,
     "network_id": "aafiya-apn-edge",
     "layers": {
-      "official": 1418,
+      "official": 1451,
       "chain": 0,
       "geo_only": 0
     },
@@ -319,10 +319,10 @@
       "UMQ"
     ],
     "file": "data/takafol-aafiya-apn-plus.json",
-    "providers": 1418,
+    "providers": 1451,
     "network_id": "aafiya-apn-plus",
     "layers": {
-      "official": 1418,
+      "official": 1451,
       "chain": 0,
       "geo_only": 0
     },
@@ -343,10 +343,10 @@
       "UMQ"
     ],
     "file": "data/takafol-aafiya-apn.json",
-    "providers": 1418,
+    "providers": 1451,
     "network_id": "aafiya-apn",
     "layers": {
-      "official": 1418,
+      "official": 1451,
       "chain": 0,
       "geo_only": 0
     },
@@ -367,10 +367,10 @@
       "UMQ"
     ],
     "file": "data/takafol-aafiya-diamond.json",
-    "providers": 1418,
+    "providers": 1451,
     "network_id": "aafiya-diamond",
     "layers": {
-      "official": 1418,
+      "official": 1451,
       "chain": 0,
       "geo_only": 0
     },
@@ -391,10 +391,10 @@
       "UMQ"
     ],
     "file": "data/takafol-aafiya-elite.json",
-    "providers": 1418,
+    "providers": 1451,
     "network_id": "aafiya-elite",
     "layers": {
-      "official": 1418,
+      "official": 1451,
       "chain": 0,
       "geo_only": 0
     },
@@ -415,10 +415,10 @@
       "UMQ"
     ],
     "file": "data/takafol-aafiya-essential.json",
-    "providers": 1418,
+    "providers": 1451,
     "network_id": "aafiya-essential",
     "layers": {
-      "official": 1418,
+      "official": 1451,
       "chain": 0,
       "geo_only": 0
     },
@@ -439,10 +439,10 @@
       "UMQ"
     ],
     "file": "data/takafol-aafiya-gold.json",
-    "providers": 1418,
+    "providers": 1451,
     "network_id": "aafiya-gold",
     "layers": {
-      "official": 1418,
+      "official": 1451,
       "chain": 0,
       "geo_only": 0
     },
@@ -463,10 +463,10 @@
       "UMQ"
     ],
     "file": "data/takafol-am-access-rn4.json",
-    "providers": 1469,
+    "providers": 1504,
     "network_id": "am-access-rn4",
     "layers": {
-      "official": 1469,
+      "official": 1504,
       "chain": 0,
       "geo_only": 0
     },
@@ -487,10 +487,10 @@
       "UMQ"
     ],
     "file": "data/takafol-am-choice.json",
-    "providers": 1484,
+    "providers": 1519,
     "network_id": "am-choice",
     "layers": {
-      "official": 1484,
+      "official": 1519,
       "chain": 0,
       "geo_only": 0
     },
@@ -511,10 +511,10 @@
       "UMQ"
     ],
     "file": "data/takafol-am-elite.json",
-    "providers": 1514,
+    "providers": 1550,
     "network_id": "am-elite",
     "layers": {
-      "official": 1514,
+      "official": 1550,
       "chain": 0,
       "geo_only": 0
     },
@@ -535,10 +535,10 @@
       "UMQ"
     ],
     "file": "data/takafol-am-neo.json",
-    "providers": 701,
+    "providers": 719,
     "network_id": "am-neo",
     "layers": {
-      "official": 701,
+      "official": 719,
       "chain": 0,
       "geo_only": 0
     },
@@ -559,10 +559,10 @@
       "UMQ"
     ],
     "file": "data/takafol-am-premier.json",
-    "providers": 1514,
+    "providers": 1550,
     "network_id": "am-premier",
     "layers": {
-      "official": 1514,
+      "official": 1550,
       "chain": 0,
       "geo_only": 0
     },
@@ -583,10 +583,10 @@
       "UMQ"
     ],
     "file": "data/takafol-am-select-rn3.json",
-    "providers": 1470,
+    "providers": 1505,
     "network_id": "am-select-rn3",
     "layers": {
-      "official": 1470,
+      "official": 1505,
       "chain": 0,
       "geo_only": 0
     },
@@ -607,10 +607,10 @@
       "UMQ"
     ],
     "file": "data/takafol-ecare-blue-north-care-ne.json",
-    "providers": 106,
+    "providers": 107,
     "network_id": "ecare-blue-north-care-ne",
     "layers": {
-      "official": 106,
+      "official": 107,
       "chain": 0,
       "geo_only": 0
     },
@@ -631,10 +631,10 @@
       "UMQ"
     ],
     "file": "data/takafol-ecare-blue.json",
-    "providers": 2147,
+    "providers": 2208,
     "network_id": "ecare-blue",
     "layers": {
-      "official": 2147,
+      "official": 2208,
       "chain": 0,
       "geo_only": 0
     },
@@ -655,10 +655,10 @@
       "UMQ"
     ],
     "file": "data/takafol-ecare-classic.json",
-    "providers": 2147,
+    "providers": 2208,
     "network_id": "ecare-classic",
     "layers": {
-      "official": 2147,
+      "official": 2208,
       "chain": 0,
       "geo_only": 0
     },
@@ -679,10 +679,10 @@
       "UMQ"
     ],
     "file": "data/takafol-ecare-green.json",
-    "providers": 2147,
+    "providers": 2208,
     "network_id": "ecare-green",
     "layers": {
-      "official": 2147,
+      "official": 2208,
       "chain": 0,
       "geo_only": 0
     },
@@ -703,10 +703,10 @@
       "UMQ"
     ],
     "file": "data/takafol-mednet-emerald.json",
-    "providers": 1381,
+    "providers": 1407,
     "network_id": "mednet-emerald",
     "layers": {
-      "official": 1381,
+      "official": 1407,
       "chain": 0,
       "geo_only": 0
     },
@@ -751,10 +751,10 @@
       "UMQ"
     ],
     "file": "data/takafol-mednet-gold.json",
-    "providers": 1381,
+    "providers": 1407,
     "network_id": "mednet-gold",
     "layers": {
-      "official": 1381,
+      "official": 1407,
       "chain": 0,
       "geo_only": 0
     },
@@ -775,10 +775,10 @@
       "UMQ"
     ],
     "file": "data/takafol-mednet-green.json",
-    "providers": 1381,
+    "providers": 1407,
     "network_id": "mednet-green",
     "layers": {
-      "official": 1381,
+      "official": 1407,
       "chain": 0,
       "geo_only": 0
     },
@@ -799,10 +799,10 @@
       "UMQ"
     ],
     "file": "data/takafol-mednet-pearl.json",
-    "providers": 1381,
+    "providers": 1407,
     "network_id": "mednet-pearl",
     "layers": {
-      "official": 1381,
+      "official": 1407,
       "chain": 0,
       "geo_only": 0
     },
@@ -823,10 +823,10 @@
       "UMQ"
     ],
     "file": "data/takafol-mednet-silk-road.json",
-    "providers": 1381,
+    "providers": 1407,
     "network_id": "mednet-silk-road",
     "layers": {
-      "official": 1381,
+      "official": 1407,
       "chain": 0,
       "geo_only": 0
     },
@@ -847,10 +847,10 @@
       "UMQ"
     ],
     "file": "data/takafol-mednet-silver-classic.json",
-    "providers": 1381,
+    "providers": 1407,
     "network_id": "mednet-silver-classic",
     "layers": {
-      "official": 1381,
+      "official": 1407,
       "chain": 0,
       "geo_only": 0
     },
@@ -871,10 +871,10 @@
       "UMQ"
     ],
     "file": "data/takafol-mednet-silver-premium.json",
-    "providers": 1381,
+    "providers": 1407,
     "network_id": "mednet-silver-premium",
     "layers": {
-      "official": 1381,
+      "official": 1407,
       "chain": 0,
       "geo_only": 0
     },
@@ -895,10 +895,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nas-comprehensive-network.json",
-    "providers": 1433,
+    "providers": 1468,
     "network_id": "nas-comprehensive-network",
     "layers": {
-      "official": 1433,
+      "official": 1468,
       "chain": 0,
       "geo_only": 0
     },
@@ -919,10 +919,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nas-general-network.json",
-    "providers": 1433,
+    "providers": 1468,
     "network_id": "nas-general-network",
     "layers": {
-      "official": 1433,
+      "official": 1468,
       "chain": 0,
       "geo_only": 0
     },
@@ -943,10 +943,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nas-restricted-network.json",
-    "providers": 1433,
+    "providers": 1468,
     "network_id": "nas-restricted-network",
     "layers": {
-      "official": 1433,
+      "official": 1468,
       "chain": 0,
       "geo_only": 0
     },
@@ -967,10 +967,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nas-super-restricted-network.json",
-    "providers": 1433,
+    "providers": 1468,
     "network_id": "nas-super-restricted-network",
     "layers": {
-      "official": 1433,
+      "official": 1468,
       "chain": 0,
       "geo_only": 0
     },
@@ -1015,10 +1015,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nas-value-network.json",
-    "providers": 557,
+    "providers": 572,
     "network_id": "nas-value-network",
     "layers": {
-      "official": 557,
+      "official": 572,
       "chain": 0,
       "geo_only": 0
     },
@@ -1039,10 +1039,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nas-worker-network.json",
-    "providers": 1433,
+    "providers": 1468,
     "network_id": "nas-worker-network",
     "layers": {
-      "official": 1433,
+      "official": 1468,
       "chain": 0,
       "geo_only": 0
     },
@@ -1087,10 +1087,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nextcare-gn-excluding-mediclinic-al-zahra-sulaiman-al-habib-group.json",
-    "providers": 1539,
+    "providers": 1569,
     "network_id": "nextcare-gn-excluding-mediclinic-al-zahra-sulaiman-al-habib-group",
     "layers": {
-      "official": 1539,
+      "official": 1569,
       "chain": 0,
       "geo_only": 0
     },
@@ -1111,10 +1111,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nextcare-gn-plus.json",
-    "providers": 1539,
+    "providers": 1569,
     "network_id": "nextcare-gn-plus",
     "layers": {
-      "official": 1539,
+      "official": 1569,
       "chain": 0,
       "geo_only": 0
     },
@@ -1135,10 +1135,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nextcare-gn.json",
-    "providers": 1539,
+    "providers": 1569,
     "network_id": "nextcare-gn",
     "layers": {
-      "official": 1539,
+      "official": 1569,
       "chain": 0,
       "geo_only": 0
     },
@@ -1159,10 +1159,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nextcare-pcp.json",
-    "providers": 1319,
+    "providers": 1344,
     "network_id": "nextcare-pcp",
     "layers": {
-      "official": 1319,
+      "official": 1344,
       "chain": 0,
       "geo_only": 0
     },
@@ -1183,10 +1183,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nextcare-rn.json",
-    "providers": 1510,
+    "providers": 1540,
     "network_id": "nextcare-rn",
     "layers": {
-      "official": 1510,
+      "official": 1540,
       "chain": 0,
       "geo_only": 0
     },
@@ -1207,10 +1207,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nextcare-rn2.json",
-    "providers": 1499,
+    "providers": 1528,
     "network_id": "nextcare-rn2",
     "layers": {
-      "official": 1499,
+      "official": 1528,
       "chain": 0,
       "geo_only": 0
     },
@@ -1231,10 +1231,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nextcare-rn3.json",
-    "providers": 1388,
+    "providers": 1416,
     "network_id": "nextcare-rn3",
     "layers": {
-      "official": 1388,
+      "official": 1416,
       "chain": 0,
       "geo_only": 0
     },
@@ -1255,10 +1255,10 @@
       "UMQ"
     ],
     "file": "data/takafol-nextcare-rne.json",
-    "providers": 1510,
+    "providers": 1540,
     "network_id": "nextcare-rne",
     "layers": {
-      "official": 1510,
+      "official": 1540,
       "chain": 0,
       "geo_only": 0
     },

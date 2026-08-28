@@ -166,6 +166,8 @@
                 + `Type: ${e['PROVIDER TYPE']}\nArea: ${e.AREA}`;
             const mapsQuery = encodeURIComponent(
                 `${e['PROVIDER NAME']} ${e.AREA} ${em} UAE`);
+            const mapsUrl = esc(e['ZAVIS MAPS URL'] ||
+                `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`);
             const zavisQuery = encodeURIComponent(
                 `site:zavis.ai/directory "${e['PROVIDER NAME']}" "${e.TELEPHONE}"`);
             const zavisCity = {
@@ -191,7 +193,7 @@
                 <small>☎ ${esc(e.TELEPHONE) || '—'}</small>
                 ${badge}
                 ${locationConfidence}
-                <br><a href="https://www.google.com/maps/search/?api=1&query=${mapsQuery}"
+                <br><a href="${mapsUrl}"
                     target="_blank" rel="noopener">📍 Google Maps</a>
                 &nbsp;<a href="https://www.google.com/search?q=${encodeURIComponent(query)}"
                     target="_blank" rel="noopener">🤖 Google AI</a>

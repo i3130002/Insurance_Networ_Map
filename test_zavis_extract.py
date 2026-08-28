@@ -2,7 +2,7 @@
 
 import unittest
 
-from extract_zavis import parse_directory_providers, parse_medical_business
+from extract_zavis import parse_directory_providers, parse_medical_business, parse_provider_detail
 
 
 class ZavisExtractTest(unittest.TestCase):
@@ -19,6 +19,12 @@ class ZavisExtractTest(unittest.TestCase):
         self.assertEqual(record["id"], "dha_1")
         self.assertEqual(record["insurance"], "ADNIC")
         self.assertEqual(record["languages"], "English")
+
+    def test_extracts_detail_coordinates(self) -> None:
+        html = '<script type="application/ld+json">{"@type":"MedicalBusiness","name":"Clinic","telephone":"+971 4 123 4567","geo":{"latitude":25.2,"longitude":55.3},"url":"https://example.test/clinic"}</script>'
+        record = parse_provider_detail(html)
+        self.assertEqual(record["lat"], "25.2")
+        self.assertEqual(record["lon"], "55.3")
 
 
 if __name__ == "__main__":

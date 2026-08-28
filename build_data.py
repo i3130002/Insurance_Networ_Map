@@ -183,6 +183,11 @@ def main():
             provider['ZAVIS NAME'] = match['zavis_name']
             provider['ZAVIS ADDRESS'] = match['zavis_address']
             provider['ZAVIS PHONE'] = match['zavis_phone']
+            provider['ZAVIS MAPS URL'] = match.get('zavis_maps_url', '')
+            if coord_ok(match.get('zavis_lat'), match.get('zavis_lon')):
+                provider['lat'] = match['zavis_lat']
+                provider['lon'] = match['zavis_lon']
+                provider['coordinate_source'] = 'Zavis'
     print(f'Zavis enrichment: {len(zavis_matches)} matched providers')
     print(f'Registry: {stats["valid"]} valid coords, '
           f'{stats["invalid"]} invalid/missing, {stats["dupes"]} dupes removed')

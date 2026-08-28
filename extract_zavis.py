@@ -70,6 +70,27 @@ def parse_medical_business(html: str) -> dict[str, str]:
     return {field: "" for field in FIELDS}
 
 
+def parse_provider_detail(html: str) -> dict[str, str]:
+    """Extract coordinates and contact fields from a Zavis provider page."""
+    blocks = re.findall(
+        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+        html, re.DOTALL | re.IGNORECASE,
+    )
+    for block in blocks:
+        try:
+            value = json.loads(unescape(block))
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(value, dict) or not value.get("geo"):
+            continue
+        geo = value["geo"]
+        return {"lat": str(geo.get("latitude", "")),
+                "lon": str(geo.get("longitude", "")),
+                "phone": value.get("telephone", ""),
+                "email": value.get("email", "")}
+    return {"lat": "", "lon": "", "phone": "", "email": ""}
+
+
 def _json_text(value: str) -> str:
     """Decode one escaped value from a Next.js streamed payload."""
     try:
