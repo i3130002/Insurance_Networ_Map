@@ -49,7 +49,12 @@
   "lon": "55.4372451",
   "confidence": "0.375",
   "formatted": "Chenab Restaurant Ajman UAE, 6,7 Al Zaher Street, Al Rumailah, Ajman, AJ, United Arab Emirates",
-  "Index": 17
+  "Index": 17,
+  "ZAVIS ID": "al-rukn-medical-centre-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/clinics/al-rukn-medical-centre-ajman",
+  "ZAVIS NAME": "AL Rukn Medical Centre",
+  "ZAVIS ADDRESS": "Al Zahir Street - opp. :AL YAMEN RESTAURANT &KITCHEN - Al Rashidiya 3 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 52 590 9758"
  },
  {
   "P": "AJM",
@@ -62,7 +67,12 @@
   "lon": "55.4451432",
   "confidence": "0.25",
   "formatted": "Ajman, Ajman Emirate, United Arab Emirates",
-  "Index": 28
+  "Index": 28,
+  "ZAVIS ID": "family-medical-center-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/clinics/family-medical-center-ajman",
+  "ZAVIS NAME": "Family Medical Center",
+  "ZAVIS ADDRESS": "Munah St - Ajman Industrial 1 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 743 4800"
  },
  {
   "P": "AJM",
@@ -88,7 +98,12 @@
   "lon": "55.430279",
   "confidence": "0",
   "formatted": "Al Rumailah, Ajman, AJ, United Arab Emirates",
-  "Index": 36
+  "Index": 36,
+  "ZAVIS ID": "al-narjes-physiotherapy-center-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/physiotherapy/al-narjes-physiotherapy-center-ajman",
+  "ZAVIS NAME": "AL Narjes Physiotherapy Center",
+  "ZAVIS ADDRESS": "Sheikh Rashid bin Humaid road - opposite Ajman One tower - Al Rumailah - Al Rumailah 3 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 741 8880"
  },
  {
   "P": "AJM",
@@ -114,7 +129,12 @@
   "lon": "55.4542636",
   "confidence": "0",
   "formatted": "Al Nuaimia, Ajman Emirate, United Arab Emirates",
-  "Index": 49
+  "Index": 49,
+  "ZAVIS ID": "al-nahrain-specialty-medical-center-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/clinics/al-nahrain-specialty-medical-center-ajman",
+  "ZAVIS NAME": "AL Nahrain Specialty Medical Center",
+  "ZAVIS ADDRESS": "Sheikh Khalifa Bin Zayed St - 2 Al Nuaimia - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 744 9144"
  },
  {
   "P": "FUJ",
@@ -140,7 +160,12 @@
   "lon": "56.3360363371972",
   "confidence": "0.015625",
   "formatted": "Central Bank of the UAE, Sheikh Hamad Bin Abdullah Al Sharqi Road, Town Center, Fujairah City, FU, United Arab Emirates",
-  "Index": 420
+  "Index": 420,
+  "ZAVIS ID": "eve-medical-centre-fujairah-fujairah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/fujairah/clinics/eve-medical-centre-fujairah-fujairah",
+  "ZAVIS NAME": "Eve Medical Centre Fujairah",
+  "ZAVIS ADDRESS": "Al Faseel Rd(E99) - beside Fujairah Youth Hostel - Al Faseel - Fujairah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 9 228 7982"
  },
  {
   "P": "FUJ",
@@ -192,7 +217,12 @@
   "lon": "55.3900608",
   "confidence": "0.5",
   "formatted": "Al Nakheel Pharmacy, Al Rolla Street, Al Gharb, Sharjah, Al Ghuwair, United Arab Emirates",
-  "Index": 433
+  "Index": 433,
+  "ZAVIS ID": "al-hudaibah-medical-center-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/clinics/al-hudaibah-medical-center-ras-al-khaimah",
+  "ZAVIS NAME": "AL Hudaibah Medical Center",
+  "ZAVIS ADDRESS": "QXXF+4W2 - Sheikh Saqr Bin Mohammed Al Qassimi Road (E 18 Road) - Al Hudeeba - Ras Al-Khaimah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 7 222 2188"
  },
  {
   "P": "RAK",
@@ -205,7 +235,12 @@
   "lon": "55.9432",
   "confidence": "0.45",
   "formatted": "Ras Al Khaimah City, RK, United Arab Emirates",
-  "Index": 435
+  "Index": 435,
+  "ZAVIS ID": "derme-light-specialist-medical-centre-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/clinics/derme-light-specialist-medical-centre-ras-al-khaimah",
+  "ZAVIS NAME": "Derme Light Specialist Medical Centre",
+  "ZAVIS ADDRESS": "Specialist Medical Center - 88t - 6 Sheikh Mohamed Bin Salem Rd - Dahan - Ras Al Khaimah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 7 233 2255"
  },
  {
   "P": "RAK",
@@ -218,7 +253,12 @@
   "lon": "55.97",
   "confidence": "official_network_fuzzy",
   "formatted": "Sukoon Insurance official network: ALYA MEDICAL CENTER",
-  "Index": 439
+  "Index": 439,
+  "ZAVIS ID": "alya-medical-center-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/clinics/alya-medical-center-ras-al-khaimah",
+  "ZAVIS NAME": "Alya Medical Center",
+  "ZAVIS ADDRESS": "LAMP ROUNDABOUT - near NESTO HYPERMARKET - Al Qussaidat - Ras Al Khaimah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 7 244 1235"
  },
  {
   "P": "SHJ",
@@ -244,7 +284,12 @@
   "lon": "56.359085",
   "confidence": "0.134349173553719",
   "formatted": "Kalba Square, FU, United Arab Emirates",
-  "Index": 475
+  "Index": 475,
+  "ZAVIS ID": "al-afya-medical-centre-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/al-afya-medical-centre-sharjah",
+  "ZAVIS NAME": "AL Afya Medical Centre",
+  "ZAVIS ADDRESS": "Rolla Square - Al Ghumar - Al Ghuwair - Hay Al Gharb - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 579 6876"
  },
  {
   "P": "SHJ",
@@ -283,7 +328,12 @@
   "lon": "55.404088",
   "confidence": "0.0173637051039698",
   "formatted": "39263 92867 Emirates Road, Al Twar 2, Dubai, DU, United Arab Emirates",
-  "Index": 531
+  "Index": 531,
+  "ZAVIS ID": "al-kanaree-medical-center-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/al-kanaree-medical-center-sharjah",
+  "ZAVIS NAME": "AL Kanaree Medical Center",
+  "ZAVIS ADDRESS": "Muwaileh Commercial - Industrial Area - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 534 4439"
  },
  {
   "P": "SHJ",
@@ -309,7 +359,12 @@
   "lon": "51.597358",
   "confidence": "0.0908096885813149",
   "formatted": "Sheikh Khalifa Bin Zayed International Road, AZ, United Arab Emirates",
-  "Index": 539
+  "Index": 539,
+  "ZAVIS ID": "al-ahalia-clinic-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/al-ahalia-clinic-sharjah",
+  "ZAVIS NAME": "AL Ahalia Clinic",
+  "ZAVIS ADDRESS": "Maysaloon - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 574 4529"
  },
  {
   "P": "SHJ",
@@ -374,7 +429,12 @@
   "lon": "55.55517",
   "confidence": "0.25",
   "formatted": "Umm Al Quwain City, UQ, United Arab Emirates",
-  "Index": 560
+  "Index": 560,
+  "ZAVIS ID": "dar-al-hayat-medical-center-l-l-c-umm-al-quwain",
+  "ZAVIS URL": "https://www.zavis.ai/directory/umm-al-quwain/clinics/dar-al-hayat-medical-center-l-l-c-umm-al-quwain",
+  "ZAVIS NAME": "Dar AL Hayat Medical Center",
+  "ZAVIS ADDRESS": "near Etisalat Round About - New Industrial Area - Emirate of Umm Al Quwain - United Arab Emirates",
+  "ZAVIS PHONE": "+971 56 501 3183"
  },
  {
   "P": "RAK",
@@ -426,7 +486,12 @@
   "lon": "55.4474143",
   "confidence": "area_match",
   "formatted": "Al Nuaimia, شارع ثابت بن قيس, النعيمية 1, النعيمية, عجمان, إمارة عجمان, الإمارات العربية المتحدة",
-  "Index": 582
+  "Index": 582,
+  "ZAVIS ID": "al-farabi-medical-laboratories-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/labs-diagnostics/al-farabi-medical-laboratories-ajman",
+  "ZAVIS NAME": "AL Farabi Medical Laboratories",
+  "ZAVIS ADDRESS": "9FQ2+WF3 - Sheikh Khalifa Bin Zayed St - 2 Al Nuaimia - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 527 0778"
  },
  {
   "P": "SHJ",
@@ -439,7 +504,12 @@
   "lon": "55.390537",
   "confidence": "0",
   "formatted": "D 1806 King Faisal Street, Al Qasimia, Sharjah, SH, United Arab Emirates",
-  "Index": 601
+  "Index": 601,
+  "ZAVIS ID": "al-safwa-radiology-center-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/al-safwa-radiology-center-sharjah",
+  "ZAVIS NAME": "AL Safwa Radiology Center",
+  "ZAVIS ADDRESS": "3rd Floor, Tower C, Al Marzouqi Towers - Free Parking Available-Al Jazeerah Al Hamra Car Parking, CG Mall - شارع الملك فيصل - opposite of Silver Star Cafeteria - الند - حي القاسمية - الشارقة - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 556 3969"
  },
  {
   "P": "SHJ",
@@ -452,7 +522,12 @@
   "lon": "55.3873595",
   "confidence": "area_match",
   "formatted": "Rolla, الغرب, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
-  "Index": 603
+  "Index": 603,
+  "ZAVIS ID": "al-reem-specialists-medical-centre-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/al-reem-specialists-medical-centre-sharjah",
+  "ZAVIS NAME": "AL Reem Specialists Medical Centre",
+  "ZAVIS ADDRESS": "1st Floor, Al Ahalia Exchange Bldg. Rolla Square, Rolla - Al Ghuwair - Hay Al Gharb - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 562 0831"
  },
  {
   "P": "SHJ",
@@ -478,7 +553,12 @@
   "lon": "55.4426671444645",
   "confidence": "0.8",
   "formatted": "Al Quds Street, Al sawan, Ajman, Ajman Emirate, United Arab Emirates",
-  "Index": 612
+  "Index": 612,
+  "ZAVIS ID": "amina-hospital-l-l-c-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/hospitals/amina-hospital-l-l-c-ajman",
+  "ZAVIS NAME": "Amina Hospital",
+  "ZAVIS ADDRESS": "Al Quds St - Al Rashidiya 3 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 711 4444"
  },
  {
   "P": "FUJ",
@@ -504,7 +584,12 @@
   "lon": "55.548564",
   "confidence": "0",
   "formatted": "Sharjah, SH, United Arab Emirates",
-  "Index": 646
+  "Index": 646,
+  "ZAVIS ID": "dar-al-kamal-hospital-l-l-c-sp-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/hospitals/dar-al-kamal-hospital-l-l-c-sp-sharjah",
+  "ZAVIS NAME": "Dar AL Kamal Hospital",
+  "ZAVIS ADDRESS": "Al Sharq St - Al Fisht - Alheera Suburb - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 599 7777"
  },
  {
   "P": "AJM",
@@ -543,7 +628,12 @@
   "lon": "55.4516131457489",
   "confidence": "0.5",
   "formatted": "Sheikh Rashid Bin Abdul Aziz Street, Al Rashidiya, Ajman, Ajman Emirate, United Arab Emirates",
-  "Index": 672
+  "Index": 672,
+  "ZAVIS ID": "galaxy-pharmacy-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/pharmacy/galaxy-pharmacy-ajman",
+  "ZAVIS NAME": "Galaxy Pharmacy",
+  "ZAVIS ADDRESS": "شارع الاتحاد - Al Rashidiya 1 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 744 1886"
  },
  {
   "P": "AJM",
@@ -582,7 +672,12 @@
   "lon": "55.508355",
   "confidence": "0.0242646130539073",
   "formatted": "Building access, Al Khawaneej, Dubai, DU, United Arab Emirates",
-  "Index": 681
+  "Index": 681,
+  "ZAVIS ID": "dajla-pharmacy-l-l-c-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/pharmacy/dajla-pharmacy-l-l-c-ajman",
+  "ZAVIS NAME": "Dajla Pharmacy",
+  "ZAVIS ADDRESS": "Al Nasser Building - Nuaimiya St - opp. Sharja Cooperative - 3 Al Nuaimia - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 746 6704"
  },
  {
   "P": "AJM",
@@ -595,7 +690,12 @@
   "lon": "55.2505310775868",
   "confidence": "0.225",
   "formatted": "Al Thamam 2, 2 Al Thammam Street, Al Hebiah 5, Dubai, United Arab Emirates",
-  "Index": 685
+  "Index": 685,
+  "ZAVIS ID": "elaj-medical-centre-pharmacy-llc-01-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/pharmacy/elaj-medical-centre-pharmacy-llc-01-ajman",
+  "ZAVIS NAME": "Elaj Medical Centre Pharmacy LLC 01",
+  "ZAVIS ADDRESS": "One Towers - Sheikh rashid bin omaid road - opp. Ajman - Al Rumailah - Al Rumailah 3 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 748 8808"
  },
  {
   "P": "AJM",
@@ -621,7 +721,12 @@
   "lon": "55.4426671444645",
   "confidence": "0.8",
   "formatted": "Al Quds Street, Al sawan, Ajman, Ajman Emirate, United Arab Emirates",
-  "Index": 701
+  "Index": 701,
+  "ZAVIS ID": "amina-hospital-pharmacy-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/pharmacy/amina-hospital-pharmacy-ajman",
+  "ZAVIS NAME": "Amina Hospital Pharmacy",
+  "ZAVIS ADDRESS": "Al Quds St - Al Rashidiya 3 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 711 4444"
  },
  {
   "P": "AJM",
@@ -634,7 +739,12 @@
   "lon": "55.250476",
   "confidence": "0.1",
   "formatted": "2 Al Thamam, Remraam, Dubai, DU, United Arab Emirates",
-  "Index": 717
+  "Index": 717,
+  "ZAVIS ID": "al-nahrain-pharmacy-1-llc-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/pharmacy/al-nahrain-pharmacy-1-llc-ajman",
+  "ZAVIS NAME": "Al Nahrain Pharmacy 1",
+  "ZAVIS ADDRESS": "Helio 2 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 744 9207"
  },
  {
   "P": "AJM",
@@ -647,7 +757,12 @@
   "lon": "55.4451432",
   "confidence": "0.25",
   "formatted": "Ajman, Ajman Emirate, United Arab Emirates",
-  "Index": 725
+  "Index": 725,
+  "ZAVIS ID": "alya-pharmacy-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/pharmacy/alya-pharmacy-ajman",
+  "ZAVIS NAME": "Alya Pharmacy",
+  "ZAVIS ADDRESS": "Ajman - Ajman Industrial 2 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 50 146 3017"
  },
  {
   "P": "FUJ",
@@ -686,7 +801,12 @@
   "lon": "56.3467661",
   "confidence": "",
   "formatted": "Al Faseel, Fujairah City, Fujairah Emirate, United Arab Emirates",
-  "Index": 1079
+  "Index": 1079,
+  "ZAVIS ID": "al-sharq-hospital-pharmacy-fujairah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/fujairah/pharmacy/al-sharq-hospital-pharmacy-fujairah",
+  "ZAVIS NAME": "Al Sharq Hospital Pharmacy",
+  "ZAVIS ADDRESS": "48WV+FR8 - Al Faseel - Fujairah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 800 959"
  },
  {
   "P": "FUJ",
@@ -699,7 +819,12 @@
   "lon": "55.2754972",
   "confidence": "",
   "formatted": "Mercure Gold Al Mina Road, Al Mina Street, Al Mina, Dubai, Bur Dubai, United Arab Emirates",
-  "Index": 1086
+  "Index": 1086,
+  "ZAVIS ID": "bait-al-maqdes-pharmacy-fujairah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/fujairah/pharmacy/bait-al-maqdes-pharmacy-fujairah",
+  "ZAVIS NAME": "Bait Al Maqdes Pharmacy",
+  "ZAVIS ADDRESS": "مربح - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 9 238 1886"
  },
  {
   "P": "RAK",
@@ -725,7 +850,12 @@
   "lon": "55.317237",
   "confidence": "",
   "formatted": "Al Madina Al Tebbia Street, Umm Hurair 2, Dubai, DU, United Arab Emirates",
-  "Index": 1095
+  "Index": 1095,
+  "ZAVIS ID": "al-noor-pharmacy-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/pharmacy/al-noor-pharmacy-ras-al-khaimah",
+  "ZAVIS NAME": "AL Noor Pharmacy",
+  "ZAVIS ADDRESS": "Al Mamourah Rd - Al Maireed - Ras Al Khaimah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 52 490 6168"
  },
  {
   "P": "RAK",
@@ -738,7 +868,12 @@
   "lon": "55.94",
   "confidence": "official_network_fuzzy",
   "formatted": "Sukoon Insurance official network: ALYA PHARMACY",
-  "Index": 1103
+  "Index": 1103,
+  "ZAVIS ID": "alya-medical-center-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/clinics/alya-medical-center-ras-al-khaimah",
+  "ZAVIS NAME": "Alya Medical Center",
+  "ZAVIS ADDRESS": "LAMP ROUNDABOUT - near NESTO HYPERMARKET - Al Qussaidat - Ras Al Khaimah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 7 244 1235"
  },
  {
   "P": "RAK",
@@ -751,7 +886,12 @@
   "lon": "55.966596",
   "confidence": "",
   "formatted": "Ras al-Khaimah, RK, United Arab Emirates",
-  "Index": 1104
+  "Index": 1104,
+  "ZAVIS ID": "al-ghail-pharmacy-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/pharmacy/al-ghail-pharmacy-ras-al-khaimah",
+  "ZAVIS NAME": "AL Ghail Pharmacy",
+  "ZAVIS ADDRESS": "Al ghub street, al rams road - 42 503E شارع - جلفار - إمارة رأس الخيمة - United Arab Emirates",
+  "ZAVIS PHONE": "+971 52 598 3446"
  },
  {
   "P": "RAK",
@@ -764,7 +904,12 @@
   "lon": "55.8067578",
   "confidence": "",
   "formatted": "Al Hamraa Pharmacy, Sheikh Mohammad Bin Salem Road, Al Jazeera Al Hamra, Al jazeera heritage village, RK, United Arab Emirates",
-  "Index": 1109
+  "Index": 1109,
+  "ZAVIS ID": "al-abrar-pharmacy-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/pharmacy/al-abrar-pharmacy-ras-al-khaimah",
+  "ZAVIS NAME": "AL Abrar Pharmacy",
+  "ZAVIS ADDRESS": "Al Jazeera - Al Jazeera Al Hamra-Qaryat Al Hamra - Ras Al Khaimah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 56 402 4322"
  },
  {
   "P": "SHJ",
@@ -777,7 +922,12 @@
   "lon": "55.882636",
   "confidence": "",
   "formatted": "Abi Al Adarham Al Zamani Street, Dhaid, SH, United Arab Emirates",
-  "Index": 1130
+  "Index": 1130,
+  "ZAVIS ID": "al-shalal-pharmacy-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/al-shalal-pharmacy-sharjah",
+  "ZAVIS NAME": "AL Shalal Pharmacy",
+  "ZAVIS ADDRESS": "Unnamed Road - حي النهدة - النهدة - الشارقة - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 524 1444"
  },
  {
   "P": "SHJ",
@@ -803,7 +953,12 @@
   "lon": "55.3872070470479",
   "confidence": "",
   "formatted": "Rolla, Al Gharb, Sharjah, Sharjah Emirate, United Arab Emirates",
-  "Index": 1191
+  "Index": 1191,
+  "ZAVIS ID": "delmon-pharmacy-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/delmon-pharmacy-sharjah",
+  "ZAVIS NAME": "Delmon Pharmacy",
+  "ZAVIS ADDRESS": "near REEM MEDICAL CENTRE - Al Ghuwair - Hay Al Gharb - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 550 4331"
  },
  {
   "P": "SHJ",
@@ -816,7 +971,12 @@
   "lon": "55.548564",
   "confidence": "",
   "formatted": "Sharjah, SH, United Arab Emirates",
-  "Index": 1211
+  "Index": 1211,
+  "ZAVIS ID": "delta-al-dhaid-pharmacy-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/delta-al-dhaid-pharmacy-sharjah",
+  "ZAVIS NAME": "Delta AL Dhaid Pharmacy",
+  "ZAVIS ADDRESS": "Sharjah Cooperative society Building - Al Dhaid St - Hay Al Sharee'ah - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 882 8636"
  },
  {
   "P": "SHJ",
@@ -842,7 +1002,12 @@
   "lon": "55.548564",
   "confidence": "",
   "formatted": "Sharjah, SH, United Arab Emirates",
-  "Index": 1216
+  "Index": 1216,
+  "ZAVIS ID": "al-tawar-pharmacy-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/al-tawar-pharmacy-sharjah",
+  "ZAVIS NAME": "AL Tawar Pharmacy",
+  "ZAVIS ADDRESS": "78FJ+FVG - Hor Al Anz - Deira - Dubai - United Arab Emirates",
+  "ZAVIS PHONE": "+971 4 262 5554"
  },
  {
   "P": "SHJ",
@@ -868,7 +1033,12 @@
   "lon": "55.237109",
   "confidence": "United Arab Emirates",
   "formatted": "Sheikh Zayed Road, Al Safa 1, Dubai, DU, United Arab Emirates",
-  "Index": 1277
+  "Index": 1277,
+  "ZAVIS ID": "al-ahliah-pharmacy-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/al-ahliah-pharmacy-sharjah",
+  "ZAVIS NAME": "AL Ahliah Pharmacy",
+  "ZAVIS ADDRESS": "Khan Saheb building - 10 Third Industrial St - Industrial Area 10 - Industrial Area - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 531 3698"
  },
  {
   "P": "SHJ",
@@ -881,7 +1051,12 @@
   "lon": "55.624117",
   "confidence": "United Arab Emirates",
   "formatted": "Al Saja'a Industrial, Sharjah, SH, United Arab Emirates",
-  "Index": 1280
+  "Index": 1280,
+  "ZAVIS ID": "al-bedaya-pharmacy-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/al-bedaya-pharmacy-sharjah",
+  "ZAVIS NAME": "Al Bedaya Pharmacy",
+  "ZAVIS ADDRESS": "Al Sajaa - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 56 126 8677"
  },
  {
   "P": "SHJ",
@@ -920,7 +1095,12 @@
   "lon": "55.377896572043",
   "confidence": "United Arab Emirates",
   "formatted": "Zubaidi Building Block A, Bukhara Street, Al Nahda, Sharjah, SH, United Arab Emirates",
-  "Index": 1300
+  "Index": 1300,
+  "ZAVIS ID": "al-matar-pharmacy-llc-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/al-matar-pharmacy-llc-sharjah",
+  "ZAVIS NAME": "AL Matar Pharmacy",
+  "ZAVIS ADDRESS": "NEW - تجارية مويلح - المنطقة الصناعية - الشارقة - United Arab Emirates",
+  "ZAVIS PHONE": "+971 54 792 8977"
  },
  {
   "P": "SHJ",
@@ -946,7 +1126,12 @@
   "lon": "55.548564",
   "confidence": "United Arab Emirates",
   "formatted": "Sharjah, SH, United Arab Emirates",
-  "Index": 1302
+  "Index": 1302,
+  "ZAVIS ID": "dar-al-faraj-pharmacy-l-l-c-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/dar-al-faraj-pharmacy-l-l-c-sharjah",
+  "ZAVIS NAME": "Dar Al Faraj Pharmacy",
+  "ZAVIS ADDRESS": "Al Khaleej Al Arabi St - Al Shuwaiheen - Hay Al Gharb - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 56 588 3994"
  },
  {
   "P": "SHJ",
@@ -985,7 +1170,12 @@
   "lon": "55.3872070470479",
   "confidence": "United Arab Emirates",
   "formatted": "Rolla, Al Gharb, Sharjah, Sharjah Emirate, United Arab Emirates",
-  "Index": 1305
+  "Index": 1305,
+  "ZAVIS ID": "golden-star-pharmacy-l-l-c-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/golden-star-pharmacy-l-l-c-sharjah",
+  "ZAVIS NAME": "Golden Star Pharmacy",
+  "ZAVIS ADDRESS": "Abi Al Atahia St - Al Ghuwair - Hay Al Gharb - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 558 1633"
  },
  {
   "P": "SHJ",
@@ -998,7 +1188,12 @@
   "lon": "55.2626087735714",
   "confidence": "United Arab Emirates",
   "formatted": "3 9 Street, Arabian Ranches, Dubai, DU, United Arab Emirates",
-  "Index": 1306
+  "Index": 1306,
+  "ZAVIS ID": "family-star-pharmacy-l-l-c-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/family-star-pharmacy-l-l-c-sharjah",
+  "ZAVIS NAME": "Family Star Pharmacy",
+  "ZAVIS ADDRESS": "Shop no. 3, Ground Floor - opp. Seven Stars Stationery Nora building - Bu Shaghara - Hay Al Qasimiah - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 537 0703"
  },
  {
   "P": "UMQ",
@@ -1037,7 +1232,12 @@
   "lon": "55.5744654866931",
   "confidence": "United Arab Emirates",
   "formatted": "King Faisal Road, Old Town Area, Umm Al Quwain, Umm al-Quwain, United Arab Emirates",
-  "Index": 1312
+  "Index": 1312,
+  "ZAVIS ID": "al-neem-pharmacy-llc-umm-al-quwain",
+  "ZAVIS URL": "https://www.zavis.ai/directory/umm-al-quwain/pharmacy/al-neem-pharmacy-llc-umm-al-quwain",
+  "ZAVIS NAME": "AL Neem Pharmacy",
+  "ZAVIS ADDRESS": "Aesthetica Medica Center Building Salamah 2 - Al Salmah - Al Salamah 2 - Emirate of Umm Al Quwain - United Arab Emirates",
+  "ZAVIS PHONE": "+971 50 980 6476"
  },
  {
   "P": "AJM",
@@ -1050,7 +1250,12 @@
   "lon": "55.431948",
   "confidence": "area_match",
   "formatted": "الرميلة, عجمان, إمارة عجمان, الإمارات العربية المتحدة",
-  "Index": 1336
+  "Index": 1336,
+  "ZAVIS ID": "al-narjes-physiotherapy-center-ajman",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ajman/physiotherapy/al-narjes-physiotherapy-center-ajman",
+  "ZAVIS NAME": "AL Narjes Physiotherapy Center",
+  "ZAVIS ADDRESS": "Sheikh Rashid bin Humaid road - opposite Ajman One tower - Al Rumailah - Al Rumailah 3 - Ajman - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 741 8880"
  },
  {
   "P": "AJM",
@@ -1076,7 +1281,12 @@
   "lon": "56.2776861",
   "confidence": "area_match",
   "formatted": "Dibba, شارع المهلّب بن أبي صفرة, دبا, المهلب, دبا الفجيرة, الفجيرة, الإمارات العربية المتحدة",
-  "Index": 2162
+  "Index": 2162,
+  "ZAVIS ID": "al-sharq-hospital-dibba-fujairah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/fujairah/hospitals/al-sharq-hospital-dibba-fujairah",
+  "ZAVIS NAME": "AL Sharq Hospital - Dibba",
+  "ZAVIS ADDRESS": "H7H4+2G6 - Al Nahdah - Fujairah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 800 959"
  },
  {
   "P": "FUJ",
@@ -1102,7 +1312,12 @@
   "lon": "56.2776861",
   "confidence": "area_match",
   "formatted": "Dibba, شارع المهلّب بن أبي صفرة, دبا, المهلب, دبا الفجيرة, الفجيرة, الإمارات العربية المتحدة",
-  "Index": 2170
+  "Index": 2170,
+  "ZAVIS ID": "al-sharq-hospital-dibba-pharmacy-fujairah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/fujairah/pharmacy/al-sharq-hospital-dibba-pharmacy-fujairah",
+  "ZAVIS NAME": "Al Sharq Hospital - Dibba Pharmacy",
+  "ZAVIS ADDRESS": "H7H4+2G6 - Al Nahdah - Fujairah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 800 959"
  },
  {
   "P": "FUJ",
@@ -1141,7 +1356,12 @@
   "lon": "55.9561696",
   "confidence": "area_match",
   "formatted": "FEWA Al Nakheel Power Plant, المحطة, رأس الخيمة, الإمارات العربية المتحدة",
-  "Index": 2188
+  "Index": 2188,
+  "ZAVIS ID": "al-hudaibah-general-clinic-llc-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/clinics/al-hudaibah-general-clinic-llc-ras-al-khaimah",
+  "ZAVIS NAME": "AL Hudaibah General Clinic",
+  "ZAVIS ADDRESS": "QXXF+4W2 - Sheikh Saqr Bin Mohammed Al Qassimi Road (E 18 Road) - Al Hudeeba - Ras Al-Khaimah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 7 222 2188"
  },
  {
   "P": "RAK",
@@ -1154,7 +1374,12 @@
   "lon": "55.967316",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: ALNEBRAS MEDICAL CENTER LLC, RAS AL KHAIMAH",
-  "Index": 2194
+  "Index": 2194,
+  "ZAVIS ID": "alnebras-medical-center-llc-branch-1-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/clinics/alnebras-medical-center-llc-branch-1-ras-al-khaimah",
+  "ZAVIS NAME": "Alnebras Medical Center",
+  "ZAVIS ADDRESS": "Opposite ADIB Bank, Mezzanine floor, Golf Tower2 - Al Muntasir Rd - Al Juwais - Ras Al Khaimah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 7 227 7007"
  },
  {
   "P": "RAK",
@@ -1180,7 +1405,12 @@
   "lon": "55.9591135",
   "confidence": "area_match",
   "formatted": "Lulu Hypermarket, طريق خزام, القرم, رأس الخيمة, الإمارات العربية المتحدة",
-  "Index": 2216
+  "Index": 2216,
+  "ZAVIS ID": "al-lulu-rak-pharmacy-l-l-c-ras-al-khaimah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/ras-al-khaimah/pharmacy/al-lulu-rak-pharmacy-l-l-c-ras-al-khaimah",
+  "ZAVIS NAME": "AL Lulu Rak Pharmacy",
+  "ZAVIS ADDRESS": "Khuzam St - Al Qurum - Ras Al Khaimah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 7 226 4393"
  },
  {
   "P": "RAK",
@@ -1206,7 +1436,12 @@
   "lon": "55.4804489",
   "confidence": "area_match",
   "formatted": "Hamriyah Power Plant, الحمرية, الشارقة, الإمارات العربية المتحدة",
-  "Index": 2238
+  "Index": 2238,
+  "ZAVIS ID": "dooa-medical-clinic-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/dooa-medical-clinic-sharjah",
+  "ZAVIS NAME": "Dooa Medical Clinic",
+  "ZAVIS ADDRESS": "Hamriya Free Zone - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 526 0188"
  },
  {
   "P": "SHJ",
@@ -1219,7 +1454,12 @@
   "lon": "55.3766102",
   "confidence": "area_match",
   "formatted": "Hilal Alnahda Cafeteria, شارع سمرقند, النهدة, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
-  "Index": 2257
+  "Index": 2257,
+  "ZAVIS ID": "al-arif-medical-centre-l-l-c-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/al-arif-medical-centre-l-l-c-sharjah",
+  "ZAVIS NAME": "AL Arif Medical Centre",
+  "ZAVIS ADDRESS": "Al Yarmook Tiger Building, Block A - near Enoc Petrol Pumb - حي النهدة - القصيص منطقة صناعية - الشارقة - United Arab Emirates",
+  "ZAVIS PHONE": "+971 50 882 1672"
  },
  {
   "P": "SHJ",
@@ -1245,7 +1485,12 @@
   "lon": "55.3873595",
   "confidence": "area_match",
   "formatted": "Rolla, الغرب, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
-  "Index": 2275
+  "Index": 2275,
+  "ZAVIS ID": "al-saha-wa-al-shifaa-hospital-for-one-day-surgery-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/al-saha-wa-al-shifaa-hospital-for-one-day-surgery-sharjah",
+  "ZAVIS NAME": "AL Saha WA AL Shifaa Hospital For One Day Surgery",
+  "ZAVIS ADDRESS": "Office # 307, 3rd Floor, Rolla Mall - Al Ghuwair - Hay Al Gharb - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 563 2618"
  },
  {
   "P": "SHJ",
@@ -1258,7 +1503,12 @@
   "lon": "55.387267",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: DR.SAI GANESH PILLAI MEDICAL CENTRE, SHARJAH",
-  "Index": 2276
+  "Index": 2276,
+  "ZAVIS ID": "dr-sai-ganesh-pillai-medical-centre-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/dr-sai-ganesh-pillai-medical-centre-sharjah",
+  "ZAVIS NAME": "Dr.sai Ganesh Pillai Medical Centre",
+  "ZAVIS ADDRESS": "Bank Saderat Iran Building - Suite 203 - Al Arouba St - Al Shiokh - Hay Al Gharb - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 568 7831"
  },
  {
   "P": "SHJ",
@@ -1271,7 +1521,12 @@
   "lon": "55.3873595",
   "confidence": "area_match",
   "formatted": "Rolla, الغرب, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
-  "Index": 2280
+  "Index": 2280,
+  "ZAVIS ID": "al-reem-specialists-medical-centre-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/clinics/al-reem-specialists-medical-centre-sharjah",
+  "ZAVIS NAME": "AL Reem Specialists Medical Centre",
+  "ZAVIS ADDRESS": "1st Floor, Al Ahalia Exchange Bldg. Rolla Square, Rolla - Al Ghuwair - Hay Al Gharb - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 562 0831"
  },
  {
   "P": "SHJ",
@@ -1284,7 +1539,12 @@
   "lon": "55.4140034",
   "confidence": "area_match",
   "formatted": "شارع الصناعي الأول, المنطقة الصناعية, مدينة الشارقة, الشارقة, الإمارات العربية المتحدة",
-  "Index": 2329
+  "Index": 2329,
+  "ZAVIS ID": "al-reef-pharmacy-sharjah",
+  "ZAVIS URL": "https://www.zavis.ai/directory/sharjah/pharmacy/al-reef-pharmacy-sharjah",
+  "ZAVIS NAME": "AL Reef Pharmacy",
+  "ZAVIS ADDRESS": "899X+JJ5 - Street # 68 - Industrial Areas - Industrial Area - Sharjah - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 533 0212"
  },
  {
   "P": "SHJ",
@@ -1349,7 +1609,12 @@
   "lon": "55.5644411",
   "confidence": "area_match",
   "formatted": "طريق الملك فيصل, الروضة, أم القيوين, الإمارات العربية المتحدة",
-  "Index": 2384
+  "Index": 2384,
+  "ZAVIS ID": "al-reem-pharmacy-l-l-c-umm-al-quwain",
+  "ZAVIS URL": "https://www.zavis.ai/directory/umm-al-quwain/pharmacy/al-reem-pharmacy-l-l-c-umm-al-quwain",
+  "ZAVIS NAME": "AL Reem Pharmacy",
+  "ZAVIS ADDRESS": "King Faisal St - near nesto Hypermarket - Al Muqta - Al Muqta 1 - Emirate of Umm Al Quwain - United Arab Emirates",
+  "ZAVIS PHONE": "+971 6 769 0400"
  },
  {
   "P": "UMQ",

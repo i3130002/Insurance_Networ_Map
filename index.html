@@ -173,8 +173,9 @@
                 RAK: 'ras-al-khaimah', SHJ: 'sharjah', UMQ: 'umm-al-quwain',
                 ALAIN: 'al-ain'
             }[e.P] || '';
-            const zavisUrl = `https://www.zavis.ai/search?q=${encodeURIComponent(
+            const zavisSearchUrl = `https://www.zavis.ai/search?q=${encodeURIComponent(
                 `${e['PROVIDER NAME']} ${e.TELEPHONE}`)}&city=${zavisCity}`;
+            const zavisUrl = esc(e['ZAVIS URL'] || zavisSearchUrl);
             const LAYER_BADGE = {
                 official: '<span style="color:#198754">✔ in official network list</span>',
                 chain:    `<span style="color:#0d6efd">${esc(chain || 'chain')} group provider</span>`,

@@ -10,7 +10,12 @@
   "lon": "54.530336",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: ZIA MEDICAL CENTRE, ABU DHABI",
-  "Index": 83
+  "Index": 83,
+  "ZAVIS ID": "zia-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/zia-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Zia Medical Centre",
+  "ZAVIS ADDRESS": "51st Street - Mohamed Bin Zayed City - ME12 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125522201"
  },
  {
   "P": "AUH",
@@ -23,7 +28,12 @@
   "lon": "55.75736",
   "confidence": "0.25",
   "formatted": "Sanaiya, AZ, United Arab Emirates",
-  "Index": 84
+  "Index": 84,
+  "ZAVIS ID": "peshawar-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/peshawar-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Peshawar Medical Centre",
+  "ZAVIS ADDRESS": "40 شارع ١٦ - Musaffah - M40 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-5522201"
  },
  {
   "P": "AUH",
@@ -36,7 +46,12 @@
   "lon": "54.472986",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: BAB AL TEB MEDICAL CENTRE, ABU DHABI",
-  "Index": 87
+  "Index": 87,
+  "ZAVIS ID": "bab-al-teb-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/bab-al-teb-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Bab AL Teb Medical Centre",
+  "ZAVIS ADDRESS": "8FXF+8FJ - Musaffah - M44 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 55 897 9364"
  },
  {
   "P": "AUH",
@@ -62,7 +77,12 @@
   "lon": "55.4594562",
   "confidence": "0.1542564",
   "formatted": "Building No : 3255, Sheikh Khalifa Street, Muweilah Commercial, Sharjah, Muwailih, United Arab Emirates",
-  "Index": 89
+  "Index": 89,
+  "ZAVIS ID": "llh-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/llh-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Llh Medical Centre",
+  "ZAVIS ADDRESS": "Zone 1E3-02 - Muroor Road - Al Danah - E3-02 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 800 55"
  },
  {
   "P": "AUH",
@@ -88,7 +108,12 @@
   "lon": "54.6372825873548",
   "confidence": "1",
   "formatted": "Al wathba prison, Lane 2010, Al Wathba Camel Racetrack, Al Wathbah, AZ, United Arab Emirates",
-  "Index": 92
+  "Index": 92,
+  "ZAVIS ID": "lifecare-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/lifecare-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Lifecare Medical Center",
+  "ZAVIS ADDRESS": "7HPP5RVX+CR - Al Wathba - Qasr Al Wathbah South - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 56 406 0318"
  },
  {
   "P": "AUH",
@@ -114,7 +139,12 @@
   "lon": "54.582942",
   "confidence": "0.5",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 94
+  "Index": 94,
+  "ZAVIS ID": "shaheen-medical-centre-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/shaheen-medical-centre-abu-dhabi",
+  "ZAVIS NAME": "Shaheen Medical Centre",
+  "ZAVIS ADDRESS": "Al Falah St - Al Danah - Zone 1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 641 1345"
  },
  {
   "P": "AUH",
@@ -140,7 +170,12 @@
   "lon": "53.887363",
   "confidence": "0",
   "formatted": "32 شارع سنجاري, AZ, United Arab Emirates",
-  "Index": 98
+  "Index": 98,
+  "ZAVIS ID": "right-choice-medical-center-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/right-choice-medical-center-abu-dhabi",
+  "ZAVIS NAME": "Right Choice Medical Center",
+  "ZAVIS ADDRESS": "Abu Dhabi Musaffah industrial area block - مصفح - مصفح 10 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97124917600"
  },
  {
   "P": "AUH",
@@ -153,7 +188,12 @@
   "lon": "56.3340341498629",
   "confidence": "0.00342391304347826",
   "formatted": "Fujairah Tower, PO Box 2900 Fujairah Tower Drop Off, Town Center, Fujairah City, FU, United Arab Emirates",
-  "Index": 102
+  "Index": 102,
+  "ZAVIS ID": "medstar-icad-medical-center-l-l-c-o-p-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/medstar-icad-medical-center-l-l-c-o-p-c-abu-dhabi",
+  "ZAVIS NAME": "Medstar Icad Medical Center",
+  "ZAVIS ADDRESS": "Musaffah - ICAD Residential city - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 554 4212"
  },
  {
   "P": "AUH",
@@ -166,7 +206,12 @@
   "lon": "55.3182162",
   "confidence": "0",
   "formatted": "Amal Khamis Advocates & Legal Consultants, 19th Street, Umm Hurair, Dubai, Bur Dubai, United Arab Emirates",
-  "Index": 104
+  "Index": 104,
+  "ZAVIS ID": "new-famous-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/new-famous-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "New Famous Medical Centre",
+  "ZAVIS ADDRESS": "Musaffah - Mussafah 32/1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 553 8040"
  },
  {
   "P": "AUH",
@@ -179,7 +224,12 @@
   "lon": "54.362964",
   "confidence": "0.208285714285714",
   "formatted": "Al Hosn Military Camp, Al Manhal, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 105
+  "Index": 105,
+  "ZAVIS ID": "mubarak-medical-center-sole-proprietorship-l-l-c-branch-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/mubarak-medical-center-sole-proprietorship-l-l-c-branch-abu-dhabi",
+  "ZAVIS NAME": "Mubarak Medical Center",
+  "ZAVIS ADDRESS": "Al Eshosh Village - Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 583 7772"
  },
  {
   "P": "AUH",
@@ -192,7 +242,12 @@
   "lon": "54.5239925",
   "confidence": "0",
   "formatted": "32 Ad Diman 4 Street, Musaffah Industrial Area, Musaffah, AZ, United Arab Emirates",
-  "Index": 106
+  "Index": 106,
+  "ZAVIS ID": "medline-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/medline-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Medline Medical Centre",
+  "ZAVIS ADDRESS": "14th St - Musaffah - M26 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-5530577"
  },
  {
   "P": "AUH",
@@ -205,7 +260,12 @@
   "lon": "54.4920537",
   "confidence": "0",
   "formatted": "Al Wadi Paper Industries LLC, 32 Al Mahdar Street, ICAD II, Abu Dhabi Industrial City, AZ, United Arab Emirates",
-  "Index": 107
+  "Index": 107,
+  "ZAVIS ID": "maxim-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/maxim-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Maxim Medical Centre",
+  "ZAVIS ADDRESS": "8FRF+7J6 - Musaffah - M43 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125500161"
  },
  {
   "P": "AUH",
@@ -231,7 +291,12 @@
   "lon": "55.7645138",
   "confidence": "0.277984523076923",
   "formatted": "Ameen Car Garage, Al Ain Sanaiya, Ash Shallal 6 Street, Industrial Area, AZ, United Arab Emirates",
-  "Index": 110
+  "Index": 110,
+  "ZAVIS ID": "falcon-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/falcon-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Falcon Pharmacy",
+  "ZAVIS ADDRESS": "Industrial Sector 18, Saniya, Ghayathi - Opposite to Main Mosque - غياثي - غياثي الصناعية - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 874 3164"
  },
  {
   "P": "AUH",
@@ -244,7 +309,12 @@
   "lon": "54.38347",
   "confidence": "0",
   "formatted": "10, Al Mushrif, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 111
+  "Index": 111,
+  "ZAVIS ID": "abu-salman-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/abu-salman-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Abu Salman Medical Centre",
+  "ZAVIS ADDRESS": "Mohamed Bin Zayed City, Abu Dhabi",
+  "ZAVIS PHONE": "+97125522549"
  },
  {
   "P": "AUH",
@@ -257,7 +327,12 @@
   "lon": "54.3477664",
   "confidence": "0.6561",
   "formatted": "102 Hamdan Bin Mohammed Street, Al Hisn, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 112
+  "Index": 112,
+  "ZAVIS ID": "al-naseem-medicalcentre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/al-naseem-medicalcentre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "AL Naseem Medicalcentre",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+97126399090"
  },
  {
   "P": "AUH",
@@ -270,7 +345,12 @@
   "lon": "54.5194506",
   "confidence": "area_match",
   "formatted": "ETISALAT Technical department MUSAFAH 1, شارع الهِضاب 3, Musaffah, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 113
+  "Index": 113,
+  "ZAVIS ID": "al-qabail-medical-centre-l-l-c-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/al-qabail-medical-centre-l-l-c-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "AL Qabail Medical Centre",
+  "ZAVIS ADDRESS": "Abu Dhabi - Musaffah - M33 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125575531"
  },
  {
   "P": "AUH",
@@ -283,7 +363,12 @@
   "lon": "54.5850916",
   "confidence": "0.0891440217391304",
   "formatted": "C Four Gym, Butti Bin Mohammed Al Qubaisi Street, Khalifa City, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 116
+  "Index": 116,
+  "ZAVIS ID": "prime-care-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/prime-care-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Prime Care Medical Center",
+  "ZAVIS ADDRESS": "Mohamed Bin Zayed City - Mussafah Community - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-5538188"
  },
  {
   "P": "AUH",
@@ -296,7 +381,12 @@
   "lon": "54.3764693205553",
   "confidence": "0.35",
   "formatted": "Electra Park, Al Zahiyah, Abu Dhabi, United Arab Emirates",
-  "Index": 117
+  "Index": 117,
+  "ZAVIS ID": "dr-gupta-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/dr-gupta-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "DR Gupta Medical Center",
+  "ZAVIS ADDRESS": "Zayed 2nd Street (Electra Road - الدانة - Zone 1 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97126337357"
  },
  {
   "P": "AUH",
@@ -309,7 +399,12 @@
   "lon": "55.49706525",
   "confidence": "0.567",
   "formatted": "23 129 Street, Al Khawaneej, Dubai, DU, United Arab Emirates",
-  "Index": 120
+  "Index": 120,
+  "ZAVIS ID": "golden-tulip-medical-centre-l-l-c-o-p-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/golden-tulip-medical-centre-l-l-c-o-p-c-abu-dhabi",
+  "ZAVIS NAME": "Golden Tulip Medical Centre",
+  "ZAVIS ADDRESS": "9F8P+5M4 - Musaffah - M17 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125556608"
  },
  {
   "P": "AUH",
@@ -322,7 +417,12 @@
   "lon": "55.2038938",
   "confidence": "0",
   "formatted": "Al Emad, Shop no. 13 Al Seedaf 1 Street, Al Barsha 1, Dubai, Al Barsha, United Arab Emirates",
-  "Index": 121
+  "Index": 121,
+  "ZAVIS ID": "freedom-medical-poly-clinic-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/freedom-medical-poly-clinic-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Freedom Medical Poly Clinic",
+  "ZAVIS ADDRESS": "Building No 4 - مصفح - مصفح 4 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-6336744"
  },
  {
   "P": "AUH",
@@ -335,7 +435,12 @@
   "lon": "54.607036",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: CARE POINT CLINIC, ABU DHABI",
-  "Index": 123
+  "Index": 123,
+  "ZAVIS ID": "care-point-clinic-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/care-point-clinic-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Care Point Clinic",
+  "ZAVIS ADDRESS": "Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97126228383"
  },
  {
   "P": "AUH",
@@ -348,7 +453,12 @@
   "lon": "54.539187",
   "confidence": "0",
   "formatted": "Al Ain University Of Science & Technology - Abu Dhabi - Abu Dhabi, Mohamed Bin Zayed City, Abu Dhabi, United Arab Emirates",
-  "Index": 124
+  "Index": 124,
+  "ZAVIS ID": "blue-ocean-medical-center-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/blue-ocean-medical-center-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Blue Ocean Medical Center",
+  "ZAVIS ADDRESS": "الراي - Mohamed Bin Zayed City - ME10 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 551 5590"
  },
  {
   "P": "AUH",
@@ -361,7 +471,12 @@
   "lon": "56.3340341498629",
   "confidence": "0.0025698988697204",
   "formatted": "Fujairah Tower, PO Box 2900 Fujairah Tower Drop Off, Town Center, Fujairah City, FU, United Arab Emirates",
-  "Index": 125
+  "Index": 125,
+  "ZAVIS ID": "bab-al-madina-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/bab-al-madina-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Bab AL Madina Medical Center",
+  "ZAVIS ADDRESS": "Musaffah - M26 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-6422464"
  },
  {
   "P": "AUH",
@@ -387,7 +502,12 @@
   "lon": "54.582942",
   "confidence": "0.5",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 127
+  "Index": 127,
+  "ZAVIS ID": "aster-primary-care-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/aster-primary-care-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Aster Primary Care",
+  "ZAVIS ADDRESS": "شارع ١٥ - Musaffah - M9 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 555 7078"
  },
  {
   "P": "AUH",
@@ -400,7 +520,12 @@
   "lon": "54.582942",
   "confidence": "0.1",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 128
+  "Index": 128,
+  "ZAVIS ID": "al-wahda-medical-centre-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/al-wahda-medical-centre-abu-dhabi",
+  "ZAVIS NAME": "AL Wahda Medical Centre",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+97126418383"
  },
  {
   "P": "AUH",
@@ -413,7 +538,12 @@
   "lon": "54.57349",
   "confidence": "0",
   "formatted": "Ring Road Al Dhafra, Al Dhafrah, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 130
+  "Index": 130,
+  "ZAVIS ID": "al-dhafra-modern-medical-centre-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/al-dhafra-modern-medical-centre-abu-dhabi",
+  "ZAVIS NAME": "AL Dhafra Modern Medical Centre",
+  "ZAVIS ADDRESS": "Madinat Zayed - MZE16 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-8846651"
  },
  {
   "P": "AUH",
@@ -426,7 +556,12 @@
   "lon": "52.8018261",
   "confidence": "area_match",
   "formatted": "Ghayathi Community Hospital, شارع الدَّرُوج, غياثي, غِيَّاثِي, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 131
+  "Index": 131,
+  "ZAVIS ID": "express-ghayathi-medical-centre-l-l-c-o-p-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/express-ghayathi-medical-centre-l-l-c-o-p-c-abu-dhabi",
+  "ZAVIS NAME": "Express Ghayathi Medical Centre",
+  "ZAVIS ADDRESS": "4 Al Mawajeeb St - Ghiyathi - Ghayathi Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-8744430"
  },
  {
   "P": "AUH",
@@ -439,7 +574,12 @@
   "lon": "54.63611",
   "confidence": "0.692307692307692",
   "formatted": "Baniyas, AZ, United Arab Emirates",
-  "Index": 132
+  "Index": 132,
+  "ZAVIS ID": "al-amal-medical-centre-l-lc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/al-amal-medical-centre-l-lc-abu-dhabi",
+  "ZAVIS NAME": "AL Amal Medical Centre",
+  "ZAVIS ADDRESS": "Baniyas, Abu Dhabi",
+  "ZAVIS PHONE": "+97125832331"
  },
  {
   "P": "AUH",
@@ -452,7 +592,12 @@
   "lon": "55.1679831",
   "confidence": "0.09375",
   "formatted": "Geldbach International LLC, Ware house 47 59 Street, Dubai Investment Park 1, Dubai, DU, United Arab Emirates",
-  "Index": 134
+  "Index": 134,
+  "ZAVIS ID": "star-al-ahalia-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/star-al-ahalia-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Star AL Ahalia Medical Center",
+  "ZAVIS ADDRESS": "building no C76, near Gayathi market - غياثي - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97128744677"
  },
  {
   "P": "AUH",
@@ -465,7 +610,12 @@
   "lon": "54.60764",
   "confidence": "0.6",
   "formatted": "Al Mafraq, AZ, United Arab Emirates",
-  "Index": 135
+  "Index": 135,
+  "ZAVIS ID": "eastern-alahili-medical-center-sole-proprietorship-l-l-c-branch-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/eastern-alahili-medical-center-sole-proprietorship-l-l-c-branch-abu-dhabi",
+  "ZAVIS NAME": "Eastern Alahili Medical Center",
+  "ZAVIS ADDRESS": "14 As Saddah 1 St - Musaffah - M2 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97124442235"
  },
  {
   "P": "AUH",
@@ -556,7 +706,12 @@
   "lon": "54.582942",
   "confidence": "0.036",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 144
+  "Index": 144,
+  "ZAVIS ID": "adnoc-onshore-medical-centre-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/adnoc-onshore-medical-centre-abu-dhabi",
+  "ZAVIS NAME": "ADNOC Onshore Medical Centre",
+  "ZAVIS ADDRESS": "CGC2+7V2 - Sas Al Nakhl - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97127071275"
  },
  {
   "P": "AUH",
@@ -569,7 +724,12 @@
   "lon": "54.367801",
   "confidence": "0.45",
   "formatted": "Sofitel Abu Dhabi Corniche, At Touk Street, Al Danah, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 145
+  "Index": 145,
+  "ZAVIS ID": "adnoc-hq-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/adnoc-hq-clinic-abu-dhabi",
+  "ZAVIS NAME": "Adnoc HQ Clinic",
+  "ZAVIS ADDRESS": "International Airport Road - CG93+RJQ - Sas Al Nakhl - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 800 300"
  },
  {
   "P": "AUH",
@@ -595,7 +755,12 @@
   "lon": "54.582942",
   "confidence": "0.405",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 149
+  "Index": 149,
+  "ZAVIS ID": "zirku-medical-center-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/zirku-medical-center-abu-dhabi",
+  "ZAVIS NAME": "Zirku Medical Center",
+  "ZAVIS ADDRESS": "Al Dhafra Islands - Zarkuh Island - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97197127071275"
  },
  {
   "P": "AUH",
@@ -621,7 +786,12 @@
   "lon": "54.582942",
   "confidence": "0.0510204081632653",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 151
+  "Index": 151,
+  "ZAVIS ID": "arzanah-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/arzanah-clinic-abu-dhabi",
+  "ZAVIS NAME": "Arzanah Clinic",
+  "ZAVIS ADDRESS": "شارع ١٥ - Musaffah - M9 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97197127071275"
  },
  {
   "P": "AUH",
@@ -634,7 +804,12 @@
   "lon": "54.3999654",
   "confidence": "0",
   "formatted": "Al nahda national school, Makkah Street, Al Mushrif, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 152
+  "Index": 152,
+  "ZAVIS ID": "umm-al-dakh-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/umm-al-dakh-clinic-abu-dhabi",
+  "ZAVIS NAME": "Umm AL Dakh Clinic",
+  "ZAVIS ADDRESS": "Near SARAYA HALAB Restaurant - Zayed Bin Sultan St - Central District - Hai Al Hisn - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-7071275"
  },
  {
   "P": "AUH",
@@ -647,7 +822,12 @@
   "lon": "54.582942",
   "confidence": "0.5",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 153
+  "Index": 153,
+  "ZAVIS ID": "alsseifiya-island-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/alsseifiya-island-clinic-abu-dhabi",
+  "ZAVIS NAME": "Alsseifiya Island Clinic",
+  "ZAVIS ADDRESS": "Abu Al Abyad Island - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 606 3300"
  },
  {
   "P": "AUH",
@@ -673,7 +853,12 @@
   "lon": "53.9067",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: SHAH GENERAL CLINIC, ABU DHABI",
-  "Index": 163
+  "Index": 163,
+  "ZAVIS ID": "shah-general-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/shah-general-clinic-abu-dhabi",
+  "ZAVIS NAME": "Shah General Clinic",
+  "ZAVIS ADDRESS": "Madinat Zayed - MZE16 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97197127071275"
  },
  {
   "P": "AUH",
@@ -712,7 +897,12 @@
   "lon": "54.113633",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: DABBAYIA CLINIC, ABU DHABI",
-  "Index": 166
+  "Index": 166,
+  "ZAVIS ID": "dabbayia-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/dabbayia-clinic-abu-dhabi",
+  "ZAVIS NAME": "Dabbayia Clinic",
+  "ZAVIS ADDRESS": "منطقة الدانة أ -شارع المرور - مدينة - 425 الطابق الرابع - مقابل مدينة زايد للذهب بناية صيدلية الهنداوى - Al Danah - E4 02 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97197127071275"
  },
  {
   "P": "AUH",
@@ -751,7 +941,12 @@
   "lon": "54.582942",
   "confidence": "0.114795918367347",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 169
+  "Index": 169,
+  "ZAVIS ID": "bida-al-oshanah-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/bida-al-oshanah-clinic-abu-dhabi",
+  "ZAVIS NAME": "Bida Al Oshanah Clinic",
+  "ZAVIS ADDRESS": "BAOB Admin BLDG. - حبشان - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97197127071275"
  },
  {
   "P": "AUH",
@@ -777,7 +972,12 @@
   "lon": "55.7998312",
   "confidence": "0.156521739130435",
   "formatted": "Al Jazeera Supermarket, 21C Street, Al Jazeera Al Hamra, Al jazeera heritage village, RK, United Arab Emirates",
-  "Index": 171
+  "Index": 171,
+  "ZAVIS ID": "doctor-atiqur-rahman-polyclinic-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/doctor-atiqur-rahman-polyclinic-llc-abu-dhabi",
+  "ZAVIS NAME": "Doctor Atiqur Rahman Polyclinic",
+  "ZAVIS ADDRESS": "418 Eastern Rd - Al Danah - Zone 1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 639 8331"
  },
  {
   "P": "AUH",
@@ -790,7 +990,12 @@
   "lon": "54.3774014",
   "confidence": "0.25",
   "formatted": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 175
+  "Index": 175,
+  "ZAVIS ID": "home-health-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/home-health-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Home Health Medical Centre",
+  "ZAVIS ADDRESS": "1st Floor, Bldg No 31 - 8GHM+48H - Shabiya 11، Mussafah - Mohamed Bin Zayed City - ME10 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-5530162"
  },
  {
   "P": "AUH",
@@ -803,7 +1008,12 @@
   "lon": "55.40003495",
   "confidence": "0.0489130434782609",
   "formatted": "Al Imran Technical Services, Shop Number 2 7a Street, Al Qusais, Dubai, DU, United Arab Emirates",
-  "Index": 176
+  "Index": 176,
+  "ZAVIS ID": "mariam-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/mariam-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Mariam Medical Center",
+  "ZAVIS ADDRESS": "2 Magenta Camp - Jarn Yafour - Al Mafraq Workers City - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-6214626"
  },
  {
   "P": "AUH",
@@ -816,7 +1026,12 @@
   "lon": "55.251737",
   "confidence": "0",
   "formatted": "Al Thamam 8, 8 Al Thammam, Remraam, Dubai, DU, United Arab Emirates",
-  "Index": 177
+  "Index": 177,
+  "ZAVIS ID": "health-time-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/health-time-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Health Time Medical Centre",
+  "ZAVIS ADDRESS": "Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 642 5247"
  },
  {
   "P": "AUH",
@@ -829,7 +1044,12 @@
   "lon": "55.3952480404436",
   "confidence": "0.113302409638554",
   "formatted": "Saleh Bin Saleh Building, Suraqah Bin Ka'eb Street, Al Qasimia, Sharjah, Abu Shagara, United Arab Emirates",
-  "Index": 178
+  "Index": 178,
+  "ZAVIS ID": "apex-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/apex-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Apex Medical Centre",
+  "ZAVIS ADDRESS": "Ghayathi New Industrial Area , Western Region - غياثي - صناعية غياثي الجديدة - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 650 0485"
  },
  {
   "P": "AUH",
@@ -842,7 +1062,12 @@
   "lon": "55.250476",
   "confidence": "0.0120535714285714",
   "formatted": "2 Al Thamam, Remraam, Dubai, DU, United Arab Emirates",
-  "Index": 179
+  "Index": 179,
+  "ZAVIS ID": "indus-medical-centre-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/indus-medical-centre-llc-abu-dhabi",
+  "ZAVIS NAME": "Indus Medical Centre",
+  "ZAVIS ADDRESS": "baniyas china camp worker city 2 - جرن يافور - المفرق الصناعية - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97124467700"
  },
  {
   "P": "AUH",
@@ -855,7 +1080,12 @@
   "lon": "54.3871337767516",
   "confidence": "0.3645",
   "formatted": "Hazza' Bin Zayed The First Street, Qasr El Bahr, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 180
+  "Index": 180,
+  "ZAVIS ID": "al-kamal-medical-poly-clinics-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/al-kamal-medical-poly-clinics-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Al Kamal Medical Poly Clinics",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+97126651464"
  },
  {
   "P": "AUH",
@@ -868,7 +1098,12 @@
   "lon": "53.687952",
   "confidence": "0",
   "formatted": "17 شارع, Madinat Zayid, AZ, United Arab Emirates",
-  "Index": 181
+  "Index": 181,
+  "ZAVIS ID": "ever-care-medical-center-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/ever-care-medical-center-abu-dhabi",
+  "ZAVIS NAME": "Ever Care Medical Center",
+  "ZAVIS ADDRESS": "Abu Dhabi - Musaffah - M17 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 445 7667"
  },
  {
   "P": "AUH",
@@ -894,7 +1129,12 @@
   "lon": "54.6437560622374",
   "confidence": "1",
   "formatted": "Baniyas Post Office, Bani Yas Street, Bani Yas, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 183
+  "Index": 183,
+  "ZAVIS ID": "hope-medical-center-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/hope-medical-center-llc-abu-dhabi",
+  "ZAVIS NAME": "Hope Medical Center",
+  "ZAVIS ADDRESS": "1st floor gcc new office bldg - Naer Al jaber camp - plot no 384/ building - Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97197125551430"
  },
  {
   "P": "AUH",
@@ -920,7 +1160,12 @@
   "lon": "54.3994842",
   "confidence": "0",
   "formatted": "131 Dihan Street, Hadbat Al Za'faranah, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 186
+  "Index": 186,
+  "ZAVIS ID": "specialized-dental-orthodontic-center-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/dental/specialized-dental-orthodontic-center-abu-dhabi",
+  "ZAVIS NAME": "Specialized Dental & Orthodontic Center",
+  "ZAVIS ADDRESS": "Abu Dhabi - Al Mushrif - W24 01 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97124439688"
  },
  {
   "P": "AUH",
@@ -933,7 +1178,12 @@
   "lon": "54.3652435",
   "confidence": "0",
   "formatted": "Building 216, Saeed Bin Ahmed Al Otaiba Street, Al Danah, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 187
+  "Index": 187,
+  "ZAVIS ID": "pattaya-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/pattaya-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Pattaya Medical Centre",
+  "ZAVIS ADDRESS": "Zone 19 - Villa 268 Al Manhal St - Mohamed Bin Zayed City - Z19 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-5530233"
  },
  {
   "P": "AUH",
@@ -946,7 +1196,12 @@
   "lon": "54.4957065",
   "confidence": "0.25",
   "formatted": "Musaffah Industrial Area, Musaffah, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 188
+  "Index": 188,
+  "ZAVIS ID": "sahara-medical-center-l-l-c-managed-by-llh-hospital-al-musaffah-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/sahara-medical-center-l-l-c-managed-by-llh-hospital-al-musaffah-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Sahara Medical Center L.L.C Managed By Llh Hospital AL Musaffah",
+  "ZAVIS ADDRESS": "Musafah M44, Sector 16 - Musaffah - M44 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125556393"
  },
  {
   "P": "AUH",
@@ -972,7 +1227,12 @@
   "lon": "54.45646225",
   "confidence": "1",
   "formatted": "Pitch 15, Al Khaleej Al Arabi Street, Al Rawdah, Abu Dhabi, Rihan Heights, United Arab Emirates",
-  "Index": 191
+  "Index": 191,
+  "ZAVIS ID": "time-cure-medical-center-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/time-cure-medical-center-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Time Cure Medical Center",
+  "ZAVIS ADDRESS": "8FVW+MCW - Musaffah - M36 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-5508998"
  },
  {
   "P": "AUH",
@@ -985,7 +1245,12 @@
   "lon": "54.530091",
   "confidence": "0.666666666666667",
   "formatted": "Capital Mall, Mohamed Bin Zayed City, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 561
+  "Index": 561,
+  "ZAVIS ID": "nmc-royal-family-medical-centre-ltd-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/nmc-royal-family-medical-centre-ltd-abu-dhabi",
+  "ZAVIS NAME": "Nmc Royal Family Medical Centre",
+  "ZAVIS ADDRESS": "1st and 2nd floor، Prestige Tower 17 - 79th St - next to Capital Mall - Mohamed Bin Zayed City - ME2 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 691 1500"
  },
  {
   "P": "AUH",
@@ -998,7 +1263,12 @@
   "lon": "54.6719576",
   "confidence": "1",
   "formatted": "12 Al Sadirat Street, Al Shahamah, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 562
+  "Index": 562,
+  "ZAVIS ID": "nmc-royal-medical-center-ltd-branch-al-shahama-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/nmc-royal-medical-center-ltd-branch-al-shahama-abu-dhabi",
+  "ZAVIS NAME": "Nmc Royal Medical Center LTD - Branch AL Shahama",
+  "ZAVIS ADDRESS": "12 Al Sadirat St - Al Shahama - New Shahamah - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 885 9400"
  },
  {
   "P": "AUH",
@@ -1011,7 +1281,12 @@
   "lon": "54.4958539",
   "confidence": "0.15",
   "formatted": "The National Aquarium Abu Dhabi, 372 Al Maqta' Street, Rabdan, Abu Dhabi, Bain al Jisrain (Between the Bridges), United Arab Emirates",
-  "Index": 563
+  "Index": 563,
+  "ZAVIS ID": "oxford-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/oxford-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Oxford Medical Center",
+  "ZAVIS ADDRESS": "Muroor Area 23rd - 25th Street - behind Lulu Express - Hadbat Al Za`Faranah - Zone 1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-4489666"
  },
  {
   "P": "AUH",
@@ -1037,7 +1312,12 @@
   "lon": "54.525242",
   "confidence": "0",
   "formatted": "Plot No. M-26, Musaffah, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 565
+  "Index": 565,
+  "ZAVIS ID": "mesk-almadina-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/mesk-almadina-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Mesk Almadina Medical Centre",
+  "ZAVIS ADDRESS": "ICAD Area M40 Plot No. 96 - مصفح - مصفح 40 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97125504333"
  },
  {
   "P": "AUH",
@@ -1050,7 +1330,12 @@
   "lon": "54.4904380047039",
   "confidence": "0.25",
   "formatted": "Musaffah, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 566
+  "Index": 566,
+  "ZAVIS ID": "alpha-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/alpha-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Alpha Medical Centre",
+  "ZAVIS ADDRESS": "Musaffah, Abu Dhabi",
+  "ZAVIS PHONE": "+97125558383"
  },
  {
   "P": "AUH",
@@ -1063,7 +1348,12 @@
   "lon": "54.582942",
   "confidence": "0.0486749594375338",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 567
+  "Index": 567,
+  "ZAVIS ID": "golden-sands-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/golden-sands-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Golden Sands Medical Centre",
+  "ZAVIS ADDRESS": "Old Passport Road - Al Falah St - Al Danah - E18 02 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97126427171"
  },
  {
   "P": "AUH",
@@ -1076,7 +1366,12 @@
   "lon": "54.3849234984062",
   "confidence": "0.405",
   "formatted": "Hamdan Bin Mohammed Street, Al Zahiyah, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 568
+  "Index": 568,
+  "ZAVIS ID": "apollo-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/apollo-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Apollo Medical Centre",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+97126397733"
  },
  {
   "P": "AUH",
@@ -1102,7 +1397,12 @@
   "lon": "55.2191587",
   "confidence": "0.0520062869822485",
   "formatted": "11 Al Heeba Street, Umm Suqeim, Dubai, Umm Suqeim 1, United Arab Emirates",
-  "Index": 571
+  "Index": 571,
+  "ZAVIS ID": "wazirustan-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/wazirustan-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Wazirustan Medical Centre",
+  "ZAVIS ADDRESS": "11 ʹIrq Dhabyan St - Ghiyathi - Ghayathi - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97197128741400"
  },
  {
   "P": "AUH",
@@ -1115,7 +1415,12 @@
   "lon": "54.354898",
   "confidence": "0.1265625",
   "formatted": "Qasr Al Hosn, Al Hisn, Abu Dhabi, United Arab Emirates",
-  "Index": 572
+  "Index": 572,
+  "ZAVIS ID": "alreef-school-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/alreef-school-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Ansari Medical Centre",
+  "ZAVIS ADDRESS": "Ain Al Faydah, Abu Dhabi",
+  "ZAVIS PHONE": "+971 2 639 4139"
  },
  {
   "P": "AUH",
@@ -1128,7 +1433,12 @@
   "lon": "55.266024",
   "confidence": "0.155172413793103",
   "formatted": "Street 1 Street, Arabian Ranches, Dubai, DU, United Arab Emirates",
-  "Index": 573
+  "Index": 573,
+  "ZAVIS ID": "unique-alahalia-ophthalmology-one-day-surgery-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/ophthalmology/unique-alahalia-ophthalmology-one-day-surgery-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Unique Alahalia Ophthalmology One Day Surgery Medical Center",
+  "ZAVIS ADDRESS": "Hamdan شارع 5 - Al Danah - E6 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 621 6900"
  },
  {
   "P": "AUH",
@@ -1141,7 +1451,12 @@
   "lon": "54.377929",
   "confidence": "0.0170681581685744",
   "formatted": "10 Al Shabiya Police Station, Al Danah, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 585
+  "Index": 585,
+  "ZAVIS ID": "ideal-clinical-laboratories-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/labs-diagnostics/ideal-clinical-laboratories-abu-dhabi",
+  "ZAVIS NAME": "Ideal Clinical Laboratories",
+  "ZAVIS ADDRESS": "C44,Shabiyah Sector-10, Musaffah - Mohamed Bin Zayed City - ME10 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97197125558448"
  },
  {
   "P": "AUH",
@@ -1154,7 +1469,12 @@
   "lon": "54.3612507",
   "confidence": "0.122002066115702",
   "formatted": "Hamdan St / Liwa Center, Hamdan Bin Mohammed Street, Al Danah, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 586
+  "Index": 586,
+  "ZAVIS ID": "dar-al-mouasah-diagnostic-centre-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/labs-diagnostics/dar-al-mouasah-diagnostic-centre-abu-dhabi",
+  "ZAVIS NAME": "Dar AL Mouasah Diagnostic Centre",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+97197126260066"
  },
  {
   "P": "AUH",
@@ -1167,7 +1487,12 @@
   "lon": "54.3587416705708",
   "confidence": "0.81",
   "formatted": "Hamdan Bin Mohammed Street, Al Danah, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 606
+  "Index": 606,
+  "ZAVIS ID": "accuracy-plus-medical-laboratory-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/labs-diagnostics/accuracy-plus-medical-laboratory-abu-dhabi",
+  "ZAVIS NAME": "Accuracy Plus Medical Laboratory",
+  "ZAVIS ADDRESS": "M02 Hamdan Bin Mohammed St - opposite Home Centre - Al Danah - E6 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97126333923"
  },
  {
   "P": "AUH",
@@ -1193,7 +1518,12 @@
   "lon": "54.3764693205553",
   "confidence": "0.35",
   "formatted": "Electra Park, Al Zahiyah, Abu Dhabi, United Arab Emirates",
-  "Index": 617
+  "Index": 617,
+  "ZAVIS ID": "llh-hospital-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/hospitals/llh-hospital-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Llh Hospital",
+  "ZAVIS ADDRESS": "Zone 1E3-02 - Muroor Road - Al Danah - E3-02 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 800 55"
  },
  {
   "P": "AUH",
@@ -1206,7 +1536,12 @@
   "lon": "55.3629418019251",
   "confidence": "0.0463445645263827",
   "formatted": "Al Badia Hillside Village, Dubai Festival City, Dubai, United Arab Emirates",
-  "Index": 618
+  "Index": 618,
+  "ZAVIS ID": "life-care-international-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/life-care-international-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Life Care International Pharmacy",
+  "ZAVIS ADDRESS": "Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 585 6333"
  },
  {
   "P": "AUH",
@@ -1219,7 +1554,12 @@
   "lon": "54.5104095",
   "confidence": "0",
   "formatted": "Auto race car work shop Mussaffah. M-11, 10 Al Hiraf 2 Street, Musaffah Industrial Area, Musaffah, AZ, United Arab Emirates",
-  "Index": 619
+  "Index": 619,
+  "ZAVIS ID": "phoenix-hospital-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/hospitals/phoenix-hospital-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Phoenix Hospital",
+  "ZAVIS ADDRESS": "Mohamed Bin Zayed City, Abu Dhabi",
+  "ZAVIS PHONE": "+97126151515"
  },
  {
   "P": "AUH",
@@ -1232,7 +1572,12 @@
   "lon": "55.757213",
   "confidence": "0",
   "formatted": "9 شارع 9, Central District, Al Ain, AZ, United Arab Emirates",
-  "Index": 620
+  "Index": 620,
+  "ZAVIS ID": "millennium-hospital-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/hospitals/millennium-hospital-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Millennium Hospital",
+  "ZAVIS ADDRESS": "MusaffahME-9 - مدينة محمد بن زايد - محمد بن زايد شرق 9 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 611 3333"
  },
  {
   "P": "AUH",
@@ -1245,7 +1590,12 @@
   "lon": "55.4104579",
   "confidence": "0.133136094674556",
   "formatted": "DU office, Sheikh Zayed bin Hamdan Al Nahyan Street, Academic City, Dubai, DU, United Arab Emirates",
-  "Index": 621
+  "Index": 621,
+  "ZAVIS ID": "al-ahli-hospital-company-llc-branch-1-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/hospitals/al-ahli-hospital-company-llc-branch-1-abu-dhabi",
+  "ZAVIS NAME": "AL Ahli Hospital Company",
+  "ZAVIS ADDRESS": "Ahalia Hospital Musaffah Building - Musaffah - Musaffah Industrial - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97128119119"
  },
  {
   "P": "AUH",
@@ -1271,7 +1621,12 @@
   "lon": "54.3729501433418",
   "confidence": "0.414418604651163",
   "formatted": "Al Falah Street, Al Danah, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 623
+  "Index": 623,
+  "ZAVIS ID": "medeor-24x7-hospital-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/hospitals/medeor-24x7-hospital-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Medeor 24x7 Hospital",
+  "ZAVIS ADDRESS": "Al Falah St - Al Danah - E4 02 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 800 55"
  },
  {
   "P": "AUH",
@@ -1297,7 +1652,12 @@
   "lon": "54.5543",
   "confidence": "official_network_fuzzy",
   "formatted": "Sukoon Insurance official network: BAREEN INTERNATIONAL HOSPITAL",
-  "Index": 649
+  "Index": 649,
+  "ZAVIS ID": "n-m-c-royal-hospital-ltd-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/hospitals/n-m-c-royal-hospital-ltd-abu-dhabi",
+  "ZAVIS NAME": "N M C Royal Hospital",
+  "ZAVIS ADDRESS": "16th St - Khalifa City - SE4 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 554 5555"
  },
  {
   "P": "AUH",
@@ -1310,7 +1670,12 @@
   "lon": "56.3340341498629",
   "confidence": "0.0025698988697204",
   "formatted": "Fujairah Tower, PO Box 2900 Fujairah Tower Drop Off, Town Center, Fujairah City, FU, United Arab Emirates",
-  "Index": 750
+  "Index": 750,
+  "ZAVIS ID": "bab-al-madina-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/bab-al-madina-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Bab AL Madina Medical Center",
+  "ZAVIS ADDRESS": "Musaffah - M26 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-6422464"
  },
  {
   "P": "AUH",
@@ -1323,7 +1688,12 @@
   "lon": "54.531302",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: AL ZIA PHARMACY - L.L.C, ABU DHABI",
-  "Index": 751
+  "Index": 751,
+  "ZAVIS ID": "al-zia-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/al-zia-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Al Zia Pharmacy",
+  "ZAVIS ADDRESS": "Musaffah, Abu Dhabi",
+  "ZAVIS PHONE": "+971(971)-2-5529220"
  },
  {
   "P": "AUH",
@@ -1336,7 +1706,12 @@
   "lon": "54.4879389",
   "confidence": "area_match",
   "formatted": "Premier Motors, Ford, شارع البَيلِي 5, M 15, Musaffah, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 752
+  "Index": 752,
+  "ZAVIS ID": "lahore-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/lahore-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Lahore Pharmacy",
+  "ZAVIS ADDRESS": "9GFJ+825 - Mohamed Bin Zayed City - ME3 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 552 2009"
  },
  {
   "P": "AUH",
@@ -1349,7 +1724,12 @@
   "lon": "54.472986",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: BAB AL TEB PHARMACY, ABU DHABI",
-  "Index": 754
+  "Index": 754,
+  "ZAVIS ID": "bab-al-teb-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/bab-al-teb-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Bab AL Teb Pharmacy",
+  "ZAVIS ADDRESS": "8FXF+7F6 - Musaffah - M44 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 309 4900"
  },
  {
   "P": "AUH",
@@ -1362,7 +1742,12 @@
   "lon": "54.6719576",
   "confidence": "United Arab Emirates",
   "formatted": "12 Al Sadirat Street, Al Shahamah, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 1314
+  "Index": 1314,
+  "ZAVIS ID": "nmc-royal-medical-center-ltd-branch-al-shahama-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/nmc-royal-medical-center-ltd-branch-al-shahama-abu-dhabi",
+  "ZAVIS NAME": "Nmc Royal Medical Center LTD - Branch AL Shahama",
+  "ZAVIS ADDRESS": "12 Al Sadirat St - Al Shahama - New Shahamah - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 885 9400"
  },
  {
   "P": "AUH",
@@ -1388,7 +1773,12 @@
   "lon": "54.5545",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: BAREEN PHARMACY, ABU DHABI",
-  "Index": 1317
+  "Index": 1317,
+  "ZAVIS ID": "n-m-c-royal-hospital-ltd-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/hospitals/n-m-c-royal-hospital-ltd-abu-dhabi",
+  "ZAVIS NAME": "N M C Royal Hospital",
+  "ZAVIS ADDRESS": "16th St - Khalifa City - SE4 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 554 5555"
  },
  {
   "P": "AUH",
@@ -1414,7 +1804,12 @@
   "lon": "54.582942",
   "confidence": "United Arab Emirates",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 1319
+  "Index": 1319,
+  "ZAVIS ID": "oxford-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/oxford-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Oxford Pharmacy",
+  "ZAVIS ADDRESS": "Al Sharafi Building - SHOP NO -2, GROUND FLOOR Al Rolla Rd - Al Raffa - Dubai - United Arab Emirates",
+  "ZAVIS PHONE": "+97124489191"
  },
  {
   "P": "AUH",
@@ -1427,7 +1822,12 @@
   "lon": "54.525242",
   "confidence": "United Arab Emirates",
   "formatted": "Plot No. M-26, Musaffah, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 1320
+  "Index": 1320,
+  "ZAVIS ID": "zanbaq-al-madina-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/zanbaq-al-madina-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Zanbaq AL Madina Pharmacy",
+  "ZAVIS ADDRESS": "384 Mohammed Bin Khalifa Al Kindi St - Musaffah - Musaffah Industrial - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-5504333"
  },
  {
   "P": "AUH",
@@ -1440,7 +1840,12 @@
   "lon": "54.4904380047039",
   "confidence": "United Arab Emirates",
   "formatted": "Musaffah, Abu Dhabi Emirate, United Arab Emirates",
-  "Index": 1321
+  "Index": 1321,
+  "ZAVIS ID": "alpha-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/alpha-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Alpha Medical Centre",
+  "ZAVIS ADDRESS": "Musaffah, Abu Dhabi",
+  "ZAVIS PHONE": "+97125558383"
  },
  {
   "P": "AUH",
@@ -1453,7 +1858,12 @@
   "lon": "54.582942",
   "confidence": "United Arab Emirates",
   "formatted": "Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 1322
+  "Index": 1322,
+  "ZAVIS ID": "sands-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/sands-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Sands Pharmacy",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+971(971)-2-6425688"
  },
  {
   "P": "AUH",
@@ -1466,7 +1876,12 @@
   "lon": "54.530091",
   "confidence": "United Arab Emirates",
   "formatted": "Capital Mall, Mohamed Bin Zayed City, Abu Dhabi, AZ, United Arab Emirates",
-  "Index": 1323
+  "Index": 1323,
+  "ZAVIS ID": "lotus-pharmacy-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/lotus-pharmacy-llc-abu-dhabi",
+  "ZAVIS NAME": "Lotus Pharmacy",
+  "ZAVIS ADDRESS": "Ground floor, Prestige Tower 17 - شارع ٧٩ - near Capital Mall - Mohamed Bin Zayed City - ME2 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 691 1570"
  },
  {
   "P": "AUH",
@@ -1479,7 +1894,12 @@
   "lon": "54.4198692816127",
   "confidence": "United Arab Emirates",
   "formatted": "Muroor Traffic Department, Sultan Bin Zayed The First Street, Al Aman, Abu Dhabi, United Arab Emirates",
-  "Index": 1324
+  "Index": 1324,
+  "ZAVIS ID": "bright-point-pharmacy-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/bright-point-pharmacy-llc-abu-dhabi",
+  "ZAVIS NAME": "Bright Point Pharmacy",
+  "ZAVIS ADDRESS": "Ground Floor, Commercial tower B, Inside Al Jazira Sport and Culture Club - Sultan Bin Zayed The First St. (Muroor road) - آل نهيان - Zone 1 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 555 8825"
  },
  {
   "P": "AUH",
@@ -1492,7 +1912,12 @@
   "lon": "54.3680142",
   "confidence": "area_match",
   "formatted": "شارع حمدان بن محمد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1325
+  "Index": 1325,
+  "ZAVIS ID": "apollo-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/apollo-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Apollo Pharmacy",
+  "ZAVIS ADDRESS": "Shop - 4 Hamdan Bin Mohammed St - near LLH hospital - Al Danah - Zone 1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 634 4747"
  },
  {
   "P": "AUH",
@@ -1505,7 +1930,12 @@
   "lon": "55.184655",
   "confidence": "United Arab Emirates",
   "formatted": "19 Dar Al Masyaf, Umm Suqeim, Dubai, DU, United Arab Emirates",
-  "Index": 1326
+  "Index": 1326,
+  "ZAVIS ID": "golden-cure-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/golden-cure-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Golden Cure Pharmacy",
+  "ZAVIS ADDRESS": "8GHM+88P - Mohamed Bin Zayed City - ME11 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 000 0000"
  },
  {
   "P": "AUH",
@@ -1531,7 +1961,12 @@
   "lon": "54.5361604",
   "confidence": "area_match",
   "formatted": "Al Mussaffah East Coffee Shop, شارع المِثيار, Mussafah Commerical, ME10, مدينة محمد بن زايد, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1409
+  "Index": 1409,
+  "ZAVIS ID": "new-famous-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/new-famous-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "New Famous Medical Centre",
+  "ZAVIS ADDRESS": "Musaffah - Mussafah 32/1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 553 8040"
  },
  {
   "P": "AUH",
@@ -1570,7 +2005,12 @@
   "lon": "52.8018261",
   "confidence": "area_match",
   "formatted": "Ghayathi Community Hospital, شارع الدَّرُوج, غياثي, غِيَّاثِي, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1414
+  "Index": 1414,
+  "ZAVIS ID": "express-ghayathi-medical-centre-l-l-c-o-p-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/express-ghayathi-medical-centre-l-l-c-o-p-c-abu-dhabi",
+  "ZAVIS NAME": "Express Ghayathi Medical Centre",
+  "ZAVIS ADDRESS": "4 Al Mawajeeb St - Ghiyathi - Ghayathi Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-8744430"
  },
  {
   "P": "AUH",
@@ -1583,7 +2023,12 @@
   "lon": "54.3411469",
   "confidence": "area_match",
   "formatted": "الخالدية, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1415
+  "Index": 1415,
+  "ZAVIS ID": "al-kamal-medical-poly-clinics-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/al-kamal-medical-poly-clinics-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Al Kamal Medical Poly Clinics",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+97126651464"
  },
  {
   "P": "AUH",
@@ -1622,7 +2067,12 @@
   "lon": "54.591508",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: MEDLUX MEDICAL CENTER LLC, ABU DHABI",
-  "Index": 1422
+  "Index": 1422,
+  "ZAVIS ID": "medlux-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/medlux-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Medlux Medical Center",
+  "ZAVIS ADDRESS": "7HRR+3P2 - Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 622 9722"
  },
  {
   "P": "AUH",
@@ -1635,7 +2085,12 @@
   "lon": "54.580335",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: ROYAL INTERNATIONAL MEDICAL CENTER, ABU DHABI",
-  "Index": 1424
+  "Index": 1424,
+  "ZAVIS ID": "royal-international-medical-center-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/royal-international-medical-center-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Royal International Medical Center",
+  "ZAVIS ADDRESS": "Abu Dhabi - Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97128775522"
  },
  {
   "P": "AUH",
@@ -1648,7 +2103,12 @@
   "lon": "54.3597514",
   "confidence": "area_match",
   "formatted": "UAE Exchange, شارع حمدان بن محمد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1426
+  "Index": 1426,
+  "ZAVIS ID": "central-clinic-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/central-clinic-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Central Clinic",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+97126323497"
  },
  {
   "P": "AUH",
@@ -1674,7 +2134,12 @@
   "lon": "54.3518221",
   "confidence": "area_match",
   "formatted": "الخالدية مول, شارع مبارك بن محمد, المنهل, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1432
+  "Index": 1432,
+  "ZAVIS ID": "american-crescent-health-care-centre-sole-proprietrship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/american-crescent-health-care-centre-sole-proprietrship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "American Crescent Health Care Centre Sole Proprietrship",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+9712-6325000"
  },
  {
   "P": "AUH",
@@ -1687,7 +2152,12 @@
   "lon": "54.4281814",
   "confidence": "area_match",
   "formatted": "Mojumaat worker city, الظفرة, البِحوث, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1434
+  "Index": 1434,
+  "ZAVIS ID": "excellent-medical-center-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/excellent-medical-center-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Excellent Medical Center",
+  "ZAVIS ADDRESS": "شارع الرَّيْحَان - Jarn Yafour - Al Mafraq Workers City - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125544469"
  },
  {
   "P": "AUH",
@@ -1700,7 +2170,12 @@
   "lon": "54.5749535",
   "confidence": "area_match",
   "formatted": "مدينة خليفة, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1435
+  "Index": 1435,
+  "ZAVIS ID": "holistic-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/holistic-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Holistic Medical Centre",
+  "ZAVIS ADDRESS": "Villa # 141,12th Street - A - opp. Al Forsan Shooting Club and Marriott Hotel - Khalifa City - SW14 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97126661567"
  },
  {
   "P": "AUH",
@@ -1713,7 +2188,12 @@
   "lon": "53.6568541",
   "confidence": "area_match",
   "formatted": "ADNOC Offshore Central Island, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1436
+  "Index": 1436,
+  "ZAVIS ID": "abu-al-bukhoosh-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/abu-al-bukhoosh-clinic-abu-dhabi",
+  "ZAVIS NAME": "Abu Al Bukhoosh Clinic",
+  "ZAVIS ADDRESS": "Trade Towers East Street # 2 - Al Zahiyah - E16 01 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97127071275"
  },
  {
   "P": "AUH",
@@ -1726,7 +2206,12 @@
   "lon": "54.3500404",
   "confidence": "area_match",
   "formatted": "شارع حمدان بن محمد, الحصن, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1438
+  "Index": 1438,
+  "ZAVIS ID": "adnoc-offshore-hq-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/adnoc-offshore-hq-clinic-abu-dhabi",
+  "ZAVIS NAME": "ADNOC Offshore HQ Clinic",
+  "ZAVIS ADDRESS": "F9W7+FQ9 - Unnamed Road - Al Danah - E7 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97127071275"
  },
  {
   "P": "AUH",
@@ -1739,7 +2224,12 @@
   "lon": "53.6568541",
   "confidence": "area_match",
   "formatted": "ADNOC Offshore Central Island, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1439
+  "Index": 1439,
+  "ZAVIS ID": "allianz-installer-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/allianz-installer-clinic-abu-dhabi",
+  "ZAVIS NAME": "Allianz Installer Clinic",
+  "ZAVIS ADDRESS": "20th Floor - 32nd Street - Al Bateen - W10 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-6311688"
  },
  {
   "P": "AUH",
@@ -1752,7 +2242,12 @@
   "lon": "53.6568541",
   "confidence": "area_match",
   "formatted": "ADNOC Offshore Central Island, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1440
+  "Index": 1440,
+  "ZAVIS ID": "allianz-intrepid-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/allianz-intrepid-clinic-abu-dhabi",
+  "ZAVIS NAME": "Allianz Intrepid Clinic",
+  "ZAVIS ADDRESS": "79 Al Raqi St - Mohamed Bin Zayed City - Z1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97127071275"
  },
  {
   "P": "AUH",
@@ -1765,7 +2260,12 @@
   "lon": "53.6568541",
   "confidence": "area_match",
   "formatted": "ADNOC Offshore Central Island, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1441
+  "Index": 1441,
+  "ZAVIS ID": "nsc-fortune-adnoc-ab01-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/nsc-fortune-adnoc-ab01-clinic-abu-dhabi",
+  "ZAVIS NAME": "Nsc Fortune / Adnoc Ab01 Clinic",
+  "ZAVIS ADDRESS": "International Airport Road - CG93+RJQ - Sas Al Nakhl - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97127071275"
  },
  {
   "P": "AUH",
@@ -1778,7 +2278,12 @@
   "lon": "53.6568541",
   "confidence": "area_match",
   "formatted": "ADNOC Offshore Central Island, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1442
+  "Index": 1442,
+  "ZAVIS ID": "umm-shaif-platform-clinic-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/umm-shaif-platform-clinic-abu-dhabi",
+  "ZAVIS NAME": "Umm Shaif Platform Clinic",
+  "ZAVIS ADDRESS": "Al Salqawi st - behind Dalma Mall - Musaffah - ICAD I - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 56 409 1698"
  },
  {
   "P": "AUH",
@@ -1791,7 +2296,12 @@
   "lon": "53.7046617",
   "confidence": "area_match",
   "formatted": "مدينة زايد, Zayed City, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1443
+  "Index": 1443,
+  "ZAVIS ID": "khyber-medical-centre-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/khyber-medical-centre-abu-dhabi",
+  "ZAVIS NAME": "Khyber Medical Centre",
+  "ZAVIS ADDRESS": "MP4H+V3R - Madinat Zayed - MZE19 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 642 6477"
  },
  {
   "P": "AUH",
@@ -1804,7 +2314,12 @@
   "lon": "54.5805497",
   "confidence": "area_match",
   "formatted": "car market used sanaya al jabar camp, شارع السِّقا, جرن يافور, جَرْن يَافُور, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1445
+  "Index": 1445,
+  "ZAVIS ID": "famous-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/famous-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Famous Medical Centre",
+  "ZAVIS ADDRESS": "Musaffah - Mussafah 32/1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 50 357 6687"
  },
  {
   "P": "AUH",
@@ -1830,7 +2345,12 @@
   "lon": "54.3680142",
   "confidence": "area_match",
   "formatted": "شارع حمدان بن محمد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1447
+  "Index": 1447,
+  "ZAVIS ID": "consultants-medical-centre-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/consultants-medical-centre-abu-dhabi",
+  "ZAVIS NAME": "Consultants Medical Centre",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+97126794100"
  },
  {
   "P": "AUH",
@@ -1843,7 +2363,12 @@
   "lon": "54.5680907",
   "confidence": "area_match",
   "formatted": "شارع مبارك بن حاضر المهيري, Z22, مدينة محمد بن زايد, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1448
+  "Index": 1448,
+  "ZAVIS ID": "ishtar-medical-centre-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/ishtar-medical-centre-abu-dhabi",
+  "ZAVIS NAME": "Ishtar Medical Centre",
+  "ZAVIS ADDRESS": "6 شارع فاطمة بنت مبارك - Al Danah - E8 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-6333886"
  },
  {
   "P": "AUH",
@@ -1856,7 +2381,12 @@
   "lon": "54.3775761",
   "confidence": "area_match",
   "formatted": "شارع الفلاح, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1449
+  "Index": 1449,
+  "ZAVIS ID": "taha-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/taha-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Taha Medical Centre",
+  "ZAVIS ADDRESS": "Al Falah St - Al Danah - E4 02 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97126343438"
  },
  {
   "P": "AUH",
@@ -1895,7 +2425,12 @@
   "lon": "54.5065238",
   "confidence": "area_match",
   "formatted": "شارع الشيخ راشد بن سعيد, ربدان, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1454
+  "Index": 1454,
+  "ZAVIS ID": "heart-beat-medical-center-one-day-surgery-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/heart-beat-medical-center-one-day-surgery-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Heart Beat Medical Center & One day Surgery",
+  "ZAVIS ADDRESS": "Plot 103, Mushrif Area - شارع الشيخ راشد بن سعيد - المشرف - غرب 46 1 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97124449494"
  },
  {
   "P": "AUH",
@@ -1908,7 +2443,12 @@
   "lon": "54.3301656",
   "confidence": "area_match",
   "formatted": "شارع زايد الأول, البطين, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1457
+  "Index": 1457,
+  "ZAVIS ID": "proficiency-healthcare-diagnostic-laboratories-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/labs-diagnostics/proficiency-healthcare-diagnostic-laboratories-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Proficiency Healthcare Diagnostic Laboratories",
+  "ZAVIS ADDRESS": "Al Saif Tower - 104,1st Floor - Tower C Building Electra Street - behind Honda Showroom - Al Danah - E11 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97124919300"
  },
  {
   "P": "AUH",
@@ -1934,7 +2474,12 @@
   "lon": "52.8775403",
   "confidence": "area_match",
   "formatted": "جزيرة داس, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1461
+  "Index": 1461,
+  "ZAVIS ID": "das-hospital-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/hospitals/das-hospital-abu-dhabi",
+  "ZAVIS NAME": "Das Hospital",
+  "ZAVIS ADDRESS": "4VWH+PM2 - Al Dhafra Islands - Das Island - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 606 3500"
  },
  {
   "P": "AUH",
@@ -1947,7 +2492,12 @@
   "lon": "54.51845",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: LLH HOSPITAL PHARMACY AL MUSAFFAH, ABU DHABI",
-  "Index": 1464
+  "Index": 1464,
+  "ZAVIS ID": "llh-hospital-pharmacy-al-musaffah-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/llh-hospital-pharmacy-al-musaffah-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Llh Hospital Pharmacy AL Musaffah",
+  "ZAVIS ADDRESS": "Al - Musaffah - Me 7 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-2222236"
  },
  {
   "P": "AUH",
@@ -1960,7 +2510,12 @@
   "lon": "54.3301656",
   "confidence": "area_match",
   "formatted": "شارع زايد الأول, البطين, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1465
+  "Index": 1465,
+  "ZAVIS ID": "llh-hospital-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/llh-hospital-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Llh Hospital Pharmacy",
+  "ZAVIS ADDRESS": "Zone 1E3-02 - Muroor Road - Al Danah - E3-02 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971507390769"
  },
  {
   "P": "AUH",
@@ -1999,7 +2554,12 @@
   "lon": "54.4957065",
   "confidence": "area_match",
   "formatted": "مصفح الصناعية, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1471
+  "Index": 1471,
+  "ZAVIS ID": "sarhad-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/sarhad-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Sarhad Pharmacy",
+  "ZAVIS ADDRESS": "9GG9+WMJ - Musaffah - M2 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-5551429"
  },
  {
   "P": "AUH",
@@ -2012,7 +2572,12 @@
   "lon": "54.5190651",
   "confidence": "area_match",
   "formatted": "10, شارع الصَّدَّاح 3, سلاش لخدمات السيارات 0507160607, مصفح الصناعية, مُصَفَح, أبوظبي, أبو ظبي, 20343, الإمارات العربية المتحدة",
-  "Index": 1473
+  "Index": 1473,
+  "ZAVIS ID": "right-choice-health-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/right-choice-health-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Right Choice Health Pharmacy",
+  "ZAVIS ADDRESS": "Abu Dhabi Musaffah industrial area block - مصفح - مصفح 10 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97124917600"
  },
  {
   "P": "AUH",
@@ -2025,7 +2590,12 @@
   "lon": "54.407249",
   "confidence": "area_match",
   "formatted": "طريق حميم, الشِّنَايِن, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1475
+  "Index": 1475,
+  "ZAVIS ID": "golden-health-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/golden-health-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Golden Health Pharmacy",
+  "ZAVIS ADDRESS": "Mezzzanine Floor, Unit No. 3 - Building 154 شارع حزاء بن زايد الأول - Al Danah - E11 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 585 5552"
  },
  {
   "P": "AUH",
@@ -2038,7 +2608,12 @@
   "lon": "54.3680142",
   "confidence": "area_match",
   "formatted": "شارع حمدان بن محمد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1477
+  "Index": 1477,
+  "ZAVIS ID": "vincent-pharmacies-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/vincent-pharmacies-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Vincent Pharmacies",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+971 2 641 1124"
  },
  {
   "P": "AUH",
@@ -2051,7 +2626,12 @@
   "lon": "54.4281814",
   "confidence": "area_match",
   "formatted": "Mojumaat worker city, الظفرة, البِحوث, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1480
+  "Index": 1480,
+  "ZAVIS ID": "mubarak-pharmacy-sole-proprietorship-l-l-c-branch-1-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/mubarak-pharmacy-sole-proprietorship-l-l-c-branch-1-abu-dhabi",
+  "ZAVIS NAME": "Mubarak Pharmacy",
+  "ZAVIS ADDRESS": "Al Ain - Central District - Hai Qesaidah - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 3 751 5992"
  },
  {
   "P": "AUH",
@@ -2064,7 +2644,12 @@
   "lon": "54.4957065",
   "confidence": "area_match",
   "formatted": "مصفح الصناعية, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1481
+  "Index": 1481,
+  "ZAVIS ID": "medline-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/medline-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Medline Pharmacy",
+  "ZAVIS ADDRESS": "14th St - Musaffah - M26 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 50 944 0358"
  },
  {
   "P": "AUH",
@@ -2077,7 +2662,12 @@
   "lon": "54.4957065",
   "confidence": "area_match",
   "formatted": "مصفح الصناعية, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1482
+  "Index": 1482,
+  "ZAVIS ID": "maxim-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/maxim-medical-centre-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Maxim Medical Centre",
+  "ZAVIS ADDRESS": "8FRF+7J6 - Musaffah - M43 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125500161"
  },
  {
   "P": "AUH",
@@ -2103,7 +2693,12 @@
   "lon": "52.8018261",
   "confidence": "area_match",
   "formatted": "Ghayathi Community Hospital, شارع الدَّرُوج, غياثي, غِيَّاثِي, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1485
+  "Index": 1485,
+  "ZAVIS ID": "falcon-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/falcon-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Falcon Pharmacy",
+  "ZAVIS ADDRESS": "Industrial Sector 18, Saniya, Ghayathi - Opposite to Main Mosque - غياثي - غياثي الصناعية - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 874 3164"
  },
  {
   "P": "AUH",
@@ -2142,7 +2737,12 @@
   "lon": "54.4879389",
   "confidence": "area_match",
   "formatted": "Premier Motors, Ford, شارع البَيلِي 5, M 15, Musaffah, مُصَفَح, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1490
+  "Index": 1490,
+  "ZAVIS ID": "health-point-pharmacy-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/health-point-pharmacy-llc-abu-dhabi",
+  "ZAVIS NAME": "Health Point Pharmacy",
+  "ZAVIS ADDRESS": "Musaffah - M4 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 559 0203"
  },
  {
   "P": "AUH",
@@ -2168,7 +2768,12 @@
   "lon": "54.606845",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: MEDI CURE PHARMACY L.L.C, ABU DHABI",
-  "Index": 1492
+  "Index": 1492,
+  "ZAVIS ID": "medi-cure-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/medi-cure-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Medi Cure Pharmacy",
+  "ZAVIS ADDRESS": "7JM4+MQC - Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-6228383"
  },
  {
   "P": "AUH",
@@ -2181,7 +2786,12 @@
   "lon": "54.5364773",
   "confidence": "area_match",
   "formatted": "Mussafah Shabiya ME10, شارع خُور الوَسامِي, Mussafah Commerical, ME10, مدينة محمد بن زايد, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1494
+  "Index": 1494,
+  "ZAVIS ID": "blue-ocean-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/blue-ocean-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Blue Ocean Pharmacy",
+  "ZAVIS ADDRESS": "8GPP+6MV - Mohamed Bin Zayed City - ME10 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 553 2323"
  },
  {
   "P": "AUH",
@@ -2207,7 +2817,12 @@
   "lon": "54.3764693",
   "confidence": "area_match",
   "formatted": "Electra Park, الزاهية, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1496
+  "Index": 1496,
+  "ZAVIS ID": "aster-pharmacies-group-llc-branch-of-abu-dhabi-5-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/aster-pharmacies-group-llc-branch-of-abu-dhabi-5-abu-dhabi",
+  "ZAVIS NAME": "Aster Pharmacies Group",
+  "ZAVIS ADDRESS": "Electra Street, Opp. Grand Mercure Majilis Hotel - الزاهية - شرق 15 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97124489240"
  },
  {
   "P": "AUH",
@@ -2233,7 +2848,12 @@
   "lon": "54.3301656",
   "confidence": "area_match",
   "formatted": "شارع زايد الأول, البطين, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1498
+  "Index": 1498,
+  "ZAVIS ID": "aster-pharmacies-group-llc-branch-of-abu-dhabi-8-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/aster-pharmacies-group-llc-branch-of-abu-dhabi-8-abu-dhabi",
+  "ZAVIS NAME": "Aster Pharmacies Group",
+  "ZAVIS ADDRESS": "Electra Street, Opp. Grand Mercure Majilis Hotel - الزاهية - شرق 15 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 671 1831"
  },
  {
   "P": "AUH",
@@ -2259,7 +2879,12 @@
   "lon": "54.3774014",
   "confidence": "area_match",
   "formatted": "أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1501
+  "Index": 1501,
+  "ZAVIS ID": "modern-dar-al-shifa-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/modern-dar-al-shifa-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Modern Dar AL Shifa Pharmacy",
+  "ZAVIS ADDRESS": "Near Dana hotel - clinic attached - الزاهية - شرق 16 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 644 6100"
  },
  {
   "P": "AUH",
@@ -2298,7 +2923,12 @@
   "lon": "54.3726757",
   "confidence": "area_match",
   "formatted": "Al Wahda Mall, شارع طَوِي العِقَيلة, الوحدة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1514
+  "Index": 1514,
+  "ZAVIS ID": "mariam-pharmacy-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/mariam-pharmacy-llc-abu-dhabi",
+  "ZAVIS NAME": "Mariam Pharmacy",
+  "ZAVIS ADDRESS": "F9CC+FFV - Al Danah - E18 01 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 641 8776"
  },
  {
   "P": "AUH",
@@ -2311,7 +2941,12 @@
   "lon": "54.524268",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: AL AHALIA NATIONAL PHARMACY LLC - BRANCH 1, ABU DHABI",
-  "Index": 1516
+  "Index": 1516,
+  "ZAVIS ID": "eastern-alahlia-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/eastern-alahlia-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Eastern Alahlia Pharmacy",
+  "ZAVIS ADDRESS": "2, Mafraq - Jarn Yafour - Al Mafraq Workers City - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 559 7090"
  },
  {
   "P": "AUH",
@@ -2337,7 +2972,12 @@
   "lon": "54.3629964",
   "confidence": "area_match",
   "formatted": "شارع الفلاح, المنهل, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1522
+  "Index": 1522,
+  "ZAVIS ID": "new-abu-dhabi-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/new-abu-dhabi-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "New Abu Dhabi Pharmacy",
+  "ZAVIS ADDRESS": "F9JF+X9V - Fatima Bint Ali Al Rumaithi St - Al Danah - Zone 1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-6777625"
  },
  {
   "P": "AUH",
@@ -2363,7 +3003,12 @@
   "lon": "54.6427903",
   "confidence": "area_match",
   "formatted": "Baniyas West Bus Station, شارع سيح الحَواوِيص, بني ياس غرب, جَرْن يَافُور, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1524
+  "Index": 1524,
+  "ZAVIS ID": "noor-alahli-pharmacy-l-l-c-branch-4-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/noor-alahli-pharmacy-l-l-c-branch-4-abu-dhabi",
+  "ZAVIS NAME": "Noor Alahli Pharmacy",
+  "ZAVIS ADDRESS": "7JGV+VCH - Bani Yas - Baniyas West - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-5668124"
  },
  {
   "P": "AUH",
@@ -2428,7 +3073,12 @@
   "lon": "52.8043897",
   "confidence": "area_match",
   "formatted": "Golden Arrow, شارع الزَّخرَفة 5, غياثي, غِيَّاثِي, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1529
+  "Index": 1529,
+  "ZAVIS ID": "star-al-ahalia-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/star-al-ahalia-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Star AL Ahalia Pharmacy",
+  "ZAVIS ADDRESS": "Sheikh khalifa Residential complex - Ghiyathi - Ghayathi - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 874 4060"
  },
  {
   "P": "AUH",
@@ -2441,7 +3091,12 @@
   "lon": "54.361533",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: UNIQUE AL AHALIA PHARMACY, ABU DHABI",
-  "Index": 1530
+  "Index": 1530,
+  "ZAVIS ID": "unique-al-ahalia-pharmacy-branch-2-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/unique-al-ahalia-pharmacy-branch-2-abu-dhabi",
+  "ZAVIS NAME": "Unique AL Ahalia Pharmacy",
+  "ZAVIS ADDRESS": "بجوار مكتب الاهلية للصرافة - Hamdan Bin Mohammed St - Al Danah - E6 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 559 5441"
  },
  {
   "P": "AUH",
@@ -2454,7 +3109,12 @@
   "lon": "53.729111",
   "confidence": "official_adnic_fuzzy",
   "formatted": "ADNIC official network: WESTERN TOWERS AL AHALIA PHARMACY",
-  "Index": 1531
+  "Index": 1531,
+  "ZAVIS ID": "western-towers-al-ahalia-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/western-towers-al-ahalia-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Western Towers AL Ahalia Pharmacy",
+  "ZAVIS ADDRESS": "Liwa - E 45 Road Road - Madinat Za'id - MZE19 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 884 1020"
  },
  {
   "P": "AUH",
@@ -2467,7 +3127,12 @@
   "lon": "54.530814",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: PHOENIX HOSPITAL PHARMACY L.L.C, ABU DHABI",
-  "Index": 1532
+  "Index": 1532,
+  "ZAVIS ID": "millennium-hospital-l-l-c-abu-dhabi-2",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/millennium-hospital-l-l-c-abu-dhabi-2",
+  "ZAVIS NAME": "Millennium Hospital",
+  "ZAVIS ADDRESS": "MusaffahME-9 - مدينة محمد بن زايد - محمد بن زايد شرق 9 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97126151525"
  },
  {
   "P": "AUH",
@@ -2480,7 +3145,12 @@
   "lon": "54.537435",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: MILLENNIUM HOSPITAL PHARMACY L.L.C., ABU DHABI",
-  "Index": 1533
+  "Index": 1533,
+  "ZAVIS ID": "millennium-hospital-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/millennium-hospital-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Millennium Hospital Pharmacy",
+  "ZAVIS ADDRESS": "Mohamed Bin Zayed City - M9 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125649409"
  },
  {
   "P": "AUH",
@@ -2506,7 +3176,12 @@
   "lon": "54.3488059",
   "confidence": "area_match",
   "formatted": "الخَالِدية, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1535
+  "Index": 1535,
+  "ZAVIS ID": "adnoc-onshore-medical-centre-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/adnoc-onshore-medical-centre-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "ADNOC Onshore Medical Centre Pharmacy",
+  "ZAVIS ADDRESS": "F9W7+FQ9 - Unnamed Road - Al Danah - E7 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-7071275"
  },
  {
   "P": "AUH",
@@ -2519,7 +3194,12 @@
   "lon": "54.6573359",
   "confidence": "area_match",
   "formatted": "Al Shawamekh, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1536
+  "Index": 1536,
+  "ZAVIS ID": "adnoc-technical-institute-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/adnoc-technical-institute-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Adnoc Technical Institute Pharmacy",
+  "ZAVIS ADDRESS": "8FF7+HGP - Musaffah - MW5 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-7071275"
  },
  {
   "P": "AUH",
@@ -2532,7 +3212,12 @@
   "lon": "52.8775403",
   "confidence": "area_match",
   "formatted": "جزيرة داس, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1537
+  "Index": 1537,
+  "ZAVIS ID": "das-hospital-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/hospitals/das-hospital-abu-dhabi",
+  "ZAVIS NAME": "Das Hospital",
+  "ZAVIS ADDRESS": "4VWH+PM2 - Al Dhafra Islands - Das Island - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 606 3500"
  },
  {
   "P": "AUH",
@@ -2545,7 +3230,12 @@
   "lon": "54.3664289",
   "confidence": "area_match",
   "formatted": "Sheikh Khalifa Energy Complex, شارع التُّوك, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1539
+  "Index": 1539,
+  "ZAVIS ID": "sheikh-khalifa-energy-clinic-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/sheikh-khalifa-energy-clinic-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Sheikh Khalifa Energy Clinic Pharmacy",
+  "ZAVIS ADDRESS": "Khalifa Complex B Building - Shop #24 Al Maiyani St - Al Zahiyah - E16 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-7071275"
  },
  {
   "P": "AUH",
@@ -2558,7 +3248,12 @@
   "lon": "54.322406",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: ASAB PHARMACY, ABU DHABI",
-  "Index": 1541
+  "Index": 1541,
+  "ZAVIS ID": "asab-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/asab-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Asab Pharmacy",
+  "ZAVIS ADDRESS": "Liwa, Al Dhafrah",
+  "ZAVIS PHONE": "+97127071275"
  },
  {
   "P": "AUH",
@@ -2571,7 +3266,12 @@
   "lon": "53.478834",
   "confidence": "area_match",
   "formatted": "حَبْشَان, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1543
+  "Index": 1543,
+  "ZAVIS ID": "habshan-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/habshan-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Habshan Pharmacy",
+  "ZAVIS ADDRESS": "Habshan - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-7071275"
  },
  {
   "P": "AUH",
@@ -2584,7 +3284,12 @@
   "lon": "52.5946123",
   "confidence": "area_match",
   "formatted": "مدينة الظنة, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1544
+  "Index": 1544,
+  "ZAVIS ID": "al-dhannah-hospital-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/al-dhannah-hospital-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "AL Dhannah Hospital Pharmacy",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+97127071334"
  },
  {
   "P": "AUH",
@@ -2597,7 +3302,12 @@
   "lon": "54.3706936",
   "confidence": "area_match",
   "formatted": "UAE Exchange, شارع الفلاح, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1545
+  "Index": 1545,
+  "ZAVIS ID": "medeor-24x7-pharmacy-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/medeor-24x7-pharmacy-llc-abu-dhabi",
+  "ZAVIS NAME": "Medeor 24x7 Pharmacy",
+  "ZAVIS ADDRESS": "Muroor Rd - Al Danah - E4 02 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 800 55"
  },
  {
   "P": "AUH",
@@ -2610,7 +3320,12 @@
   "lon": "54.3614498",
   "confidence": "area_match",
   "formatted": "شارع زايد الأول, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1547
+  "Index": 1547,
+  "ZAVIS ID": "knights-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/knights-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Knights Pharmacy",
+  "ZAVIS ADDRESS": "Pink Building - Ground Floor, Electra Street - الدانة - شرق 10 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 621 9996"
  },
  {
   "P": "AUH",
@@ -2636,7 +3351,12 @@
   "lon": "54.3625614",
   "confidence": "area_match",
   "formatted": "Baniyas, شارع حمدان بن محمد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1560
+  "Index": 1560,
+  "ZAVIS ID": "public-health-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/public-health-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Public Health Pharmacy",
+  "ZAVIS ADDRESS": "8JH9+XGW - Shakhbout City - MSH44 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-5554006"
  },
  {
   "P": "AUH",
@@ -2649,7 +3369,12 @@
   "lon": "54.3625614",
   "confidence": "area_match",
   "formatted": "Baniyas, شارع حمدان بن محمد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1561
+  "Index": 1561,
+  "ZAVIS ID": "health-time-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/health-time-medical-centre-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Health Time Medical Centre",
+  "ZAVIS ADDRESS": "Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 642 5247"
  },
  {
   "P": "AUH",
@@ -2662,7 +3387,12 @@
   "lon": "52.8185",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: BLACK FALCON PHARMACY - L.L.C, ABU DHABI",
-  "Index": 1562
+  "Index": 1562,
+  "ZAVIS ID": "black-falcon-pharmacy-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/black-falcon-pharmacy-llc-abu-dhabi",
+  "ZAVIS NAME": "Black Falcon Pharmacy",
+  "ZAVIS ADDRESS": "Industrial Sector 18, Saniya, Ghayathi - Opposite to Main Mosque - غياثي - غياثي الصناعية - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97124911230"
  },
  {
   "P": "AUH",
@@ -2675,7 +3405,12 @@
   "lon": "54.606502",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: SMART HEALTH PHARMACY, ABU DHABI",
-  "Index": 1564
+  "Index": 1564,
+  "ZAVIS ID": "indus-medical-centre-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/indus-medical-centre-llc-abu-dhabi",
+  "ZAVIS NAME": "Indus Medical Centre",
+  "ZAVIS ADDRESS": "baniyas china camp worker city 2 - جرن يافور - المفرق الصناعية - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97124467700"
  },
  {
   "P": "AUH",
@@ -2688,7 +3423,12 @@
   "lon": "54.3411469",
   "confidence": "area_match",
   "formatted": "الخالدية, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1566
+  "Index": 1566,
+  "ZAVIS ID": "al-kamal-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/al-kamal-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "AL Kamal Pharmacy",
+  "ZAVIS ADDRESS": "Abu Dhabi, Abu Dhabi",
+  "ZAVIS PHONE": "+9712-6669281"
  },
  {
   "P": "AUH",
@@ -2701,7 +3441,12 @@
   "lon": "54.4906987",
   "confidence": "area_match",
   "formatted": "icad, شارع البِيص, مصفح الصناعية, مَدينة أبوظبي الصناعية, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1568
+  "Index": 1568,
+  "ZAVIS ID": "emerald-pharmacy-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/emerald-pharmacy-llc-abu-dhabi",
+  "ZAVIS NAME": "Emerald Pharmacy",
+  "ZAVIS ADDRESS": "العُمَّال - Mohamed Bin Zayed City - ME10 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-5554198"
  },
  {
   "P": "AUH",
@@ -2714,7 +3459,12 @@
   "lon": "54.3625614",
   "confidence": "area_match",
   "formatted": "Baniyas, شارع حمدان بن محمد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1569
+  "Index": 1569,
+  "ZAVIS ID": "hope-pharmacy-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/hope-pharmacy-llc-abu-dhabi",
+  "ZAVIS NAME": "Hope Pharmacy",
+  "ZAVIS ADDRESS": "1st floor gcc new office bldg - Naer Al jaber camp - plot no 384/ building - Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-5552687"
  },
  {
   "P": "AUH",
@@ -2740,7 +3490,12 @@
   "lon": "54.536687",
   "confidence": "area_match",
   "formatted": "36, شارع بنت المطر, Mussafah Commerical, ME12, مدينة محمد بن زايد, أبو ظبي, أبوظبي, أبو ظبي, 20612, الإمارات العربية المتحدة",
-  "Index": 1572
+  "Index": 1572,
+  "ZAVIS ID": "time-cure-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/time-cure-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Time Cure Pharmacy",
+  "ZAVIS ADDRESS": "Unnamed Road - 8FVW+MCX - مصفح - مصفح 36 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 550 8998"
  },
  {
   "P": "AUH",
@@ -2766,7 +3521,12 @@
   "lon": "54.3680142",
   "confidence": "area_match",
   "formatted": "شارع حمدان بن محمد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1575
+  "Index": 1575,
+  "ZAVIS ID": "apollo-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/apollo-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Apollo Pharmacy",
+  "ZAVIS ADDRESS": "Shop - 4 Hamdan Bin Mohammed St - near LLH hospital - Al Danah - Zone 1 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 634 4747"
  },
  {
   "P": "AUH",
@@ -2779,7 +3539,12 @@
   "lon": "54.591508",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: MEDLUX PHARMACY LLC., ABU DHABI",
-  "Index": 1577
+  "Index": 1577,
+  "ZAVIS ID": "medlux-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/medlux-medical-center-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Medlux Medical Center",
+  "ZAVIS ADDRESS": "7HRR+3P2 - Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 622 9722"
  },
  {
   "P": "AUH",
@@ -2792,7 +3557,12 @@
   "lon": "54.580612",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: ROYAL INTERNATIONAL PHARMACY, ABU DHABI",
-  "Index": 1578
+  "Index": 1578,
+  "ZAVIS ID": "royal-international-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/royal-international-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Royal International Pharmacy",
+  "ZAVIS ADDRESS": "Jarn Yafour - Mafraq Industrial Area - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125833735"
  },
  {
   "P": "AUH",
@@ -2805,7 +3575,12 @@
   "lon": "54.46255",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: HEALTH FIRST PHARMACY - BRANCH 10, ABU DHABI",
-  "Index": 1584
+  "Index": 1584,
+  "ZAVIS ID": "health-first-pharmacy-l-l-c-branch-10-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/health-first-pharmacy-l-l-c-branch-10-abu-dhabi",
+  "ZAVIS NAME": "Health First Pharmacy",
+  "ZAVIS ADDRESS": "8J9J+4GH - Bani Yas - Baniyas East - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97125464318"
  },
  {
   "P": "AUH",
@@ -2818,7 +3593,12 @@
   "lon": "54.6708251",
   "confidence": "area_match",
   "formatted": "شارع السيار, الباهية شرق, الباهية, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1585
+  "Index": 1585,
+  "ZAVIS ID": "health-first-pharmacy-l-l-c-branch-3-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/health-first-pharmacy-l-l-c-branch-3-abu-dhabi",
+  "ZAVIS NAME": "Health First Pharmacy",
+  "ZAVIS ADDRESS": "Musaffah, Abu Dhabi",
+  "ZAVIS PHONE": "+971(971)-2-5646364"
  },
  {
   "P": "AUH",
@@ -2857,7 +3637,12 @@
   "lon": "54.425255",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: HEALTH FIRST PHARMACY, ABU DHABI",
-  "Index": 1589
+  "Index": 1589,
+  "ZAVIS ID": "health-first-pharmacy-l-l-c-branch-9-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/health-first-pharmacy-l-l-c-branch-9-abu-dhabi",
+  "ZAVIS NAME": "Health First Pharmacy",
+  "ZAVIS ADDRESS": "FJ22+38C - Al Rahah - RBW2 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-6219720"
  },
  {
   "P": "AUH",
@@ -2896,7 +3681,12 @@
   "lon": "54.353367",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: HEALTH FIRST PHARMACY BR - 6, ABU DHABI",
-  "Index": 1592
+  "Index": 1592,
+  "ZAVIS ID": "health-first-pharmacy-l-l-c-branch-6-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/health-first-pharmacy-l-l-c-branch-6-abu-dhabi",
+  "ZAVIS NAME": "Health First Pharmacy",
+  "ZAVIS ADDRESS": "Abu Dhabi - Bani Yas - EB5 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 666 8798"
  },
  {
   "P": "AUH",
@@ -2909,7 +3699,12 @@
   "lon": "54.3582367",
   "confidence": "area_match",
   "formatted": "Marks & Spencer, شارع كَنعد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1593
+  "Index": 1593,
+  "ZAVIS ID": "health-first-pharmacy-l-l-c-branch-7-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/health-first-pharmacy-l-l-c-branch-7-abu-dhabi",
+  "ZAVIS NAME": "Health First Pharmacy",
+  "ZAVIS ADDRESS": "Abu Dhabi - Al Rawdah - W68 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-4494209"
  },
  {
   "P": "AUH",
@@ -3000,7 +3795,12 @@
   "lon": "54.3301656",
   "confidence": "area_match",
   "formatted": "شارع زايد الأول, البطين, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1606
+  "Index": 1606,
+  "ZAVIS ID": "burjeel-pharmacy-al-shamkha-llc-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/burjeel-pharmacy-al-shamkha-llc-abu-dhabi",
+  "ZAVIS NAME": "Burjeel Pharmacy AL Shamkha",
+  "ZAVIS ADDRESS": "Makani Mall,Al Shamkha - Al Shamkhah - SH8 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 658 8918"
  },
  {
   "P": "AUH",
@@ -3013,7 +3813,12 @@
   "lon": "52.801847",
   "confidence": "area_match",
   "formatted": "SEHA-Al Dhafra Hospital, شارع الدَّرُوج, غياثي, غِيَّاثِي, منطقة الظفرة, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1608
+  "Index": 1608,
+  "ZAVIS ID": "nidham-ghiyathi-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/nidham-ghiyathi-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Nidham Ghiyathi Pharmacy",
+  "ZAVIS ADDRESS": "RRV5+C9W - طريق عرادة - Ghiyathi - Ghayathi - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-8741791"
  },
  {
   "P": "AUH",
@@ -3052,7 +3857,12 @@
   "lon": "54.3518221",
   "confidence": "area_match",
   "formatted": "الخالدية مول, شارع مبارك بن محمد, المنهل, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1613
+  "Index": 1613,
+  "ZAVIS ID": "khalidiya-lulu-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/khalidiya-lulu-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Khalidiya Lulu Pharmacy",
+  "ZAVIS ADDRESS": "Inside Khalidiyah Mall, Near Home r us - الخالدية - غرب 9 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97126354440"
  },
  {
   "P": "AUH",
@@ -3065,7 +3875,12 @@
   "lon": "54.576487",
   "confidence": "official_adnic_network",
   "formatted": "ADNIC network: LULU RAHA PHARMACY - LLC - BRANCH 1, ABU DHABI",
-  "Index": 1614
+  "Index": 1614,
+  "ZAVIS ID": "lulu-raha-pharmacy-llc-branch-1-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/lulu-raha-pharmacy-llc-branch-1-abu-dhabi",
+  "ZAVIS NAME": "Lulu Raha Pharmacy",
+  "ZAVIS ADDRESS": "Al Raha Mall - Channel St - Abu Dhabi - شارع القناة - الرَّاحَة - شاطئ الراحة غرب 13 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971(971)-2-5505051"
  },
  {
   "P": "AUH",
@@ -3078,7 +3893,12 @@
   "lon": "54.4281814",
   "confidence": "area_match",
   "formatted": "Mojumaat worker city, الظفرة, البِحوث, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1615
+  "Index": 1615,
+  "ZAVIS ID": "excellent-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/excellent-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Excellent Pharmacy",
+  "ZAVIS ADDRESS": "7J4F+JF9 - Jarn Yafour - Al Mafraq Workers City - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-5544469"
  },
  {
   "P": "AUH",
@@ -3091,7 +3911,12 @@
   "lon": "54.3760997",
   "confidence": "area_match",
   "formatted": "Al Dhafra, شارع رَأس بو ضَبعة, الزاهية, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1616
+  "Index": 1616,
+  "ZAVIS ID": "qusahwira-medical-center-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/qusahwira-medical-center-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "Qusahwira Medical Center Pharmacy",
+  "ZAVIS ADDRESS": "Etihad Airways Centre, Ground Floor, Opp carrefour Beach - Al Rahah - RBW2 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+97127071275"
  },
  {
   "P": "AUH",
@@ -3104,7 +3929,12 @@
   "lon": "54.5065238",
   "confidence": "area_match",
   "formatted": "شارع الشيخ راشد بن سعيد, ربدان, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1617
+  "Index": 1617,
+  "ZAVIS ID": "heart-beat-medical-center-one-day-surgery-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/heart-beat-medical-center-one-day-surgery-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Heart Beat Medical Center & One day Surgery",
+  "ZAVIS ADDRESS": "Plot 103, Mushrif Area - شارع الشيخ راشد بن سعيد - المشرف - غرب 46 1 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97124449494"
  },
  {
   "P": "AUH",
@@ -3117,7 +3947,12 @@
   "lon": "54.3774014",
   "confidence": "area_match",
   "formatted": "أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1618
+  "Index": 1618,
+  "ZAVIS ID": "al-tadawi-pharmacy-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/al-tadawi-pharmacy-abu-dhabi",
+  "ZAVIS NAME": "AL Tadawi Pharmacy",
+  "ZAVIS ADDRESS": "MP4H+W29 - Madinat Zayed - MZE19 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 886 7078"
  },
  {
   "P": "AUH",
@@ -3130,7 +3965,12 @@
   "lon": "54.5805497",
   "confidence": "area_match",
   "formatted": "car market used sanaya al jabar camp, شارع السِّقا, جرن يافور, جَرْن يَافُور, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1620
+  "Index": 1620,
+  "ZAVIS ID": "select-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/select-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Select Pharmacy",
+  "ZAVIS ADDRESS": "Plot No 48 - مصفح - مصفح 10 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 639 6140"
  },
  {
   "P": "AUH",
@@ -3143,7 +3983,12 @@
   "lon": "54.3680142",
   "confidence": "area_match",
   "formatted": "شارع حمدان بن محمد, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1622
+  "Index": 1622,
+  "ZAVIS ID": "saad-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/saad-pharmacy-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Saad Pharmacy",
+  "ZAVIS ADDRESS": "Abu Dhabi - Al Danah - E8 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+9712-6277332"
  },
  {
   "P": "AUH",
@@ -3156,7 +4001,12 @@
   "lon": "54.3775761",
   "confidence": "area_match",
   "formatted": "شارع الفلاح, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1624
+  "Index": 1624,
+  "ZAVIS ID": "taha-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/taha-pharmacy-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Taha Pharmacy",
+  "ZAVIS ADDRESS": "F9JC+FR4 - Al Falah St - Al Danah - E4 02 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 634 3447"
  },
  {
   "P": "AUH",
@@ -3169,7 +4019,12 @@
   "lon": "54.536928",
   "confidence": "area_match",
   "formatted": "37, شارع وادِي النَّجد, Mussafah Commerical, ME10, مدينة محمد بن زايد, أبو ظبي, أبوظبي, أبو ظبي, 20610, الإمارات العربية المتحدة",
-  "Index": 1628
+  "Index": 1628,
+  "ZAVIS ID": "sadiq-polyclinic-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/sadiq-polyclinic-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Sadiq Polyclinic",
+  "ZAVIS ADDRESS": "11 opposite Spinneys near - مصفح - ايكاد 1 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97128864000"
  },
  {
   "P": "AUH",
@@ -3182,7 +4037,12 @@
   "lon": "54.536928",
   "confidence": "area_match",
   "formatted": "37, شارع وادِي النَّجد, Mussafah Commerical, ME10, مدينة محمد بن زايد, أبو ظبي, أبوظبي, أبو ظبي, 20610, الإمارات العربية المتحدة",
-  "Index": 1629
+  "Index": 1629,
+  "ZAVIS ID": "sadiq-polyclinic-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/clinics/sadiq-polyclinic-sole-proprietorship-l-l-c-abu-dhabi",
+  "ZAVIS NAME": "Sadiq Polyclinic",
+  "ZAVIS ADDRESS": "11 opposite Spinneys near - مصفح - ايكاد 1 - أبو ظبي - United Arab Emirates",
+  "ZAVIS PHONE": "+97128864000"
  },
  {
   "P": "AUH",
@@ -3208,7 +4068,12 @@
   "lon": "54.3678769",
   "confidence": "area_match",
   "formatted": "شارع الفلاح, الدانة, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1638
+  "Index": 1638,
+  "ZAVIS ID": "ibn-sina-pharmacy-sole-proprietorship-l-l-c-branch-global-care-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/ibn-sina-pharmacy-sole-proprietorship-l-l-c-branch-global-care-abu-dhabi",
+  "ZAVIS NAME": "Ibn Sina Pharmacy - Sole Proprietorship L.L.C. - Branch Global Care",
+  "ZAVIS ADDRESS": "F977+C9X - Al Manhal - W14 01 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 491 9745"
  },
  {
   "P": "AUH",
@@ -3273,7 +4138,12 @@
   "lon": "54.369416",
   "confidence": "area_match",
   "formatted": "المَنهَل, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
-  "Index": 1647
+  "Index": 1647,
+  "ZAVIS ID": "ibn-sina-pharmacy-sole-proprietorship-l-l-c-branch-global-care-abu-dhabi",
+  "ZAVIS URL": "https://www.zavis.ai/directory/abu-dhabi/pharmacy/ibn-sina-pharmacy-sole-proprietorship-l-l-c-branch-global-care-abu-dhabi",
+  "ZAVIS NAME": "Ibn Sina Pharmacy - Sole Proprietorship L.L.C. - Branch Global Care",
+  "ZAVIS ADDRESS": "F977+C9X - Al Manhal - W14 01 - Abu Dhabi - United Arab Emirates",
+  "ZAVIS PHONE": "+971 2 491 9745"
  },
  {
   "P": "AUH",

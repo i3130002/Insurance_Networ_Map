@@ -15,6 +15,7 @@ class InsuranceSelectionFlowTest(unittest.TestCase):
         self.assertIn('id="planSelect"', self.html)
         self.assertIn("populatePlanOptions", self.html)
         self.assertIn("getElementById('insurerSelect').addEventListener", self.html)
+        self.assertIn("e['ZAVIS URL']", self.html)
 
 
 if __name__ == "__main__":

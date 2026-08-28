@@ -80,6 +80,15 @@ def load_takafol_plans() -> list[tuple[str, str, str, str, list[str], str]]:
     return plans
 
 
+def load_zavis_matches() -> dict[int, dict[str, str]]:
+    """Load one-time registry-to-Zavis matches for provider enrichment."""
+    path = os.path.join(ROOT, 'sources', 'csv', 'zavis-provider-matches.csv')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8-sig', newline='') as f:
+        return {int(row['Index']): row for row in csv.DictReader(f) if row.get('zavis_url')}
+
+
 def build_registry(entries: list):
     seen = {}
     valid, invalid = [], []
@@ -165,6 +174,16 @@ def main():
     print(f'Loaded {len(entries)} raw entries')
 
     registry, stats = build_registry(entries)
+    zavis_matches = load_zavis_matches()
+    for provider in registry:
+        match = zavis_matches.get(provider['Index'])
+        if match:
+            provider['ZAVIS ID'] = match['zavis_id']
+            provider['ZAVIS URL'] = match['zavis_url']
+            provider['ZAVIS NAME'] = match['zavis_name']
+            provider['ZAVIS ADDRESS'] = match['zavis_address']
+            provider['ZAVIS PHONE'] = match['zavis_phone']
+    print(f'Zavis enrichment: {len(zavis_matches)} matched providers')
     print(f'Registry: {stats["valid"]} valid coords, '
           f'{stats["invalid"]} invalid/missing, {stats["dupes"]} dupes removed')
 
