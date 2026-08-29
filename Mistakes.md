@@ -1,5 +1,8 @@
 # Mistakes
 
+- 2026-08-29: A post-deployment content check failed from Python f-string
+  quoting. No project files changed; rerun the check with simple expressions.
+
 - 2026-08-29: The local commit could not create `.git/index.lock` because the
   repository metadata is read-only. The project files remain in the worktree.
 
