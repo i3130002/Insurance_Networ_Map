@@ -20,9 +20,9 @@ Prioritized work for completing the Insurance Network Map.
 
 ## P1 — Documentation and data quality
 
-- [ ] Update `objectives.html` with the current plan, provider, coordinate, and missing-data counts.
-- [ ] Validate provider names, phone numbers, addresses, provider types, and coordinate bounds.
-- [ ] Document the repeatable Zavis matching and enrichment workflow.
+- [x] Update `objectives.html` with the current plan, provider, coordinate, and missing-data counts.
+- [x] Validate provider names, phone numbers, addresses, provider types, and coordinate bounds.
+- [x] Document the repeatable Zavis matching and enrichment workflow.
 
 ## P2 — Product and release
 
