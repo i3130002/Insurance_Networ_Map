@@ -1,5 +1,26 @@
 # Mistakes
 
+- 2026-08-29: The local commit could not create `.git/index.lock` because the
+  repository metadata is read-only. The project files remain in the worktree.
+
+- 2026-08-29: The published GitHub Pages URL returned HTTP 404 during the
+  release smoke test. The repository is locally valid, but deployment is not
+  currently available at the documented URL.
+
+- 2026-08-29: The full Zavis retry exceeded the practical run time while page
+  requests were still pending. It was interrupted before the extractor wrote
+  its output; keep the existing source until a bounded retry is implemented.
+- 2026-08-29: The first bounded Zavis sample still fetched every category because
+  `--max-pages` only limited pagination. Add `--max-categories` to bound the
+  category-first-page requests as well.
+- 2026-08-29: The one-category Zavis sample completed with zero records because
+  that category response was unavailable or did not match the parser. Do not
+  use the sample as refreshed source data.
+
+- 2026-08-29: A combined UI/documentation patch did not apply because the
+  expected duplicate assignment was not present. Re-read the exact lines and
+  applied the changes in a narrower patch.
+
 - The completed Zavis crawl had seven pages return temporary HTTP 503 responses; the output contains 11,499 deduplicated records and those URLs should be retried on the next refresh.
 
 - A diagnostic command used a misspelled tool name (`execartement`) and did not run; no project files were changed.
@@ -82,3 +103,8 @@
 - `python3 -m unittest test_takafol_import.py` failed before the importer existed; the new test correctly exposed the missing implementation.
 - A combined documentation patch did not apply because one expected paragraph had changed; no files were modified by that failed patch.
 - 2026-08-29: The first documentation commit failed because the sandbox could not create `.git/index.lock`; retry Git metadata operations with elevated permission.
+- 2026-08-29: The local HTTP smoke test could not bind a socket because the sandbox denies network listeners. Validate static files directly and run the HTTP check in a permitted environment.
+## 2026-08-29
+
+- The `pytest` launcher failed because its interpreter does not exist. Use the
+  available Python test runner until the environment is repaired.

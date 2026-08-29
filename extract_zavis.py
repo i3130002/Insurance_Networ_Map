@@ -19,25 +19,25 @@ DIRECTORY_FIELDS = ("id", "name", "city", "category", "address", "phone",
                     "rating", "reviews", "insurance", "languages", "url")
 
 
-def fetch(url: str, attempts: int = 4) -> str:
-    """Fetch one public page with a descriptive user agent."""
+def fetch(url: str, attempts: int = 4, timeout: float = 30) -> str:
+    """Fetch one public page with a descriptive user agent and timeout."""
     request = Request(url, headers={"User-Agent": "Insurance-Network-Map/1.0"})
     for attempt in range(attempts):
         try:
-            with urlopen(request, timeout=30) as response:
+            with urlopen(request, timeout=timeout) as response:
                 return response.read().decode("utf-8", errors="replace")
-        except (HTTPError, URLError):
+        except (HTTPError, URLError, TimeoutError):
             if attempt == attempts - 1:
                 raise
             time.sleep(2 ** attempt)
     raise RuntimeError("unreachable")
 
 
-def safe_fetch(url: str) -> str:
-    """Fetch a page while allowing a large crawl to continue past 503s."""
+def safe_fetch(url: str, timeout: float = 30) -> str:
+    """Fetch a page while allowing a large crawl to continue past failures."""
     try:
-        return fetch(url)
-    except (HTTPError, URLError):
+        return fetch(url, timeout=timeout)
+    except (HTTPError, URLError, TimeoutError):
         print(f"  failed: {url}")
         return ""
 
@@ -187,16 +187,32 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=Path("sources/csv/zavis-providers.csv"))
     parser.add_argument("--workers", type=int, default=4)
+    parser.add_argument("--timeout", type=float, default=30,
+                        help="seconds allowed for each page request")
+    parser.add_argument("--max-pages", type=int, default=None,
+                        help="maximum number of pagination pages to fetch")
+    parser.add_argument("--max-categories", type=int, default=None,
+                        help="maximum number of directory categories to fetch")
     args = parser.parse_args()
-    categories = directory_categories(fetch(SITEMAP_URL))
+    if (args.workers < 1 or args.timeout <= 0
+            or (args.max_pages is not None and args.max_pages < 1)
+            or (args.max_categories is not None and args.max_categories < 1)):
+        parser.error("workers, timeout, max-pages, and max-categories must be positive")
+    categories = directory_categories(fetch(SITEMAP_URL, timeout=args.timeout))
+    if args.max_categories is not None:
+        categories = categories[:args.max_categories]
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        first_pages = dict(zip(categories, pool.map(safe_fetch, categories)))
+        first_pages = dict(zip(categories, pool.map(
+            lambda url: safe_fetch(url, args.timeout), categories)))
     page_urls = [f"{url}?page={page}" for url, html in first_pages.items()
                  for page in range(2, directory_page_count(html) + 1)]
+    if args.max_pages is not None:
+        page_urls = page_urls[:args.max_pages]
     records = [record for url, html in first_pages.items()
                for record in parse_directory_providers(html, url)]
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        for url, html in zip(page_urls, pool.map(safe_fetch, page_urls)):
+        for url, html in zip(page_urls, pool.map(
+                lambda page_url: safe_fetch(page_url, args.timeout), page_urls)):
             records.extend(parse_directory_providers(html, url))
     unique = {record["id"]: record for record in records}
     args.output.parent.mkdir(parents=True, exist_ok=True)

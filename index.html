@@ -81,7 +81,7 @@
         <label for="typeFilter">Provider type:</label>
         <select id="typeFilter" disabled><option value="">All provider types</option></select>
         <button id="resetFilters" class="reset-filters" type="button" disabled>Reset filters</button>
-        <div id="status"></div>
+        <div id="status" role="status" aria-live="polite"></div>
         <div class="source-note">
             <b>Data sources:</b>
             UAE provider registry and insurer network files are maintained in the
@@ -104,7 +104,8 @@
             <b>Network labels:</b><br>
             ✔ Official means the provider is in the insurer's network list.<br>
             ⛓ Chain means it belongs to a listed provider group.<br>
-            ≈ Coverage area means it is in the plan's covered emirate, but is not confirmed on an official list.
+            ≈ Coverage area means it is in the plan's covered emirate, but is not confirmed on an official list.<br>
+            Confirm plan eligibility with the insurer before treatment.
         </div>
     </div>
 

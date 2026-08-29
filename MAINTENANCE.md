@@ -121,7 +121,14 @@ Edit `PLANS` in `build_data.py` for legacy metadata-only plans:
 
 Re-run. `data/plans.json`, the company → plan selectors, and the plan file all update automatically. Takafol network plans are generated from `sources/csv/takafol-network-catalog.csv`.
 
-The Zavis extractor uses the public sitemap and paginated `/directory/<city>/<category>` pages. It stores provider IDs, names, cities, categories, addresses, phone numbers, ratings, accepted insurance, languages, and source URLs. It deduplicates by Zavis provider ID. The current crawl contains 11,499 records; temporary 503 responses can leave a small number of pages for a later retry.
+The Zavis extractor uses the public sitemap and paginated `/directory/<city>/<category>` pages. It stores provider IDs, names, cities, categories, addresses, phone numbers, ratings, accepted insurance, languages, and source URLs. It deduplicates by Zavis provider ID. The current crawl contains 11,499 records; temporary 503 responses can leave a small number of pages for a later retry. Use `--timeout` to bound each request and `--max-pages` for a staged refresh. For example:
+
+```bash
+python3 extract_zavis.py --output sources/csv/zavis-providers.csv \
+  --workers 2 --timeout 10 --max-categories 2 --max-pages 20
+```
+
+Do not replace the tracked source with a staged result until its record count and validation checks are complete.
 
 Run `python3 match_zavis.py` after refreshing Zavis or the registry, then `python3 enrich_zavis.py` to refresh detail-page coordinates. Matching is phone-first, then unique normalized name plus emirate. `build_data.py` attaches matched Zavis fields to generated provider records and uses valid Zavis coordinates on the map.
 

@@ -6,7 +6,8 @@ Prioritized work for completing the Insurance Network Map.
 
 - [ ] Retry the seven Zavis pages that returned HTTP 503.
 - [ ] Re-run the Zavis crawl and verify deduplication and record counts.
-- [ ] Fetch usable coordinates for the 108 matched providers still missing them.
+- [x] Fetch usable coordinates for matched providers still missing them; no
+      matched provider remains in the current 106-record coordinate backlog.
 - [ ] Match the remaining 1,253 registry providers to Zavis using phone, name, emirate, and address review.
 - [ ] Resolve the remaining 106 providers without coordinates.
 

@@ -15,7 +15,7 @@
 
 - 11,499 provider records are extracted from the public Zavis directory.
 - 2,390 registry providers are matched to Zavis.
-- 1,029 providers receive Zavis coordinates.
+- 1,137 providers receive Zavis coordinates.
 - Exit criteria: failed pages are retried and all safe matches have reviewed identity and coordinates.
 
 ## M4 — Data quality and coverage — In progress
