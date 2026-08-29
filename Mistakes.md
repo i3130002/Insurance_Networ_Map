@@ -1,5 +1,33 @@
 # Mistakes
 
+- 2026-08-29: A direct Takaful SharePoint workbook download returned HTTP 403.
+  TinyFish can render the network page and expose links, but the binary files
+  require a browser download session or another approved transfer path.
+
+- 2026-08-29: `monid runs get` does not support `-o`; use JSON stdout
+  redirection to save a completed run result.
+
+- 2026-08-29: The supplied MoniD credential also returned TinyFish HTTP 401.
+  The credential was used only in process memory and was not stored.
+
+- 2026-08-29: Pi mapped `MONID_API_KEY` to `TINYFISH_API_KEY`, but TinyFish
+  returned HTTP 401. The credential was not printed or saved, and no source
+  data was changed.
+
+- 2026-08-29: Targeted Firecrawl search for the GIG UAE locator returned no
+  results and produced no output file. Keep the existing source data unchanged.
+
+- 2026-08-29: Firecrawl scrape did not produce an output artifact for Aman’s
+  public page. Use targeted Firecrawl search results and verify direct files
+  independently before import.
+
+- 2026-08-29: The Firecrawl wrapper command was not found from the repository
+  root. Use its absolute skill path when the project has no local wrapper.
+
+- 2026-08-29: Playwright could not start because the configured Chromium
+  executable is absent. Use the shared Firecrawl browser path for web work;
+  do not install a browser in this environment.
+
 - 2026-08-29: A post-deployment content check failed from Python f-string
   quoting. No project files changed; rerun the check with simple expressions.
 
